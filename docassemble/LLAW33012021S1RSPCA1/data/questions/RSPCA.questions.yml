@@ -34,9 +34,9 @@ fields:
   - no label: RSPCAcourt
     datatype: integer
     choices:
-      - "Adelaide": 0
-      - "Port Adelaide": 1
-      - "Christies": 2
+      - "Supreme Court Civil and Criminal Registry": 0
+      - "District Court of South Australia": 1
+      - "Adelaide Magistrates Court": 2
 ---
 #form type
 question: |

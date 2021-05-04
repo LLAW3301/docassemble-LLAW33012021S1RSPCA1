@@ -1,23 +1,96 @@
 #this will be where we can store all the details of the different registries
 ---
-variable name: RSPCA_registrieslist
-use objects: true
-data:
-  - registry: Adelaide Magistrates Court
-    address: 260-280 Vitoria Square Adelaide, South Australia, 5000
-    email: AMCregistry@courts.sa.gov.au
-    phone: +61 8 8204 2444 
-    website: http://www.courts.sa.gov.au/GoingtoCourt/CourtLocations/CityCourts/Pages/Adelaide-Magistrates-Court.aspx
-  - registry: Port Adelaide Magistrates Court
-    address: 260 St. Vincent Street, Port Adelaide, South Australia, 5015
-    email: portadelaide@courts.sa.gov.au
-    phone: +61 8 8204 2444 
-    website: http://www.courts.sa.gov.au/GoingtoCourt/CourtLocations/SuburbanCourts/Pages/Port-Adelaide-Magistrates-Court.aspx
-  - registry: Christies Beach Magistrates Court
-    address: 96 Dyson Road, Christies Beach, South Australia, 5165
-    email: christiesbeach@courts.sa.gov.au
-    phone: +61 8 8204 2444 
-    website: http://www.courts.sa.gov.au/GoingtoCourt/CourtLocations/SuburbanCourts/Pages/Christies-Beach-Magistrates-Court.aspx
----
-#add variable in for RSPCA (informant details)
+variable name: RSPCA_courtlist 
+use objects: true 
+data:  
+  - court: Supreme Court Civil and Criminal Registry 
+    postal address: Lower Ground Floor, Sir Samuel Way Building, 241- 259 Victoria Square, Adelaide, SA, 5000 
+    email: ccrcs@courts.sa.gov.au 
+    phone: 8204 2444 
+    facsimile: 8124 4642 
+  - court: District Court of South Australia 
+    postal address: The Registrar, GPO Box 2465, Adelaide, South Australia, 5001 
+    email: ccrcs@courts.sa.gov.au 
+    phone: 8204 2444 
+    facsimile: 8124 4642    
+  - court: Adelaide Magistrates Court 
+    postal address: The Registrar, Adelaide Magistrates Court, PO Box 6115, Halifax Street, Adelaide, South Australia, 5000 
+    email: AMCregistry@courts.sa.gov.au 
+    phone: 1800 571 191 
+    facsimile: 8204 0481 
+  - court: Adelaide Magistrates Court 
+    postal address: The Registrar, Adelaide Magistrates Court, PO Box 6115, Halifax Street, Adelaide, South Australia, 5000 
+    email: AMCregistry@courts.sa.gov.au 
+    phone: 1800 571 191 
+    facsimile: 8204 0481
+  - court: Berri Magistrates Court 
+    postal address: the Registrar, PO Box 235, Berri, South Australia, 5343 
+    email: berri@courts.sa.gov.au 
+    phone: 8595 2060 
+    facsimile: 8582 4187 
+  - court: Bordertown Magistrates Court 
+    postal address: Lot 4 Woolshed St, Bordertown, South Australia, 5268 
+    email: mountgambier@courts.sa.gov.au (Mt Gambier) 
+    phone: 8735 1060 (Mt Gambier) 
+    facsimile: 8723 9894 (Mt Gambier) 
+  - court: Ceduna Magistrates Court 
+    postal address: The Registrar, PO Box 456, Ceduna, South Australia, 5015 
+    email: ceduna@courts.sa.gov.au 
+    phone: 8625 2520  
+    facsimile: 8625 2728 
+  - court: Coober Pedy Magistrates Court 
+    postal address: The Registrar, PO Box 45, Port Augusta, South Australia, 5700 
+    email: portaugusta@courts.sa.gov.au 
+    phone: 8672 5601  
+    facsimile: 8672 5712 
+  - court: Kadina Magistrates Court 
+    postal address: 58 Graves Street, Kadina, South Australia, 5554 
+    email: portpirie@courts.sa.gov.au (Port Pirie) 
+    phone: 8821 2626  
+    facsimile: 8821 3114 
+  - court: Whyalla Magistrates Court 
+    address: The Registrar, Whyalla Magistrates Court, PO Box 694, Whyalla, South Australia, 5600 
+    email: whyalla@courts.sa.gov.au 
+    phone: 8648 8120 
+    facsimile: 8645 7206 
+  - court: Victor Harbor Magistrates Court 
+    address: 17 George Main Road, Victor Harbor, South Australia, 5211 
+    email: christiesbeach@courts.sa.gov.au (Christies Beach) 
+    phone: 8551 0800 
+    facsimile: 8329 5947 (Christies Beach) 
+  - court: Port Pirie Magistrates Court 
+    address: The Registrar, Port Pirie Magistrates Court, PO Box 583, Port Pirie, South Australia, 5540 
+    email: portpirie@courts.sa.gov.au 
+    phone: 8638 4901 
+    facsimile: 8638 4902 
+  - court: Port Lincoln Magistrates Court 
+    address: The Registrar, Port Lincoln Magistrates Court, PO Box 266, Port Lincoln, South Australia, 5606 
+    email: portlincoln@courts.sa.gov.au 
+    phone: 8688 3060 
+    facsimile: 8683 3394 
+  - court: Port Augusta Magistrates Court 
+    address: The Registrar, Port Augusta Magistrates Court, PO Box 45, Port Augusta, South Australia, 5700 
+    email: portaugusta@courts.sa.gov.au 
+    phone: 8648 5120 
+    facsimile: 8642 6461
+  - court: Naracoorte Magistrates Court 
+    address: 54 Smith Street, Naracoorte, South Australia, 5271 
+    email: mountgambier@courts.sa.gov.au (Mt Gambier) 
+    phone: 8735 1060 (Mt Gambier) 
+    facsimile: 8723 9894 (Mt Gambier) 
+  - court: Murray Bridge Magistrates Court 
+    address: The Registrar, Murray Bridge Magistrates Court, PO Box 420, Murray Bridge, South Australia, 5253 
+    email: murrarybridge@courts.sa.gov.au 
+    phone: 8535 6060 
+    facsimile: 8531 0537 
+  - court: Mount Gambier Magistrates Court 
+    address: The Registrar, Mount Gambier Magistrates Court, PO Box 723, Mount Gambier, South Australia, 5290 
+    email: mountgambier@courts.sa.gov.au 
+    phone: 8735 1060 
+    facsimile: 8723 9894 
+  - court: Millicent Magistrates Court 
+    address: 48 George Street, Millicent, South Australia, 5280 
+    email: mountgambier@courts.sa.gov.au (Mt Gambier) 
+    phone: 8735 1060 (Mt Gambier) 
+    facsimile: 8723 9894 (Mt Gambier) 
 ---

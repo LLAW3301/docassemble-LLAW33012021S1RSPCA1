@@ -81,11 +81,11 @@ subquestion: |
   
      Registry|Details
   -----------|----------  
-  Registry    | ${ RSPCA_registrieslist[RSPCAcourt].item('registry') } 
-  Address     | ${ RSPCA_registrieslist[RSPCAcourt].item('address') }
-  Email       | ${ RSPCA_registrieslist[RSPCAcourt].item('email') }
-  Phone       | ${ RSPCA_registrieslist[RSPCAcourt].item('phone') }
-  Website     | ${ RSPCA_registrieslist[RSPCAcourt].item('website') }
+  Court              | ${ RSPCA_courtlist[RSPCAcourt].item('court') } 
+  Postal Address     | ${ RSPCA_courtlist[RSPCAcourt].item('postal address') }
+  Email              | ${ RSPCA_courtlist[RSPCAcourt].item('email') }
+  Phone              | ${ RSPCA_courtlist[RSPCAcourt].item('phone') }
+  Facsimile          | ${ RSPCA_courtlist[RSPCAcourt].item('facsimile') }
   
   
   Need to add time/date still

@@ -18,11 +18,6 @@ data:
     email: AMCregistry@courts.sa.gov.au 
     phone: 1800 571 191 
     facsimile: 8204 0481 
-  - court: Adelaide Magistrates Court 
-    postal address: The Registrar, Adelaide Magistrates Court, PO Box 6115, Halifax Street, Adelaide, South Australia, 5000 
-    email: AMCregistry@courts.sa.gov.au 
-    phone: 1800 571 191 
-    facsimile: 8204 0481
   - court: Berri Magistrates Court 
     postal address: the Registrar, PO Box 235, Berri, South Australia, 5343 
     email: berri@courts.sa.gov.au 

@@ -37,6 +37,7 @@ fields:
       - "Supreme Court Civil and Criminal Registry": 0
       - "District Court of South Australia": 1
       - "Adelaide Magistrates Court": 2
+      - "Berri Magistrates Court": 3
 ---
 #form type
 question: |

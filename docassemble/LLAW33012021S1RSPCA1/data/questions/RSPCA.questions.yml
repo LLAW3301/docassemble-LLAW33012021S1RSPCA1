@@ -10,9 +10,19 @@ subquestion: |
   Do you accept these terms?
 yesno: RSPCAeligible
 ---
+# Checkboxes where answer will populate relevant forms
+question: Offence Selection
+subquestion: |
+  Please choose the offence and related forms:
+field: offence_selection
+choices:
+  - "Summary Offence - Form 2 (without guilty plead)": sum_off_form2
+  - "Summary Offence - Form 3 (with guilty plead)": sum_off_form3
+  - "Minor Indictable Offence - Form 2 and Form 8": minor_off
+  - "Major Indictable Offence - Form 2": major_off
+---
 #next we will gather information about the defendant
-question: |
-  Defendant Details:
+question: Defendant Details
 fields:
   - Full Name: def_name
   - DOB: def_DOB
@@ -20,12 +30,72 @@ fields:
   - Street: def_street
   - Suburb: def_suburb
   - State: def_state
+    choices: 
+      - ACT
+      - NSW
+      - VIC
+      - SA
+      - QLD
+      - WA
+      - TAS
+      - NT
   - Postcode: def_postcode
     datatype: integer
   - Email: def_email
+    datatype: email
+    required: false
   - Phone Number: def_phone
     datatype: integer
   - Licence Number: def_licence
+    required: false
+---
+# need to add condition to show this question
+question: Applicant Details
+fields:
+  show if:
+    variable: req_orders
+    is: 'Yes'  - Full Name: appl_name
+  - Street: appl_street
+  - Suburb: appl_suburb
+  - State: appl_state
+    choices: 
+      - ACT
+      - NSW
+      - VIC
+      - SA
+      - QLD
+      - WA
+      - TAS
+      - NT
+  - Postcode: appl_postcode
+    datatype: integer
+  - Email: appl_email
+    datatype: email
+    required: false
+  - Telephone: appl_phone
+---
+# need to add condition to show this question
+question: Solicitor Details
+fields:
+  - Full Name: solicitor_name
+  - Street: solicitor_street
+  - CSuburb: solicitor_suburb
+  - State: solicitor_state
+    choices: 
+      - ACT
+      - NSW
+      - VIC
+      - SA
+      - QLD
+      - WA
+      - TAS
+      - NT
+  - Postcode: solicitor_postcode
+    datatype: integer
+  - Email: solicitor_email
+    datatype: email
+    required: false
+  - Telephone: solicitor_phone
 ---
 #registery lists 
 question: |

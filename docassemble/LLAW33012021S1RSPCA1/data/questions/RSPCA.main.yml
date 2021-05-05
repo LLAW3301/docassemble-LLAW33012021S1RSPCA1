@@ -104,7 +104,51 @@ buttons:
     url: https://www.rspca.org.au/
   - Restart: restart
 ---
-#add attachment details
+# Attachment code to select which form to print out
+event: endpoints['final_screen']
+question: ""
+subquestion: |
+  Here is your document!
+  
+  %if ( offence_selection == 'sum_off_form2' ) or ( offence_selection == 'major_off' ):
+  ${ RSPCA_form2 }
+  %elif offence_selection == 'sum_off_form3':
+  ${ RSPCA_form3 }
+  %else:
+  ${ [RSPCA_form2, RSPCA_form8] }
+  %endif
+---
+attachment: 
+  - name: RSPCA Form 2
+    filename: RSPCA Form 2 Printout
+    valid formats:
+      - pdf
+    docx template file: RSPCA_form2.docx
+    variable name: RSPCA_form2
+---
+attachment: 
+  - name: RSPCA Form 3
+    filename: RSPCA Form 3 Printout
+    valid formats:
+      - pdf
+    docx template file: RSPCA_form3.docx
+    variable name: RSPCA_form3
+---
+attachment: 
+  - name: RSPCA Form 23
+    filename: RSPCA Form 23 Printout
+    valid formats:
+      - pdf
+    docx template file: RSPCA_form23.docx
+    variable name: RSPCA_form23
+---
+attachment: 
+  - name: RSPCA Form 8
+    filename: RSPCA Form 8 Printout
+    valid formats:
+      - pdf
+    docx template file: RSPCA_form8.docx
+    variable name: RSPCA_form8
 ---
 event: endpoints['ineligible']
 question: Not Eligible

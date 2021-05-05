@@ -30,6 +30,7 @@ include:
 objects:
   #- placeholder.registries
   #- placeholder.RSPCA_logo
+  - RSPCA_logo: DAStaticFile.using(filename='rspca-sa-logo.png')
   - endpoints: DADict
 ---
 #css file (can add this later)
@@ -39,6 +40,10 @@ features:
   hide standard menu: False
 ---
 ##come back to this later and add in a logo to be displayed on all pages
+mandatory: True
+code: |
+  RSPCA_logostring = '<div class="media"><img src="{}" class="mr-3" height="50"><div class="media-body"></div></div>'.format(RSPCA_logo.url_for())
+  set_parts(logo=RSPCA_logostring)
 ---
 #driver code (create the endpoints to test elgibility
 mandatory: True

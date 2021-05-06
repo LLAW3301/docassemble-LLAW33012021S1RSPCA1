@@ -21,7 +21,36 @@ choices:
   - "Minor Indictable Offence - Form 2 and Form 8": minor_off
   - "Major Indictable Offence - Form 2": major_off
 ---
-#next we will gather information about the defendant
+# Form 2 & 3: Gather information about the Informant
+question: Informant Details
+fields:
+  - Full Name: inf_name
+  - Street: inf_street
+  - Suburb: inf_suburb
+  - State: inf_state
+    choices: 
+      - ACT
+      - NSW
+      - VIC
+      - SA
+      - QLD
+      - WA
+      - TAS
+      - NT
+  - Postcode: inf_postcode
+    datatype: integer
+  - Email: inf_email
+    datatype: email
+    required: false
+  - Phone Number: inf_phone
+  - Facsimile: inf_fax
+    required: false
+  - Reference No: inf_ref
+    required: false
+  - Instant Loss of Licence No: inf_licence
+    required: false
+---
+# Form 2 & 3: Gather information about the Defendant
 question: Defendant Details
 fields:
   - Full Name: def_name
@@ -45,16 +74,85 @@ fields:
     datatype: email
     required: false
   - Phone Number: def_phone
-    datatype: integer
   - Licence Number: def_licence
     required: false
 ---
+# Form 2 & 3: Gather information about the Offence (s13)
+question: Offence Details
+show if:
+  code: |
+    (offence_selection == sum_off_form2)
+    or (offence_selection == sum_off_form3)
+    or (offence_selection == minor_off)
+fields:
+  - Offences: s13_details
+    choices:
+      - Live baiting
+      - Hunting
+      - Sell or supply
+      - Keep or prep
+      - Others
+  - Other offence: s13_other
+    show if:
+      variable: s13_details
+      is: 'Others'
+---
+# Form 2 & 3: Gather information about the Offence (s14)
+question: Offence Details
+show if:
+  code: |
+    offence_selection == major_off
+fields:
+  - Offences: s14_details
+    choices:
+      - AGG
+      - Standard
+      - Others
+  - Other offence: s14_other
+    show if:
+      variable: s14_details
+      is: 'Others'
+---
+##Offence list to drop down - description to pull from list. The description and class should populate from the list
+question: Offence Details
+fields:	
+  - Offence provision: offence_provision
+    choices:
+      - s13_details
+      - s14_details
+---
+# Checking if there is alternative charge
+question: |
+  Is there a charge in the alternative?
+yesno: alt_charge
+---
+# Checking if orders sought
+question: |
+  Will orders be sought?
+yesno: req_orders
+---
+# Orders list - only show when orders are sought
+question: Orders List
+show if: req_orders
+fields:
+  - no label: orders_list
+    datatype: radio
+    choices:
+      - Forfeit
+      - Compensation
+      - Additional penalty
+      - Destruction
+      - Others
+  - Other order: order_other
+    show if:
+      variable: orders_list
+      is: 'Others'
+---
 # need to add condition to show this question
 question: Applicant Details
+show if: req_orders
 fields:
-  show if:
-    variable: req_orders
-    is: 'Yes'  - Full Name: appl_name
+  - Full Name: appl_name
   - Street: appl_street
   - Suburb: appl_suburb
   - State: appl_state
@@ -76,6 +174,7 @@ fields:
 ---
 # need to add condition to show this question
 question: Solicitor Details
+show if: req_orders
 fields:
   - Full Name: solicitor_name
   - Street: solicitor_street
@@ -96,18 +195,14 @@ fields:
     datatype: email
     required: false
   - Telephone: solicitor_phone
+  - Facsimile: solicitor_fax
 ---
 #registery lists 
 question: |
-  Please select registry:
+  Please provide court postcode:
 fields:
-  - no label: RSPCAcourt
+  - Postcode: RSPCAcourt_postcode
     datatype: integer
-    choices:
-      - "Supreme Court Civil and Criminal Registry": 0
-      - "District Court of South Australia": 1
-      - "Adelaide Magistrates Court": 2
-      - "Berri Magistrates Court": 3
 ---
 #form type
 question: |

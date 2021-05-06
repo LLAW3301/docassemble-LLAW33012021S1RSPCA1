@@ -24,11 +24,13 @@ default screen parts:
 include:
   - RSPCA.questions.yml
   - RSPCA.registries.yml
-  #- RSPCA.display_output.yml
+  - RSPCA_get_qualified_court.yml
+  - RSPCA_display_output.yml
 ---
 #objects that we need e.g endpoints and logos (can add this later)
 objects:
   #- placeholder.registries
+  - RSPCAqualifying_court: DAList.using(there_are_any=True, auto_gather=False)
   #- placeholder.RSPCA_logo
   - RSPCA_logo: DAStaticFile.using(filename='rspca-sa-logo.png')
   - endpoints: DADict
@@ -92,23 +94,17 @@ subquestion: |
   Phone              | ${ RSPCA_courtlist[RSPCAcourt].item('phone') }
   Facsimile          | ${ RSPCA_courtlist[RSPCAcourt].item('facsimile') }
   
+  ** Courtlist based on postcode
+  %for RSPCAdisplay_entry in RSPCAdisplay_court:
+  ${ RSPCAdisplay_entry['display_record'].show() }
+  %endfor
+  
   
   Need to add time/date still
 
   Need to add summary of offence details
   
-  Need to add attachment details (pdf/docx)
-
-buttons:
-  - Exit: exit
-    url: https://www.rspca.org.au/
-  - Restart: restart
----
-# Attachment code to select which form to print out
-event: endpoints['final_screen']
-question: ""
-subquestion: |
-  Here is your document!
+  ** Attachment details (pdf/docx) **
   
   %if ( offence_selection == 'sum_off_form2' ) or ( offence_selection == 'major_off' ):
   ${ RSPCA_form2 }
@@ -117,6 +113,11 @@ subquestion: |
   %else:
   ${ [RSPCA_form2, RSPCA_form8] }
   %endif
+  
+buttons:
+  - Exit: exit
+    url: https://www.rspca.org.au/
+  - Restart: restart
 ---
 attachment: 
   - name: RSPCA Form 2

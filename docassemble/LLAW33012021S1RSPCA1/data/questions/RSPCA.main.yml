@@ -104,14 +104,22 @@ subquestion: |
 
   Need to add summary of offence details
   
-  ** Attachment details (pdf/docx) **
-  
+  **Attachment details (pdf/docx)**
+  Here is your document!
+
   %if ( offence_selection == 'sum_off_form2' ) or ( offence_selection == 'major_off' ):
-  ${ RSPCA_form2 }
+  %if req_orders:
+    ${ RSPCA_form2 }
+    ${ RSPCA_form23 }
+  %endif
   %elif offence_selection == 'sum_off_form3':
-  ${ RSPCA_form3 }
+  %if req_orders:
+    ${ RSPCA_form3 }
+    ${ RSPCA_form23 }
+  %endif
   %else:
-  ${ [RSPCA_form2, RSPCA_form8] }
+  ${ RSPCA_form2 }
+  ${ RSPCA_form8 }
   %endif
   
 buttons:

@@ -1,0 +1,20 @@
+---
+code: |
+  RSPCAqualifying_court.clear()
+  RSPCAi = 0
+  for RSPCAcourt in RSPCA_courtlist:
+    if RSPCAcourt['postcode_test']:
+      # Append to qualifying court
+      RSPCAqualifying_court.append(RSPCAcourt)
+      RSPCAi += 1
+      if RSPCAi == 300:
+        break
+  RSPCAqualifying_court.gathered = True
+---
+# postcode test
+code: |
+  if RSPCA_courtlist[i].item('postcode') == RSPCAcourt_postcode:
+    RSPCA_courtlist[i]['postcode_test'] = True
+  else:
+    RSPCA_courtlist[i]['postcode_test'] = False
+---

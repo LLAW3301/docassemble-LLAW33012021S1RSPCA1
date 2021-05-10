@@ -4,7 +4,8 @@ question: ""
 subquestion: |
   Welcome to the South Australian Court Form generator for breaches of the Animal Welfare Act 1985. This program will require you to fill in the required fields in order to generate a unique form specific to the detailed offence.
   
-  *Disclaimer: The Form must be checked by a lawyer and the service we provide within this app should not be regarded as legal advice. 
+  ***Disclaimer:***
+  The Form must be checked by a lawyer and the service we provide within this app should not be regarded as legal advice.
   
   Do you accept these terms?
 yesno: RSPCAeligible
@@ -117,8 +118,8 @@ question: Offence Details
 fields:	
   - Offence provision: offence_provision
     choices:
-      - s13_details
-      - s14_details
+      - ${ s13_details }
+      - ${ s14_details }
 ---
 # Checking if there is alternative charge
 question: |
@@ -202,16 +203,4 @@ question: |
 fields:
   - Postcode: RSPCAcourt_postcode
     datatype: integer
----
-#form type
-question: |
-  Select form type:
-fields:
-  - no label: RSPCAform
-    datatype: radio
-    choices:
-      - "Form 2": formTwo
-      - "Form 3": formThree
----
-#add any other questions under here
 ---

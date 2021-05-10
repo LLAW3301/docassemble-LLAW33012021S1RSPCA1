@@ -2,11 +2,10 @@
 ---
 question: ""
 subquestion: |
-  Welcome to RSPCA Court Summons App. This app does .....
+  Welcome to the South Australian Court Form generator for breaches of the Animal Welfare Act 1985. This program will require you to fill in the required fields in order to generate a unique form specific to the detailed offence.
   
-  ***Disclaimer:***
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+  *Disclaimer: The Form must be checked by a lawyer and the service we provide within this app should not be regarded as legal advice. 
+  
   Do you accept these terms?
 yesno: RSPCAeligible
 ---

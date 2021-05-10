@@ -69,30 +69,9 @@ subquestion: |
   
   This is for form type: ${ RSPCAform }
   
-  **Summary of defendant information:**
-  
-    Defendant|Input
-  -----------|----------
-  Name            | ${ def_name }
-  DOB             | ${ def_DOB }
-  Street          | ${ def_street }
-  Suburb          | ${ def_suburb }
-  State           | ${ def_state }
-  Postcode        | ${ def_postcode }
-  Email           | ${ def_email }
-  Phone Number    | ${ def_phone }
-  Drivers Licence | ${ def_licence }
-  
+  **Summary of defendant information:**  
   
   **Summary of hearing details:**
-  
-     Registry|Details
-  -----------|----------  
-  Court              | ${ RSPCA_courtlist[RSPCAcourt].item('court') } 
-  Postal Address     | ${ RSPCA_courtlist[RSPCAcourt].item('postal address') }
-  Email              | ${ RSPCA_courtlist[RSPCAcourt].item('email') }
-  Phone              | ${ RSPCA_courtlist[RSPCAcourt].item('phone') }
-  Facsimile          | ${ RSPCA_courtlist[RSPCAcourt].item('facsimile') }
   
   ** Courtlist based on postcode
   %for RSPCAdisplay_entry in RSPCAdisplay_court:

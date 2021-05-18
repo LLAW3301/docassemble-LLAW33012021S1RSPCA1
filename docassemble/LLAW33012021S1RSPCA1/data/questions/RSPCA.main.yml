@@ -1,10 +1,10 @@
-# Main file for the RSPCA document automation App
+# This is the main file for the RSPCA Information Form Automation App
 ---
-metadata: 
+metadata:
   title: |
     RSPCA Court Summons Prototype
   short title: |
-      Summons Automation
+    Summons Automation
   organisation: Flinders University
   show login: True
 ---
@@ -15,38 +15,39 @@ default screen parts:
     </div>
     <div style="margin: 5px; text-align: right">
     <cite><small><i>
-    Developed by Flinders University in collaboration with RSPCA
+    Developed by Flinders University in collaboration with RSPCA SA
     </i></small></cite>
     </div>
     </div>
 ---
-#add files that we need to include (questions, registry lists etc.)
 include:
   - RSPCA.questions.yml
-  - RSPCA.registries.yml
-  - RSPCA_get_qualified_court.yml
-  - RSPCA_display_output.yml
+  # A1_RSPCA_court_list.yml
+  # A1_RSPCA_get_qualified_court.yml
+  # A1_RSPCA_display_output.yml
 ---
-#objects that we need e.g endpoints and logos (can add this later)
 objects:
-  #- placeholder.registries
-  - RSPCAqualifying_court: DAList.using(there_are_any=True, auto_gather=False)
-  #- placeholder.RSPCA_logo
+  # RSPCAqualifying_court: DAList.using(there_are_any=True, auto_gather=False)
   - RSPCA_logo: DAStaticFile.using(filename='rspca-sa-logo.png')
   - endpoints: DADict
 ---
-#css file (can add this later)
 features:
   css: X2.01.SACAT.css
   debug: True
   hide standard menu: False
 ---
-##come back to this later and add in a logo to be displayed on all pages
 mandatory: True
 code: |
+  # To use a custom logo we need to set the 'logo' metadata to 
+  # some custom HTML.  The string below creates the HTML and 
+  # inserts into it the logo contained in the file RSPCA_logo using
+  # the python format() method 
   RSPCA_logostring = '<div class="media"><img src="{}" class="mr-3" height="50"><div class="media-body"></div></div>'.format(RSPCA_logo.url_for())
+
+  # Once we've created the string we use set_parts() to set our new logo metadata
   set_parts(logo=RSPCA_logostring)
 ---
+# This code drives the app
 #driver code (create the endpoints to test elgibility
 mandatory: True
 code: |
@@ -67,34 +68,32 @@ subquestion: |
   
   This screen will also display options to save the document as docx/pdf 
   
-  This is for form type: ${ RSPCAform }
+  This is for form type: 
   
   **Summary of defendant information:**  
   
   **Summary of hearing details:**
-  
-  ** Courtlist based on postcode
-  %for RSPCAdisplay_entry in RSPCAdisplay_court:
-  ${ RSPCAdisplay_entry['display_record'].show() }
-  %endfor
-  
+
   
   Need to add time/date still
-
   Need to add summary of offence details
   
   **Attachment details (pdf/docx)**
   Here is your document!
 
-  %if ( offence_selection == 'sum_off_form2' ) or ( offence_selection == 'major_off' ):
-  %if req_orders:
+  %if offence_selection == 'sum_off_form2':
+  %if animal_surrendered:
     ${ RSPCA_form2 }
     ${ RSPCA_form23 }
+  %else:
+    ${ RSPCA_form2 }
   %endif
   %elif offence_selection == 'sum_off_form3':
-  %if req_orders:
+  %if animal_surrendered:
     ${ RSPCA_form3 }
     ${ RSPCA_form23 }
+  %else:
+    ${ RSPCA_form3 }
   %endif
   %else:
   ${ RSPCA_form2 }
@@ -111,7 +110,7 @@ attachment:
     filename: RSPCA Form 2 Printout
     valid formats:
       - pdf
-    docx template file: RSPCA_form2.docx
+    docx template file: RSPCA_form2_Copy.docx
     variable name: RSPCA_form2
 ---
 attachment: 
@@ -119,7 +118,7 @@ attachment:
     filename: RSPCA Form 3 Printout
     valid formats:
       - pdf
-    docx template file: RSPCA_form3.docx
+    docx template file: RSPCA_form3_Copy.docx
     variable name: RSPCA_form3
 ---
 attachment: 
@@ -127,7 +126,7 @@ attachment:
     filename: RSPCA Form 23 Printout
     valid formats:
       - pdf
-    docx template file: RSPCA_form23.docx
+    docx template file: RSPCA_form23_Copy.docx
     variable name: RSPCA_form23
 ---
 attachment: 
@@ -135,13 +134,14 @@ attachment:
     filename: RSPCA Form 8 Printout
     valid formats:
       - pdf
-    docx template file: RSPCA_form8.docx
+    docx template file: RSPCA_form8_Copy.docx
     variable name: RSPCA_form8
 ---
 event: endpoints['ineligible']
 question: Not Eligible
 subquestion:
-  This disclaimer has not been accpeted or other possible issues tbc 
+  The disclaimer has not been understood and accepted.  Please exit the
+  application or restart if you'd like to accept the disclaimer.
 buttons:
   - Exit: exit
     url: https://www.rspca.org.au/

@@ -16,27 +16,19 @@ subquestion: |
   Please choose the offence and related forms:
 field: offence_selection
 choices:
-  - "Summary Offence - Form 2 (without guilty plead)": sum_off_form2
-  - "Summary Offence - Form 3 (with guilty plead)": sum_off_form3
+  - "Summary Offence - Form 2 (without guilty plea)": sum_off_form2
+  - "Summary Offence - Form 3 (with guilty plea)": sum_off_form3
   - "Minor Indictable Offence - Form 2 and Form 8": minor_off
-  - "Major Indictable Offence - Form 2": major_off
 ---
 # Form 2 & 3: Gather information about the Informant
 question: Informant Details
 fields:
-  - Full Name: inf_name
+  - Informant Surname: inf_surname
+  - Informant Given Name: inf_given_name
   - Street: inf_street
   - Suburb: inf_suburb
   - State: inf_state
-    choices: 
-      - ACT
-      - NSW
-      - VIC
-      - SA
-      - QLD
-      - WA
-      - TAS
-      - NT
+    default: SA
   - Postcode: inf_postcode
     datatype: integer
   - Email: inf_email
@@ -45,15 +37,12 @@ fields:
   - Phone Number: inf_phone
   - Facsimile: inf_fax
     required: false
-  - Reference No: inf_ref
-    required: false
-  - Instant Loss of Licence No: inf_licence
-    required: false
 ---
 # Form 2 & 3: Gather information about the Defendant
 question: Defendant Details
 fields:
-  - Full Name: def_name
+  - Defendant Surname: def_surname
+  - Defendant Given Name: def_given_name
   - DOB: def_DOB
     datatype: date
   - Street: def_street
@@ -74,79 +63,63 @@ fields:
     datatype: email
     required: false
   - Phone Number: def_phone
-  - Licence Number: def_licence
+---
+# Form 2 & 3: Gather information about the Offence
+question: Offence Details
+subquestion: |
+  If the offence only occurred in one date, the offence date (to) should be left empty.
+fields:
+  - Offence Date (from): offence_date_from
+    datatype: date
+  - Offence Date (to): offence_date_to
+    datatype: date
     required: false
----
-# Form 2 & 3: Gather information about the Offence (s13)
-question: Offence Details
-show if:
-  code: |
-    (offence_selection == sum_off_form2)
-    or (offence_selection == sum_off_form3)
-    or (offence_selection == minor_off)
-fields:
-  - Offences: s13_details
+  - Offence location: offence_location
     choices:
-      - Live baiting
-      - Hunting
-      - Sell or supply
-      - Keep or prep
-      - Others
-  - Other offence: s13_other
-    show if:
-      variable: s13_details
-      is: 'Others'
----
-# Form 2 & 3: Gather information about the Offence (s14)
-question: Offence Details
-show if:
-  code: |
-    offence_selection == major_off
-fields:
-  - Offences: s14_details
+      - ABERFOYLE PARK
+      - ABMINGA STATION
+      - ADELAIDE
+      - ADELAIDE AIRPORT
+      - AGERY
+      - ALAWOONA
+      - ALBERRIE CREEK
+      - ALBERT PARK
+      - ALBERTON
+      - ALDGATE
+      - ALDINGA
+      - ALDINGA BEACH
+  - The offenced animal details: offence_animal
+  - The Animal Welfare Act 1985 section (for count): count_section
     choices:
-      - AGG
-      - Standard
-      - Others
-  - Other offence: s14_other
-    show if:
-      variable: s14_details
-      is: 'Others'
----
-##Offence list to drop down - description to pull from list. The description and class should populate from the list
-question: Offence Details
-fields:	
-  - Offence provision: offence_provision
+      - 13(1)
+      - 13(2)
+      - 13(3)
+  - The Animal Welfare Act 1985 section (for particulars): particular_section
     choices:
-      - ${ s13_details }
-      - ${ s14_details }
----
-# Checking if there is alternative charge
-question: |
-  Is there a charge in the alternative?
-yesno: alt_charge
+      - (a)
+      - (b)
+      - (c)
 ---
 # Checking if orders sought
 question: |
   Will orders be sought?
 yesno: req_orders
 ---
-# Orders list - only show when orders are sought
-question: Orders List
+# Asking for other order not listed
+question: Is there any other order?
+yesno: order_other
 show if: req_orders
+---
+# Asking for other order details
+question: ""
 fields:
-  - no label: orders_list
-    datatype: radio
-    choices:
-      - Forfeit
-      - Compensation
-      - Additional penalty
-      - Destruction
-      - Others
-  - Other order: order_other
-    show if:
-      variable: orders_list
-      is: 'Others'
+  - Other order details: order_details
+    input type: area
+    show if: order_other
+---
+# Check if any animal surrendered - to populate form 23
+question: Is there any animal surrendered to RSPCA?
+yesno: animal_surrendered
 ---
 # need to add condition to show this question
 question: Applicant Details
@@ -154,53 +127,41 @@ show if: req_orders
 fields:
   - Full Name: appl_name
   - Street: appl_street
+    default: "16 Nelson Street"
   - Suburb: appl_suburb
+    default: "Stepney"
   - State: appl_state
-    choices: 
-      - ACT
-      - NSW
-      - VIC
-      - SA
-      - QLD
-      - WA
-      - TAS
-      - NT
+    default: SA
   - Postcode: appl_postcode
     datatype: integer
+    default: 5069
   - Email: appl_email
     datatype: email
     required: false
   - Telephone: appl_phone
+    required: false
 ---
 # need to add condition to show this question
 question: Solicitor Details
 show if: req_orders
 fields:
   - Full Name: solicitor_name
+    default: "Jilian Smith"
   - Street: solicitor_street
-  - CSuburb: solicitor_suburb
+    default: "16 Nelson Street"
+  - Suburb: solicitor_suburb
+    default: "Stepney"
   - State: solicitor_state
-    choices: 
-      - ACT
-      - NSW
-      - VIC
-      - SA
-      - QLD
-      - WA
-      - TAS
-      - NT
+    default: SA
   - Postcode: solicitor_postcode
     datatype: integer
+    default: 5069
   - Email: solicitor_email
     datatype: email
+    default: "jsmith@rspcasa.org.au"
     required: false
   - Telephone: solicitor_phone
+    required: false
   - Facsimile: solicitor_fax
----
-#registery lists 
-question: |
-  Please provide court postcode:
-fields:
-  - Postcode: RSPCAcourt_postcode
-    datatype: integer
+    required: false
 ---

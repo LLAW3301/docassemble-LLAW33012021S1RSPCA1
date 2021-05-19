@@ -1,0 +1,8812 @@
+---
+variable name: RSPCA_courtlist
+use objects: true
+data:
+  - location: ABERFOYLE PARK
+    state: SA
+    postcode: 5159
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+    
+  - location: ABMINGA STATION
+    state: SA
+    postcode: 5440
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+    
+  - location: ADELAIDE
+    state: SA
+    postcode: 5000
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ADELAIDE AIRPORT
+    state: SA
+    postcode: 5950
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+    
+  - location: AGERY
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+    
+  - location: ALAWOONA
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+    
+  - location: ALBERRIE CREEK
+    state: SA
+    postcode: 5733
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+    
+  - location: ALBERT PARK
+    state: SA
+    postcode: 5014
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+    
+  - location: ALBERTON
+    state: SA
+    postcode: 5014
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+    
+  - location: ALDGATE
+    state: SA
+    postcode: 5154
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+    
+  - location: ALDINGA
+    state: SA
+    postcode: 5173
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+    
+  - location: ALDINGA BEACH
+    state: SA
+    postcode: 5173
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+     
+  - location: ALFORD
+    state: SA
+    postcode: 5555
+    court_registry: PORT PIRIE
+    court_location: KADINA
+    
+  - location: ALLANDALE STATION
+    state: SA
+    postcode: 5723
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: ALLENBY GARDENS
+    state: SA
+    postcode: 5009
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: ALLENDALE EAST
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: ALLENDALE NORTH
+    state: SA
+    postcode: 5373
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: ALMA
+    state: SA
+    postcode: 5401
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: ALPANA
+    state: SA
+    postcode: 5730
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: ALTON DOWNS STATION
+    state: SA
+    postcode: 5733
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: ALTONA
+    state: SA
+    postcode: 5351
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: AMATA
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: AMATA
+
+  - location: AMERICAN BEACH
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: AMERICAN RIVER
+    state: SA
+    postcode: 5221
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: AMYTON
+    state: SA
+    postcode: 5431
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: ANAMA
+    state: SA
+    postcode: 5464
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: ANANGU PITJANTJATJARA LANDS
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: PIPALYATJARA
+
+  - location: ANDAMOOKA
+    state: SA
+    postcode: 5722
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: ANDAMOOKA STATION
+    state: SA
+    postcode: 5722
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: ANDREWS
+    state: SA
+    postcode: 5454
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: ANDREWS FARM
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ANGAS PLAINS
+    state: SA
+    postcode: 5255
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: ANGAS VALLEY
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: ANGASTON
+    state: SA
+    postcode: 5353
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: ANGEPENA
+    state: SA
+    postcode: 5732
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: ANGLE PARK
+    state: SA
+    postcode: 5010
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: ANGLE VALE
+    state: SA
+    postcode: 5117
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ANGORIGINA
+    state: SA
+    postcode: 5730
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: ANNA CREEK
+    state: SA
+    postcode: 5723
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: ANNADALE
+    state: SA
+    postcode: 5356
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: ANTECHAMBER BAY
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: APAMURRA
+    state: SA
+    postcode: 5237
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: APOINGA
+    state: SA
+    postcode: 5413
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: APPILA
+    state: SA
+    postcode: 5480
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: ARCKARINGA
+    state: SA
+    postcode: 5723
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: ARCOONA
+    state: SA
+    postcode: 5720
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: ARDROSSAN
+    state: SA
+    postcode: 5571
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: ARKARINGA
+    state: SA
+    postcode: 5732
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: ARKAROOLA
+    state: SA
+    postcode: 5732
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: ARKAROOLA VILLAGE
+    state: SA
+    postcode: 5701
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: ARMAGH
+    state: SA
+    postcode: 5453
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: ARNO BAY
+    state: SA
+    postcode: 5603
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: ARTHURTON
+    state: SA
+    postcode: 5572
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: ASCOT PARK
+    state: SA
+    postcode: 5043
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ASHBOURNE
+    state: SA
+    postcode: 5157
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: ASHFORD
+    state: SA
+    postcode: 5035
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ASHTON
+    state: SA
+    postcode: 5137
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: ASHVILLE
+    state: SA
+    postcode: 5259
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: ATHELSTONE
+    state: SA
+    postcode: 5076
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ATHOL PARK
+    state: SA
+    postcode: 5012
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: AUBURN
+    state: SA
+    postcode: 5451
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: AULDANA
+    state: SA
+    postcode: 5072
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: AUSTRALIA PLAINS
+    state: SA
+    postcode: 5374
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: AVENUE RANGE
+    state: SA
+    postcode: 5273
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: AVOCA DELL
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: AVON
+    state: SA
+    postcode: 5501
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: AYERS RANGE SOUTH
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: INDULKANA
+
+  - location: BABARINGA
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: BACK VALLEY
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: BACKY POINT
+    state: SA
+    postcode: 5601
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: BAGOT WELL
+    state: SA
+    postcode: 5373
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: BAIRD BAY
+    state: SA
+    postcode: 5671
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: BAKARA
+    state: SA
+    postcode: 5354
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BAKARA WELL
+    state: SA
+    postcode: 5354
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BALAH
+    state: SA
+    postcode: 5417
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BALAKLAVA
+    state: SA
+    postcode: 5461
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BALD HILLS
+    state: SA
+    postcode: 5203
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: BALDINA
+    state: SA
+    postcode: 5417
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BALGOWAN
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: BALHANNAH
+    state: SA
+    postcode: 5242
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BALLAST HEAD
+    state: SA
+    postcode: 5221
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: BANGHAM
+    state: SA
+    postcode: 5268
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: BANGOR
+    state: SA
+    postcode: 5481
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: BANKSIA PARK
+    state: SA
+    postcode: 5091
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: BARABBA
+    state: SA
+    postcode: 5460
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: BARATTA
+    state: SA
+    postcode: 5432
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: BARINIA
+    state: SA
+    postcode: 5453
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BARMERA
+    state: SA
+    postcode: 5345
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: BARNDIOOTA
+    state: SA
+    postcode: 5434
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: BAROOTA
+    state: SA
+    postcode: 5495
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: BAROSSA GOLDFIELDS
+    state: SA
+    postcode: 5351
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: BARUNGA GAP
+    state: SA
+    postcode: 5520
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: BASKET RANGE
+    state: SA
+    postcode: 5138
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BAUDIN BEACH
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: BAY OF SHOALS
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: BEACHPORT
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: BEATTY
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BEAUFORT
+    state: SA
+    postcode: 5550
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: BEAUMONT
+    state: SA
+    postcode: 5066
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: BEAUMONTS
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: BEDFORD PARK
+    state: SA
+    postcode: 5042
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: BEETALOO
+    state: SA
+    postcode: 5523
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: BELAIR
+    state: SA
+    postcode: 5052
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: BELALIE
+    state: SA
+    postcode: 5491
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: BELALIE EAST
+    state: SA
+    postcode: 5491
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: BELALIE NORTH
+    state: SA
+    postcode: 5491
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: BELLEVUE HEIGHTS
+    state: SA
+    postcode: 5050
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: BELTANA
+    state: SA
+    postcode: 5730
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: BELTON
+    state: SA
+    postcode: 5432
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: BELVIDERE
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BERRI
+    state: SA
+    postcode: 5343
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: BETHANY
+    state: SA
+    postcode: 5352
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: BETHEL
+    state: SA
+    postcode: 5373
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: BEULAH PARK
+    state: SA
+    postcode: 5067
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: BEVERLEY
+    state: SA
+    postcode: 5009
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: BIBARINGA
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: BIGGS FLAT
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BILLIATT
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: BINDARRAH
+    state: SA
+    postcode: 5440
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: BINNUM
+    state: SA
+    postcode: 5262
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: BIRCHMORE
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: BIRDWOOD
+    state: SA
+    postcode: 5234
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BIRKENHEAD
+    state: SA
+    postcode: 5015
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: BISCUIT FLAT
+    state: SA
+    postcode: 5276
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: BLACK FOREST
+    state: SA
+    postcode: 5035
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: BLACK HILL
+    state: SA
+    postcode: 5353
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BLACK POINT
+    state: SA
+    postcode: 5571
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: BLACK ROCK
+    state: SA
+    postcode: 5431
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: BLACK SPRINGS
+    state: SA
+    postcode: 5413
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BLACKFELLOWS CAVES
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: BLACKFELLOWS CREEK
+    state: SA
+    postcode: 5201
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BLACKWOOD
+    state: SA
+    postcode: 5051
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: BLAIR ATHOL
+    state: SA
+    postcode: 5084
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: BLAKEVIEW
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: BLAKISTON
+    state: SA
+    postcode: 5250
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BLANCHE HARBOR
+    state: SA
+    postcode: 5700
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: BLANCHETOWN
+    state: SA
+    postcode: 5357
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BLETCHLEY
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BLEWITT SPRINGS
+    state: SA
+    postcode: 5171
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: BLINMAN
+    state: SA
+    postcode: 5730
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: BLYTH
+    state: SA
+    postcode: 5462
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BOATSWAIN POINT
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: BOLIVAR
+    state: SA
+    postcode: 5110
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: BON BON
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: BOOBOROWIE
+    state: SA
+    postcode: 5417
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: BOOKABIE
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: BOOKALOO
+    state: SA
+    postcode: 5713
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: BOOKPURNONG
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: BOOL LAGOON
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: BOOLEROO CENTRE
+    state: SA
+    postcode: 5482
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: BOOLGUN
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BORDER VILLAGE
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: BORDERTOWN
+    state: SA
+    postcode: 5268
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: BORRIKA
+    state: SA
+    postcode: 5309
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: BOSTON
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: BOSTON BAY
+    state: SA
+    postcode: 
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: BOWDEN
+    state: SA
+    postcode: 5007
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: BOWER
+    state: SA
+    postcode: 5374
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BOWHILL
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: BOWILLIA
+    state: SA
+    postcode: 5461
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BOWMANS
+    state: SA
+    postcode: 5550
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: BRADBURY
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BRAHMA LODGE
+    state: SA
+    postcode: 5109
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: BRAMFIELD
+    state: SA
+    postcode: 5670
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: BRAY
+    state: SA
+    postcode: 5276
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: BRENDA PARK
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BRENTWOOD
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: BRIDGEWATER
+    state: SA
+    postcode: 5155
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BRIGHTON
+    state: SA
+    postcode: 5048
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: BRIMBAGO
+    state: SA
+    postcode: 5267
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: BRINKLEY
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: BRINKWORTH
+    state: SA
+    postcode: 5464
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BROADVIEW
+    state: SA
+    postcode: 5083
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: BROKEN CLIFFS
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BROMPTON
+    state: SA
+    postcode: 5007
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: BROOKER
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: BROOKLYN PARK
+    state: SA
+    postcode: 5032
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: BROWNHILL CREEK
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: BROWNLOW
+    state: SA
+    postcode: 5374
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BROWNS BEACH
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: BRUCE
+    state: SA
+    postcode: 5431
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: BRUKUNGA
+    state: SA
+    postcode: 5252
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BUCCLEUCH
+    state: SA
+    postcode: 5254
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: BUCHFELDE
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: BUCKLAND PARK
+    state: SA
+    postcode: 5120
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: BUCKLEBOO
+    state: SA
+    postcode: 5641
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: Bugle Hut
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: BUGLE RANGES
+    state: SA
+    postcode: 5251
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BULL CREEK
+    state: SA
+    postcode: 5157
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: BUMBUNGA
+    state: SA
+    postcode: 5520
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BUNGAMA
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: BUNGAREE
+    state: SA
+    postcode: 5464
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BURDETT
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: BURNSIDE
+    state: SA
+    postcode: 5066
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: BURRA
+    state: SA
+    postcode: 5417
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BURRA NORTH
+    state: SA
+    postcode: 5417
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: BURRUNGULE
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: BURTON
+    state: SA
+    postcode: 5110
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: BUTE
+    state: SA
+    postcode: 5560
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: CADELL
+    state: SA
+    postcode: 5321
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: CADELL LAGOON
+    state: SA
+    postcode: 5321
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: CADNEY PARK
+    state: SA
+    postcode: 5724
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: CALIPH
+    state: SA
+    postcode: 5310
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: CALLINGTON
+    state: SA
+    postcode: 5254
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: CALOMBA
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: CALOOTE
+    state: SA
+    postcode: 5254
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: CALPERNUM STATION
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: CALTOWIE
+    state: SA
+    postcode: 5490
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: CAMBRAI
+    state: SA
+    postcode: 5353
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: CAMDEN PARK
+    state: SA
+    postcode: 5038
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: CAMPBELLTOWN
+    state: SA
+    postcode: 5074
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: CANNAN REEF
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: CANNAWIGARA
+    state: SA
+    postcode: 5268
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: CANOPUS
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: CAPE BORDA
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: CAPE DOUGLAS
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: CAPE ELIZABETH
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: CAPE JAFFA
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: CAPE JERVIS
+    state: SA
+    postcode: 5204
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: CAPE NORTHUMBERLAND
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: CAREY GULLY
+    state: SA
+    postcode: 5144
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: CAROLINE
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: CARPENTER ROCKS
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: CARRICKALINGA
+    state: SA
+    postcode: 5204
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: CARRIETON
+    state: SA
+    postcode: 5432
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: CARRIEWERLOO
+    state: SA
+    postcode: 5715
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: CASSINI
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: CASTAMBUL
+    state: SA
+    postcode: 5076
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: CAURNAMONT
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: CAVAN
+    state: SA
+    postcode: 5094
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: CAVETON
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: CEDUNA
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: CHAFFEY
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: CHAIN OF PONDS
+    state: SA
+    postcode: 5231
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: CHANDLERS HILL
+    state: SA
+    postcode: 5159
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: CHARLESTON
+    state: SA
+    postcode: 5244
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: CHARLTON GULLY
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: CHARLTON GULLY
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: CHELTENHAM
+    state: SA
+    postcode: 5014
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: CHERRY GARDENS
+    state: SA
+    postcode: 5157
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: CHERRYVILLE
+    state: SA
+    postcode: 5134
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: CHINAMAN WELLS
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: CHOWILLA
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: CHRISTIE DOWNS
+    state: SA
+    postcode: 5164
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: CHRISTIES BEACH
+    state: SA
+    postcode: 5165
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: CLAPHAM
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: CLARE
+    state: SA
+    postcode: 5453
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: CLARENCE GARDENS
+    state: SA
+    postcode: 5039
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: CLARENCE PARK
+    state: SA
+    postcode: 5034
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: CLARENDON
+    state: SA
+    postcode: 5157
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: CLAY WELLS
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: CLAYTON
+    state: SA
+    postcode: 5256
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: CLAYTON BAY
+    state: SA
+    postcode: 5256
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: CLEARVIEW
+    state: SA
+    postcode: 5085
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: CLELAND
+    state: SA
+    postcode: 5152
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: CLEMENTS GAP
+    state: SA
+    postcode: 5523
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: CLEVE
+    state: SA
+    postcode: 5640
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: CLINTON
+    state: SA
+    postcode: 5570
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: CLOVELLY PARK
+    state: SA
+    postcode: 5042
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: CLOVERCREST
+    state: SA
+    postcode: 5092
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: COBDOGLA
+    state: SA
+    postcode: 5346
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: COBERA
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: COCKALEECHIE
+    state: SA
+    postcode: 5631
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: COCKATOO LAKE
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: COCKATOO VALLEY
+    state: SA
+    postcode: 5351
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: COCKBURN
+    state: SA
+    postcode: 5440
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: COFFIN BAY
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: COLLEGE PARK
+    state: SA
+    postcode: 5069
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: COLLINSFIELD
+    state: SA
+    postcode: 5555
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: COLLINSWOOD
+    state: SA
+    postcode: 5081
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: COLONEL LIGHT GARDENS
+    state: SA
+    postcode: 5041
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: COMAUM
+    state: SA
+    postcode: 5277
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: COMPTON
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: CONCORDIA
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: CONDOWIE
+    state: SA
+    postcode: 5464
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: COOBER PEDY
+    state: SA
+    postcode: 5723
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: COOBOWIE
+    state: SA
+    postcode: 5583
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: COOK
+    state: SA
+    postcode: 5710
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: COOKE PLAINS
+    state: SA
+    postcode: 5261
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: COOLCHA
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: COOLTONG
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: COOMANDOOK
+    state: SA
+    postcode: 5261
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: COOMBE
+    state: SA
+    postcode: 5267
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: COOMUNGA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: COONALPYN
+    state: SA
+    postcode: 5265
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: COONAMIA
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: COONAWARRA
+    state: SA
+    postcode: 5263
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: COORABIE
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: COORONG
+    state: SA
+    postcode: 5264
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: COPEVILLE
+    state: SA
+    postcode: 5308
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: COPLEY
+    state: SA
+    postcode: 5732
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: CORNY POINT
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: COROMANDEL EAST
+    state: SA
+    postcode: 5157
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: COROMANDEL VALLEY
+    state: SA
+    postcode: 5051
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: COULTA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: COWANDILLA
+    state: SA
+    postcode: 5033
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: COWELL
+    state: SA
+    postcode: 5602
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: COWIRRA
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: CRAFERS
+    state: SA
+    postcode: 5152
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: CRAFERS WEST
+    state: SA
+    postcode: 5152
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: CRAIGBURN FARM
+    state: SA
+    postcode: 5050
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: CRAIGMORE
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: CRESCENT
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: CROMER
+    state: SA
+    postcode: 5235
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: CROYDON
+    state: SA
+    postcode: 5008
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: CROYDON PARK
+    state: SA
+    postcode: 5008
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: CRYSTAL BROOK
+    state: SA
+    postcode: 5523
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: CUDLEE CREEK
+    state: SA
+    postcode: 5232
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: CULBURRA
+    state: SA
+    postcode: 5261
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: CUMBERLAND PARK
+    state: SA
+    postcode: 5041
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: CUMMINS
+    state: SA
+    postcode: 5631
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: CUNGENA
+    state: SA
+    postcode: 5660
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: CUNLIFFE
+    state: SA
+    postcode: 5554
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: CURRAMULKA
+    state: SA
+    postcode: 5580
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: CURRENCY CREEK
+    state: SA
+    postcode: 5214
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: CUSTON
+    state: SA
+    postcode: 5270
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: CUTTLEFISH BAY
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: CYGNET RIVER
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: DALHOUSIE SPRINGS
+    state: SA
+    postcode: 5734
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: DALKEITH
+    state: SA
+    postcode: 5115
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: DARKE PEAK
+    state: SA
+    postcode: 5642
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: DARLINGTON
+    state: SA
+    postcode: 5047
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: DASHWOOD GULLY
+    state: SA
+    postcode: 5201
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: DAVENPORT
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: DAVEYSTON
+    state: SA
+    postcode: 5355
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: DAVOREN PARK
+    state: SA
+    postcode: 5113
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: DAW PARK
+    state: SA
+    postcode: 5041
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: DAWESLEY
+    state: SA
+    postcode: 5252
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: DAWSON
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: DEEP CREEK
+    state: SA
+    postcode: 5204
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: DELAMERE
+    state: SA
+    postcode: 5204
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: DENIAL BAY
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: DERNANCOURT
+    state: SA
+    postcode: 5075
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: DEVLINS POUND
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: DEVON PARK
+    state: SA
+    postcode: 5008
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: DINGABLEDINGA
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: DIREK
+    state: SA
+    postcode: 5110
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: DISMAL SWAMP
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: DONOVANS
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: DORRIEN
+    state: SA
+    postcode: 5352
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: DORSET VALE
+    state: SA
+    postcode: 5157
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: DOVER GARDENS
+    state: SA
+    postcode: 5048
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: DOWLINGVILLE
+    state: SA
+    postcode: 5555
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: DRY CREEK
+    state: SA
+    postcode: 5094
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: DUBLIN
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: DUDLEY EAST
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: DUDLEY PARK
+    state: SA
+    postcode: 5008
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: DUDLEY WEST
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: DULLINGARI
+    state: SA
+    postcode: 5731
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: DULWICH
+    state: SA
+    postcode: 5065
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: DUTTON
+    state: SA
+    postcode: 5356
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: DUTTON BAY
+    state: SA
+    postcode: 
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: EAGLE ON THE HILL
+    state: SA
+    postcode: 5150
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: EAST MOONTA
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: EAST WANDEARAH
+    state: SA
+    postcode: 5523
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: EASTWOOD
+    state: SA
+    postcode: 5063
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: EBENEZER
+    state: SA
+    postcode: 5355
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: ECHUNGA
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: EDEN HILLS
+    state: SA
+    postcode: 5050
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: EDEN VALLEY
+    state: SA
+    postcode: 5235
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: EDILLILIE
+    state: SA
+    postcode: 5630
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: EDINBURGH
+    state: SA
+    postcode: 5111
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: EDITHBURGH
+    state: SA
+    postcode: 5583
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: EDWARDSTOWN
+    state: SA
+    postcode: 5039
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: EIGHT MILE CREEK
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: ELBOW HILL
+    state: SA
+    postcode: 
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: ELIZABETH
+    state: SA
+    postcode: 5112
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ELIZABETH DOWNS
+    state: SA
+    postcode: 5113
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ELIZABETH EAST
+    state: SA
+    postcode: 5112
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ELIZABETH GROVE
+    state: SA
+    postcode: 5112
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ELIZABETH NORTH
+    state: SA
+    postcode: 5113
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ELIZABETH PARK
+    state: SA
+    postcode: 5113
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ELIZABETH SOUTH
+    state: SA
+    postcode: 5112
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ELIZABETH VALE
+    state: SA
+    postcode: 5112
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ELIZABETH WEST
+    state: SA
+    postcode: 5113
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ELLISTON
+    state: SA
+    postcode: 5670
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: ENCOUNTER BAY
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: ENFIELD
+    state: SA
+    postcode: 5085
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ENOOMAH BORE
+    state: SA
+    postcode: 5309
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: ERINDALE
+    state: SA
+    postcode: 5066
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ERNABELLA
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: ERNABELLA
+
+  - location: ETHELTON
+    state: SA
+    postcode: 5015
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: ETTRICK
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: EUDUNDA
+    state: SA
+    postcode: 5374
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: EVANDALE
+    state: SA
+    postcode: 5069
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: EVANSTON
+    state: SA
+    postcode: 5116
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: EVANSTON GARDENS
+    state: SA
+    postcode: 5116
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: EVANSTON PARK
+    state: SA
+    postcode: 5116
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: EVANSTON SOUTH
+    state: SA
+    postcode: 5116
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: EVERARD PARK
+    state: SA
+    postcode: 5035
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: EXETER
+    state: SA
+    postcode: 5019
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: EXPORT PARK
+    state: SA
+    postcode: 5950
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: FAIRVIEW PARK
+    state: SA
+    postcode: 5126
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: FARM BEACH
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: FARRELL FLAT
+    state: SA
+    postcode: 5416
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: FERRYDEN PARK
+    state: SA
+    postcode: 5010
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: FINDON
+    state: SA
+    postcode: 5023
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: FINNISS
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: FIRLE
+    state: SA
+    postcode: 5070
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: FISHER
+    state: SA
+    postcode: 5354
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: FISHERMANS BAY
+    state: SA
+    postcode: 5522
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: FITZROY
+    state: SA
+    postcode: 5082
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: FLAGSTAFF HILL
+    state: SA
+    postcode: 5159
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: FLAXLEY
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: FLINDERS CHASE
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: FLINDERS PARK
+    state: SA
+    postcode: 5025
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: FLINDERS RANGES
+    state: SA
+    postcode: 
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: FLORIETON
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: FORDS
+    state: SA
+    postcode: 5373
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: FOREST RANGE
+    state: SA
+    postcode: 5139
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: FORESTVILLE
+    state: SA
+    postcode: 5035
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: FORRESTON
+    state: SA
+    postcode: 5233
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: FOUL BAY
+    state: SA
+    postcode: 5577
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: FOWLERS BAY
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: FOX
+    state: SA
+    postcode: 
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: FRANCES
+    state: SA
+    postcode: 5262
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: FRANKLIN HARBOUR
+    state: SA
+    postcode: 5421
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: FREELING
+    state: SA
+    postcode: 5372
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: FREGON
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: FREGON
+
+  - location: FREWVILLE
+    state: SA
+    postcode: 5063
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: FULHAM
+    state: SA
+    postcode: 5024
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: FULHAM GARDENS
+    state: SA
+    postcode: 5024
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: FULLARTON
+    state: SA
+    postcode: 5063
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: FURNER
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: GALGA
+    state: SA
+    postcode: 5308
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: GAWLER
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GAWLER BELT
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GAWLER EAST
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GAWLER RIVER
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GAWLER SOUTH
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GAWLER WEST
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GEMMELLS
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: GEORGETOWN
+    state: SA
+    postcode: 5472
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: GEPPS CROSS
+    state: SA
+    postcode: 5094
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GERANIUM
+    state: SA
+    postcode: 5301
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: GERARD
+    state: SA
+    postcode: 5343
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: GILBERTON
+    state: SA
+    postcode: 5081
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GILES CORNER
+    state: SA
+    postcode: 5411
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: GILLES PLAINS
+    state: SA
+    postcode: 5086
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GILLMAN
+    state: SA
+    postcode: 5013
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: GLADSTONE
+    state: SA
+    postcode: 5473
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: GLANDORE
+    state: SA
+    postcode: 5037
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLANVILLE
+    state: SA
+    postcode: 5015
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: GLEN OSMOND
+    state: SA
+    postcode: 5064
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLENALTA
+    state: SA
+    postcode: 5052
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLENBURNIE
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: GLENCOE
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: GLENCOE WEST
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: GLENDAMBO
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: GLENELG
+    state: SA
+    postcode: 5045
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLENELG EAST
+    state: SA
+    postcode: 5045
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLENELG NORTH
+    state: SA
+    postcode: 5045
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLENELG SOUTH
+    state: SA
+    postcode: 5045
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLENGOWRIE
+    state: SA
+    postcode: 5044
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLENROY
+    state: SA
+    postcode: 5277
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: GLENSIDE
+    state: SA
+    postcode: 5065
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLENUNGA
+    state: SA
+    postcode: 5064
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GLOBE DERBY
+    state: SA
+    postcode: 5110
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GLOBE DERBY PARK
+    state: SA
+    postcode: 5110
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GLOSSOP
+    state: SA
+    postcode: 5344
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: GLUYAS
+    state: SA
+    postcode: 5310
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: GLYNDE
+    state: SA
+    postcode: 5070
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GOLDEN GROVE
+    state: SA
+    postcode: 5125
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GOLDEN HEIGHTS
+    state: SA
+    postcode: 5322
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: GOMERSAL
+    state: SA
+    postcode: 5352
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: GOODWOOD
+    state: SA
+    postcode: 5034
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GOOLWA
+    state: SA
+    postcode: 5214
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: GOOLWA BEACH
+    state: SA
+    postcode: 5214
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: GOOLWA SOUTH
+    state: SA
+    postcode: 5214
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: GOSSE
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: GOULD CREEK
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GOWER CONSERVATION PARK
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: GOYDER
+    state: SA
+    postcode: 5461
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: GRACE PLAINS
+    state: SA
+    postcode: 5502
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GRANGE
+    state: SA
+    postcode: 5022
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: GRANITE DOWN STATIONS
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: GREEN FIELDS
+    state: SA
+    postcode: 5107
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GREEN HILLS RANGE
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: GREEN PATCH
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: GREENACRES
+    state: SA
+    postcode: 5086
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GREENHILL
+    state: SA
+    postcode: 5140
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: GREENOCK
+    state: SA
+    postcode: 5360
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: GREENWAYS
+    state: SA
+    postcode: 5272
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: GREENWITH
+    state: SA
+    postcode: 5125
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GULFVIEW HEIGHTS
+    state: SA
+    postcode: 5096
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: GULNARE
+    state: SA
+    postcode: 5471
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: GUMBOWIE
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: GUMERACHA
+    state: SA
+    postcode: 5233
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: GURRA GURRA
+    state: SA
+    postcode: 5343
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: GURRAI
+    state: SA
+    postcode: 5302
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: HACKHAM
+    state: SA
+    postcode: 5163
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: HACKHAM WEST
+    state: SA
+    postcode: 5163
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: HACKNEY
+    state: SA
+    postcode: 5069
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HAHNDORF
+    state: SA
+    postcode: 5245
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: HAINES
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: HALBURY
+    state: SA
+    postcode: 5461
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: HALIDON
+    state: SA
+    postcode: 5309
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: HALLETT COVE
+    state: SA
+    postcode: 5158
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: HAMLEY BRIDGE
+    state: SA
+    postcode: 5401
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: HAMMOND
+    state: SA
+    postcode: 5431
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: HAMPSTEAD GARDENS
+    state: SA
+    postcode: 5086
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HANSBOROUGH
+    state: SA
+    postcode: 5374
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: HANSON
+    state: SA
+    postcode: 5417
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: HAPPY VALLEY
+    state: SA
+    postcode: 5159
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: HARDWICKE BAY
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: HARROGATE
+    state: SA
+    postcode: 5244
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: HART
+    state: SA
+    postcode: 5464
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: HARTLEY
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: HASLAM
+    state: SA
+    postcode: 5680
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: HATHERLEIGH
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: HAWKER
+    state: SA
+    postcode: 5434
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: HAWTHORN
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HAWTHORNDENE
+    state: SA
+    postcode: 5051
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: HAYBOROUGH
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: HAZELWOOD PARK
+    state: SA
+    postcode: 5066
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HEATHFIELD
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: HEATHPOOL
+    state: SA
+    postcode: 5068
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HECTORVILLE
+    state: SA
+    postcode: 5073
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HENDON
+    state: SA
+    postcode: 5014
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: HENLEY BEACH
+    state: SA
+    postcode: 5022
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: HENLEY BEACH SOUTH
+    state: SA
+    postcode: 5022
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: HESSO
+    state: SA
+    postcode: 5713
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: HEWETT
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: HIGHBURY
+    state: SA
+    postcode: 5089
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HIGHERCOMBE
+    state: SA
+    postcode: 5132
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: HIGHGATE
+    state: SA
+    postcode: 5063
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HILLBANK
+    state: SA
+    postcode: 5112
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: HILLCREST
+    state: SA
+    postcode: 5086
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HILLIER
+    state: SA
+    postcode: 5116
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: HILLTOWN
+    state: SA
+    postcode: 5455
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: HILTON
+    state: SA
+    postcode: 5033
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HINDMARSH
+    state: SA
+    postcode: 5007
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: HINDMARSH ISLAND
+    state: SA
+    postcode: 5214
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: HINDMARSH TIERS
+    state: SA
+    postcode: 5202
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: HINDMARSH VALLEY
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: HOGWASH BEND
+    state: SA
+    postcode: 5321
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: HOLDEN HILL
+    state: SA
+    postcode: 5088
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HOLDER SIDING
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: HOPE FOREST
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: HOPE GAP
+    state: SA
+    postcode: 5555
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: HOPE VALLEY
+    state: SA
+    postcode: 5090
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HORSNELL GULLY
+    state: SA
+    postcode: 5141
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HOSKIN CORNER
+    state: SA
+    postcode: 5461
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: HOUGHTON
+    state: SA
+    postcode: 5131
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: HOVE
+    state: SA
+    postcode: 5048
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: HOYLETON
+    state: SA
+    postcode: 5453
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: HUMBUG SCRUB
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: HUNTFIELD HEIGHTS
+    state: SA
+    postcode: 5163
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: HYDE PARK
+    state: SA
+    postcode: 5061
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: HYNAM
+    state: SA
+    postcode: 5262
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: ILLYOMBA
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: MIMILI
+
+  - location: INDULKANA
+    state: SA
+    postcode: 5724
+    court_registry: PORT AUGUSTA
+    court_location: INDULKANA
+
+  - location: INGLE FARM
+    state: SA
+    postcode: 5098
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: INGLEWOOD
+    state: SA
+    postcode: 5133
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: INHALTA
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: INKERMAN
+    state: SA
+    postcode: 5550
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: INMAN VALLEY
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: INNAMINCKA
+    state: SA
+    postcode: 5731
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: INVERBRACKIE
+    state: SA
+    postcode: 5244
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: IRON DUKE
+    state: SA
+    postcode: 
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: IRON KNOB
+    state: SA
+    postcode: 5601
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: IRONBANK
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: ISLAND BEACH
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: JABUK
+    state: SA
+    postcode: 5301
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: JACOBS CREEK
+    state: SA
+    postcode: 5352
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: JAMES WELL
+    state: SA
+    postcode: 5571
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: JAMESTOWN
+    state: SA
+    postcode: 5491
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: JERUSALEM
+    state: SA
+    postcode: 5554
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: JERVOIS
+    state: SA
+    postcode: 5259
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: JOANNA
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: JOSLIN
+    state: SA
+    postcode: 5070
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: JULIA
+    state: SA
+    postcode: 5374
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: JUPITER CREEK
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: KADINA
+    state: SA
+    postcode: 5554
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: KAINTON
+    state: SA
+    postcode: 5552
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: KALANGADOO
+    state: SA
+    postcode: 5278
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: KALBEEBA
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: KALKA
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: PIPALYATJARA
+
+  - location: KANGARILLA
+    state: SA
+    postcode: 5157
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: KANGAROO FLAT
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: KANGAROO HEAD
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: KANGAROO ISLAND
+    state: SA
+    postcode: 
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: KANMANTOO
+    state: SA
+    postcode: 5252
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: KANNI
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: KANPI
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: PIPALYATJARA
+
+  - location: KANYAKA
+    state: SA
+    postcode: 5434
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: KAPINNIE
+    state: SA
+    postcode: 5632
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: KAPUNDA
+    state: SA
+    postcode: 5373
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: KARATTA
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: KARKOO
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: KAROONDA
+    state: SA
+    postcode: 5307
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: KARTE
+    state: SA
+    postcode: 5307
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: KATAROAKO
+    state: SA
+    postcode: 5434
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: KEILIRA
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: KEITH
+    state: SA
+    postcode: 5267
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: KELLIDIE BAY
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: KENSINGTON
+    state: SA
+    postcode: 5068
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KENSINGTON GARDENS
+    state: SA
+    postcode: 5068
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KENSINGTON PARK
+    state: SA
+    postcode: 5068
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KENT TOWN
+    state: SA
+    postcode: 5067
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KENTON VALLEY
+    state: SA
+    postcode: 5233
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: KEPPOCH
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: KERSBROOK
+    state: SA
+    postcode: 5231
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: KESWICK
+    state: SA
+    postcode: 5035
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KEYNETON
+    state: SA
+    postcode: 5353
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: KI KI
+    state: SA
+    postcode: 5261
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: KIDMAN PARK
+    state: SA
+    postcode: 5025
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: KILBURN
+    state: SA
+    postcode: 5084
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KILKENNY
+    state: SA
+    postcode: 5009
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: KILKERRAN
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: KIMBA
+    state: SA
+    postcode: 5641
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: KINGOONYA
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: KINGS PARK
+    state: SA
+    postcode: 5034
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KINGSCOTE
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: KINGSFORD
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: KINGSTON
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: KINGSTON ON THE MURRAY
+    state: SA
+    postcode: 5331
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: KINGSTON PARK
+    state: SA
+    postcode: 5049
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: KINGSTON SE
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: KINGSTON-ON-MURRAY
+    state: SA
+    postcode: 5331
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: KINGSWOOD
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KLEMZIG
+    state: SA
+    postcode: 5087
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KONGOLIA
+    state: SA
+    postcode: 5353
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: KONGORONG
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: KOOLUNGA
+    state: SA
+    postcode: 5464
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: KOOLYWURTIE
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: KOONIBBA
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: KOONUNGA
+    state: SA
+    postcode: 5373
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: KOOTABERRA
+    state: SA
+    postcode: 5713
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: KOPPIO
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: KORUNYE
+    state: SA
+    postcode: 5502
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: KRINGIN
+    state: SA
+    postcode: 5304
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: KRONDORF
+    state: SA
+    postcode: 5352
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: KUDLA
+    state: SA
+    postcode: 5115
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: KUITPO
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: KUITPO COLONEY
+    state: SA
+    postcode: 5172
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: KULKAMI
+    state: SA
+    postcode: 5302
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: KULPARA
+    state: SA
+    postcode: 5555
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: KUMARA BORE
+    state: SA
+    postcode: 5304
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: KURRALTA PARK
+    state: SA
+    postcode: 5037
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: KYANCUTTA
+    state: SA
+    postcode: 5651
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: KYBUNGA
+    state: SA
+    postcode: 5453
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: KYBYBOLITE
+    state: SA
+    postcode: 5262
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: KYEEMA
+    state: SA
+    postcode: 5172
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: LAKE ALEXANDRINA
+    state: SA
+    postcode: 
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: LAKE EVERARD
+    state: SA
+    postcode: 5717
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: LAKE GEORGE
+    state: SA
+    postcode: 
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: LAKEVIEW
+    state: SA
+    postcode: 5555
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: LAMEROO
+    state: SA
+    postcode: 5302
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: LANGHORNE CREEK
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: LARGS BAY
+    state: SA
+    postcode: 5016
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: LARGS NORTH
+    state: SA
+    postcode: 5016
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: LAURA
+    state: SA
+    postcode: 5480
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: LEABROOK
+    state: SA
+    postcode: 5068
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: LEASINGHAM
+    state: SA
+    postcode: 5452
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: LEAWOOD GARDENS
+    state: SA
+    postcode: 5150
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: LEIGH CREEK
+    state: SA
+    postcode: 5731
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: LENSWOOD
+    state: SA
+    postcode: 5240
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: LEWISTON
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: LIGHT PASS
+    state: SA
+    postcode: 5355
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: LIGHTSVIEW
+    state: SA
+    postcode: 5085
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: LINCOLN GAP
+    state: SA
+    postcode: 5715
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: LINDEN PARK
+    state: SA
+    postcode: 5065
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: LINWOOD
+    state: SA
+    postcode: 5410
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: LIPSON
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: LITTLEHAMPTON
+    state: SA
+    postcode: 5250
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: LOBETHAL
+    state: SA
+    postcode: 5241
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: LOCHABER
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: LOCHIEL
+    state: SA
+    postcode: 5510
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: LOCK
+    state: SA
+    postcode: 5633
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: LOCKLEYS
+    state: SA
+    postcode: 5032
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: LONG FLAT
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: LONG GULLY
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: LONG PLAIN
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: LONGWOOD
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: LONSDALE
+    state: SA
+    postcode: 5160
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: LOUTH BAY
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: LOVEDAY
+    state: SA
+    postcode: 5345
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: LOWALDIE
+    state: SA
+    postcode: 5307
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: LOWAN VALE
+    state: SA
+    postcode: 5268
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: LOWBANK
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: LOWER HERMITAGE
+    state: SA
+    postcode: 5131
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: LOWER INMAN VALLEY
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: LOWER LIGHT
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: LOWER MITCHAM
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: LOXTON
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: LOXTON NORTH
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: LUCINDALE
+    state: SA
+    postcode: 5272
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: LUCKY BAY
+    state: SA
+    postcode: 5602
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: LUSBY ISLAND
+    state: SA
+    postcode: 5605
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: LYNDHURST
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: LYNDOCH
+    state: SA
+    postcode: 5351
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: LYNTON
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: LYRUP
+    state: SA
+    postcode: 5343
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MAAOUPE
+    state: SA
+    postcode: 5277
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: MACCLESFIELD
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MACDONALD PARK
+    state: SA
+    postcode: 5121
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MACGILLIVRAY
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: MACUMBA STATION
+    state: SA
+    postcode: 5734
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: MAGGEA
+    state: SA
+    postcode: 5308
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: MAGILL
+    state: SA
+    postcode: 5072
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MAITLAND
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: MALINONG
+    state: SA
+    postcode: 5259
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MALLALA
+    state: SA
+    postcode: 5502
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MALPAS
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MALVERN
+    state: SA
+    postcode: 5061
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MAMBRAY CREEK
+    state: SA
+    postcode: 5495
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: MANGALO
+    state: SA
+    postcode: 5602
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: MANNA HILL
+    state: SA
+    postcode: 5440
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: MANNANARIE
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: MANNINGHAM
+    state: SA
+    postcode: 5086
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MANNUM
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MANOORA
+    state: SA
+    postcode: 5414
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: MANSFIELD PARK
+    state: SA
+    postcode: 5012
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: MARAMA
+    state: SA
+    postcode: 5307
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MARANANGA
+    state: SA
+    postcode: 5355
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MARBLE HILL
+    state: SA
+    postcode: 5137
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MARDEN
+    state: SA
+    postcode: 5070
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MARINO
+    state: SA
+    postcode: 5049
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: MARION
+    state: SA
+    postcode: 5043
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: MARION BAY
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: MARKARANKA
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: MARLA
+    state: SA
+    postcode: 5724
+    court_registry: PORT AUGUSTA
+    court_location: INDULKANA
+
+  - location: MARLESTON
+    state: SA
+    postcode: 5033
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MARNE VALLEY
+    state: SA
+    postcode: 5353
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MARRABEL
+    state: SA
+    postcode: 5413
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: MARREE
+    state: SA
+    postcode: 5733
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: MARRYATVILLE
+    state: SA
+    postcode: 5068
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MASLIN BEACH
+    state: SA
+    postcode: 5170
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: MAWSON LAKES
+    state: SA
+    postcode: 5095
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MAYLANDS
+    state: SA
+    postcode: 5069
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MCCRACKEN
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: MCHARG CREEK
+    state: SA
+    postcode: 5157
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: MCLAREN FLAT
+    state: SA
+    postcode: 5171
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: MCLAREN VALE
+    state: SA
+    postcode: 5171
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: MEADOWS
+    state: SA
+    postcode: 5201
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MEDINDIE
+    state: SA
+    postcode: 5081
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MEDINDIE GARDENS
+    state: SA
+    postcode: 5081
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MELROSE
+    state: SA
+    postcode: 5483
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: MELROSE PARK
+    state: SA
+    postcode: 5039
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MELTON
+    state: SA
+    postcode: 5555
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: MENINGIE
+    state: SA
+    postcode: 5264
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MENINGIE WEST
+    state: SA
+    postcode: 5264
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MENZIES
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: MERCUNDA
+    state: SA
+    postcode: 5308
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MERIBAH
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MERRITON
+    state: SA
+    postcode: 5523
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: MERTY MERTY
+    state: SA
+    postcode: 5731
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: MIDDLE BEACH
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MIDDLE RIVER
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: MIDDLETON
+    state: SA
+    postcode: 5213
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: MIL LEL
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: MILANG
+    state: SA
+    postcode: 5256
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MILE END
+    state: SA
+    postcode: 5031
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MILE END SOUTH
+    state: SA
+    postcode: 5031
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MILENDELLA
+    state: SA
+    postcode: 5237
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MILLBROOK
+    state: SA
+    postcode: 5231
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MILLICENT
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: MILLSWOOD
+    state: SA
+    postcode: 5034
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MIMILI
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: MIMILI
+
+  - location: MINDARIE
+    state: SA
+    postcode: 5309
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MINGARY
+    state: SA
+    postcode: 5440
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: MINGBOOL
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: MINLATON
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: MINNIPA
+    state: SA
+    postcode: 5654
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: MINTABIE
+    state: SA
+    postcode: 5724
+    court_registry: PORT AUGUSTA
+    court_location: INDULKANA
+
+  - location: MINTARO
+    state: SA
+    postcode: 5415
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: MIRANDA
+    state: SA
+    postcode: 5700
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: MITCHAM
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MITCHELL PARK
+    state: SA
+    postcode: 5043
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: MOANA
+    state: SA
+    postcode: 5169
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: MOANA HEIGHTS
+    state: SA
+    postcode: 5169
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: MOBILONG
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MOCULTA
+    state: SA
+    postcode: 5353
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: MODBURY
+    state: SA
+    postcode: 5092
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MODBURY HEIGHTS
+    state: SA
+    postcode: 5092
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MODBURY NORTH
+    state: SA
+    postcode: 5092
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MONARTO
+    state: SA
+    postcode: 5254
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MONASH
+    state: SA
+    postcode: 5342
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MONTACUTE
+    state: SA
+    postcode: 5134
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MONTEITH
+    state: SA
+    postcode: 5254
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MOOCKRA
+    state: SA
+    postcode: 5432
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: MOOLAWATANA
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: MOOMBA
+    state: SA
+    postcode: 5731
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: MOONTA
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: MOONTA BAY
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: MOONTA MINES
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: MOORAK
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: MOORLANDS
+    state: SA
+    postcode: 5301
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MOOROOK
+    state: SA
+    postcode: 5332
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MOOTATUNGA
+    state: SA
+    postcode: 5304
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MOPPA
+    state: SA
+    postcode: 5355
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: MORCHARD
+    state: SA
+    postcode: 5431
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: MORGAN
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: MORIALTA
+    state: SA
+    postcode: 5072
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MORN HILL
+    state: SA
+    postcode: 5371
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: MORPHETT VALE
+    state: SA
+    postcode: 5162
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: MORPHETTS FLAT
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: MORPHETTVILLE
+    state: SA
+    postcode: 5043
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MOSQUITO HILL
+    state: SA
+    postcode: 5214
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: MOUNT BARKER
+    state: SA
+    postcode: 5251
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MOUNT BENSON
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: MOUNT BRYAN
+    state: SA
+    postcode: 5418
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: MOUNT BURR
+    state: SA
+    postcode: 5279
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: MOUNT COMPASS
+    state: SA
+    postcode: 5210
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: MOUNT CRAWFORD
+    state: SA
+    postcode: 5351
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: MOUNT DRUMMOND
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: MOUNT DUTTON
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: MOUNT GAMBIER
+    state: SA
+    postcode: 5290
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: MOUNT GEORGE
+    state: SA
+    postcode: 5155
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MOUNT GUNSON
+    state: SA
+    postcode: 5713
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: MOUNT HOPE
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: MOUNT IVE
+    state: SA
+    postcode: 5601
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: MOUNT JAGGED
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: MOUNT LOFTY
+    state: SA
+    postcode: 5152
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MOUNT MAGNIFICENT
+    state: SA
+    postcode: 5210
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: MOUNT MARY
+    state: SA
+    postcode: 5374
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: MOUNT MCKENZIE
+    state: SA
+    postcode: 5353
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: MOUNT MUIRHEAD
+    state: SA
+    postcode: 
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: MOUNT OSMOND
+    state: SA
+    postcode: 5064
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MOUNT PLEASANT
+    state: SA
+    postcode: 5235
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: MOUNT RAT
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: MOUNT SCHANK
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: MOUNT TEMPLETON
+    state: SA
+    postcode: 5461
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: MOUNT TORRENS
+    state: SA
+    postcode: 5244
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MOUNT WEDGE
+    state: SA
+    postcode: 5670
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: MULGUNDAWA
+    state: SA
+    postcode: 5255
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MULLAQUANA
+    state: SA
+    postcode: 5600
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: MULPATA
+    state: SA
+    postcode: 5302
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MULPATA
+    state: SA
+    postcode: 5302
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MUNDOORA
+    state: SA
+    postcode: 5555
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: MUNDULLA
+    state: SA
+    postcode: 5270
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: MUNNO PARA
+    state: SA
+    postcode: 5115
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MUNNO PARA DOWNS
+    state: SA
+    postcode: 5115
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MUNNO PARA WEST
+    state: SA
+    postcode: 5115
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: MURBKO
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: MURDINGA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: MURNINNIE
+    state: SA
+    postcode: 5601
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: MURNINNIE BEACH
+    state: SA
+    postcode: 5601
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: MURRAWONG
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MURRAY BRIDGE
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MURRAY TOWN
+    state: SA
+    postcode: 5481
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: MURTHO
+    state: SA
+    postcode: 5340
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: MUSTON
+    state: SA
+    postcode: 5221
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: MYLOR
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: MYPOLONGA
+    state: SA
+    postcode: 5254
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: MYPONGA
+    state: SA
+    postcode: 5202
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: MYPONGA BEACH
+    state: SA
+    postcode: 5202
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: MYRTLE BANK
+    state: SA
+    postcode: 5064
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: MYRTLE SPRINGS STATION
+    state: SA
+    postcode: 5731
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: NAILSWORTH
+    state: SA
+    postcode: 5083
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NAIRNE
+    state: SA
+    postcode: 5252
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: NALYAPPA
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: NANGARI
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: NANGKITA
+    state: SA
+    postcode: 5210
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: NANGWARRY
+    state: SA
+    postcode: 5277
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: NANTAWARRA
+    state: SA
+    postcode: 5550
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: NAPEAN BAY
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: NAPPERBY
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: NARACOORTE
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: NARRIDY
+    state: SA
+    postcode: 5523
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: NARRUNG
+    state: SA
+    postcode: 5259
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: NATAWARRA
+    state: SA
+    postcode: 5550
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: NATIVE VALLEY
+    state: SA
+    postcode: 5252
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: NAVAN
+    state: SA
+    postcode: 5412
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: NEALES FLAT
+    state: SA
+    postcode: 5374
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: NECTOR BROOK
+    state: SA
+    postcode: 5495
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: NELSHABY
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: NELWOOD
+    state: SA
+    postcode: 5340
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: NENE VALLEY
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: NEPABUNNA
+    state: SA
+    postcode: 5732
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: NEPEAN BAY
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: NETHERBY
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NETLEY
+    state: SA
+    postcode: 5037
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NEW PORT
+    state: SA
+    postcode: 5015
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: NEW RESIDENCE
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: NEW TOWN
+    state: SA
+    postcode: 5554
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: NEW WELL
+    state: SA
+    postcode: 5357
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: NEWLAND
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: NEWTON
+    state: SA
+    postcode: 5074
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NILDOTTIE
+    state: SA
+    postcode: 5238
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: NINNES
+    state: SA
+    postcode: 5560
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: NOARLUNGA CENTRE
+    state: SA
+    postcode: 5168
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: NOARLUNGA DOWNS
+    state: SA
+    postcode: 5168
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: NOORA
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: NORA CREINA
+    state: SA
+    postcode: 5276
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: NORMANVILLE
+    state: SA
+    postcode: 5204
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: NORTH ADELAIDE
+    state: SA
+    postcode: 5006
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NORTH BEACH
+    state: SA
+    postcode: 5556
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: NORTH BRIGHTON
+    state: SA
+    postcode: 5048
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: NORTH HAVEN
+    state: SA
+    postcode: 5018
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: NORTH MOONTA
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: NORTH PLYMPTON
+    state: SA
+    postcode: 5037
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NORTH SHIELDS
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: NORTH YELTA
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: NORTHERN HEIGHTS
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: NORTHFIELD
+    state: SA
+    postcode: 5085
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: NORTHGATE
+    state: SA
+    postcode: 5085
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NORTON SUMMIT
+    state: SA
+    postcode: 5136
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NORWOOD
+    state: SA
+    postcode: 5067
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NOTTS WELL
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: NOVAR GARDENS
+    state: SA
+    postcode: 5040
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: NULLARBOR
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: NUNDROO
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: NURIOOTPA
+    state: SA
+    postcode: 5355
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: NURRAGI
+    state: SA
+    postcode: 5256
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: NYAPARI
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: AMATA
+
+  - location: O B FLAT
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: OAK VALLEY
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: OAKBANK
+    state: SA
+    postcode: 5243
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: OAKDEN
+    state: SA
+    postcode: 5086
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: OAKDEN HILLS
+    state: SA
+    postcode: 5713
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: OAKLANDS PARK
+    state: SA
+    postcode: 5046
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: OHALLORAN HILL
+    state: SA
+    postcode: 5158
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: OLARY
+    state: SA
+    postcode: 5440
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: OLD KOOMOOLOO STATION
+    state: SA
+    postcode: 5417
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: OLD NOARLUNGA
+    state: SA
+    postcode: 5168
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: OLD REYNELLA
+    state: SA
+    postcode: 5161
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: OLYMPIC DAM
+    state: SA
+    postcode: 5725
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: ONE TREE HILL
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ONKAPARINGA HILLS
+    state: SA
+    postcode: 5163
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: OODNADATTA
+    state: SA
+    postcode: 5734
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: OOLDA WIRRA
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: OOLDEA
+    state: SA
+    postcode: 5710
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: ORROROO
+    state: SA
+    postcode: 5431
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: OSBORNE
+    state: SA
+    postcode: 5017
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: OSULLIVAN BEACH
+    state: SA
+    postcode: 5166
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: OTTOWAY
+    state: SA
+    postcode: 5013
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: OUTER HARBOR
+    state: SA
+    postcode: 5018
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: OVERLAND CORNER
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: OVINGHAM
+    state: SA
+    postcode: 5082
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: OWEN
+    state: SA
+    postcode: 5460
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: OXFORD LANDING
+    state: SA
+    postcode: 5353
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: PADTHAWAY
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: PAECHTOWN
+    state: SA
+    postcode: 5245
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: PAGES FLAT
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: PAISLEY
+    state: SA
+    postcode: 5357
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: PALLAMANA
+    state: SA
+    postcode: 5254
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: PALMER
+    state: SA
+    postcode: 5237
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: PANITYA
+    state: SA
+    postcode: 5641
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: PANORAMA
+    state: SA
+    postcode: 5041
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: PARA HILLS
+    state: SA
+    postcode: 5096
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PARA HILLS WEST
+    state: SA
+    postcode: 5096
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PARA VISTA
+    state: SA
+    postcode: 5093
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PARA WIRRA
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PARACHILNA
+    state: SA
+    postcode: 5730
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: PARACOMBE
+    state: SA
+    postcode: 5132
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: PARADISE
+    state: SA
+    postcode: 5075
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: PARAFIELD
+    state: SA
+    postcode: 5106
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PARAFIELD GARDENS
+    state: SA
+    postcode: 5107
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PARALOWIE
+    state: SA
+    postcode: 5108
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PARATOO
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: PARAWA
+    state: SA
+    postcode: 5203
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: PARCOOLA
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: PARHAM
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PARILLA
+    state: SA
+    postcode: 5303
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PARINGA
+    state: SA
+    postcode: 5340
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PARIS CREEK
+    state: SA
+    postcode: 5201
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: PARK HOLME
+    state: SA
+    postcode: 5043
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: PARKSIDE
+    state: SA
+    postcode: 5063
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: PARNAROO
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: PARNDANA
+    state: SA
+    postcode: 5220
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: PARNKA POINT
+    state: SA
+    postcode: 5264
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: PARRAKIE
+    state: SA
+    postcode: 5301
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: PARSONS BEACH
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: PARUNA
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PASADENA
+    state: SA
+    postcode: 5042
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: PASKEVILLE
+    state: SA
+    postcode: 5552
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: PATA
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PAYNEHAM
+    state: SA
+    postcode: 5070
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: PAYNEHAM SOUTH
+    state: SA
+    postcode: 5070
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: PEAKE
+    state: SA
+    postcode: 5301
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: PEARLAH
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: PEEBINGA
+    state: SA
+    postcode: 5307
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PEEP HILL
+    state: SA
+    postcode: 5374
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: PEKINA
+    state: SA
+    postcode: 5431
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: PELICAN LAGOON
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: PELICAN POINT
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: PELICAN POINT (River Murray)
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: PENFIELD
+    state: SA
+    postcode: 5121
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PENFIELD GARDENS
+    state: SA
+    postcode: 5121
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PENNESHAW
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: PENNINGTON
+    state: SA
+    postcode: 5013
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: PENOLA
+    state: SA
+    postcode: 5277
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: PENONG
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: PENRICE
+    state: SA
+    postcode: 5353
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: PENWORTHAM
+    state: SA
+    postcode: 5453
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: PERENTIE BORE
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: MIMILI
+
+  - location: PERPONDA
+    state: SA
+    postcode: 5308
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: PETERBOROUGH
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: PETERHEAD
+    state: SA
+    postcode: 5016
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: PETERSVILLE
+    state: SA
+    postcode: 5571
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: PETHERICK
+    state: SA
+    postcode: 5267
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: PETWOOD
+    state: SA
+    postcode: 5254
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: PEWSEY VALE
+    state: SA
+    postcode: 5351
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: PICCADILLY
+    state: SA
+    postcode: 5151
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: PIEDNIPPIE
+    state: SA
+    postcode: 5680
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: PIKE RIVER
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PIMBA
+    state: SA
+    postcode: 5720
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: PINE POINT
+    state: SA
+    postcode: 5571
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PINE VALLEY STATION
+    state: SA
+    postcode: 5417
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: PINERY
+    state: SA
+    postcode: 5460
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: PINKERTON PLAINS
+    state: SA
+    postcode: 5400
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: PINNAROO
+    state: SA
+    postcode: 5304
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PIPALYATJARA
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: PIPALYATJARA
+
+  - location: PLYMPTON
+    state: SA
+    postcode: 5038
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: PLYMPTON PARK
+    state: SA
+    postcode: 5038
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: POINT BOSTON
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: POINT LOWLY
+    state: SA
+    postcode: 5600
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: POINT PASS
+    state: SA
+    postcode: 5374
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: POINT PEARCE
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: POINT SOUTTAR
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: POINT STURT
+    state: SA
+    postcode: 5256
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: POINT TURTON
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: POMPOOTA
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: PONDALOWIE BAY
+    state: SA
+    postcode: 5238
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: POOCHERA
+    state: SA
+    postcode: 5655
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: POOGINAGORIC
+    state: SA
+    postcode: 5268
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: POONINDIE
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: POORAKA
+    state: SA
+    postcode: 5095
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: POOTNOURA
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: PORT ADELAIDE
+    state: SA
+    postcode: 5015
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: PORT ARTHUR
+    state: SA
+    postcode: 5572
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PORT AUGUSTA
+    state: SA
+    postcode: 5700
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: PORT BONYTHON
+    state: SA
+    postcode: 5600
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: PORT BROUGHTON
+    state: SA
+    postcode: 5522
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: PORT CLINTON
+    state: SA
+    postcode: 5570
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PORT DAVIS
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: PORT ELLIOT
+    state: SA
+    postcode: 5212
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: PORT FLINDERS
+    state: SA
+    postcode: 5495
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: PORT GAWLER
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PORT GERMEIN
+    state: SA
+    postcode: 5495
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: PORT GIBBON
+    state: SA
+    postcode: 5602
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: PORT GILES
+    state: SA
+    postcode: 5582
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PORT HUGHES
+    state: SA
+    postcode: 5558
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: PORT JULIA
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PORT KENNY
+    state: SA
+    postcode: 5671
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: PORT LINCOLN
+    state: SA
+    postcode: 5606
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: PORT MACDONNELL
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: PORT MOOROWIE
+    state: SA
+    postcode: 5576
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PORT NEILL
+    state: SA
+    postcode: 5604
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: PORT NOARLUNGA
+    state: SA
+    postcode: 5167
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: PORT NOARLUNGA SOUTH
+    state: SA
+    postcode: 5167
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: PORT PARHAM
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PORT PATERSON
+    state: SA
+    postcode: 5700
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: PORT PIRIE
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: PORT PRIME
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PORT RICKABY
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PORT STANVAC
+    state: SA
+    postcode: 5160
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: PORT VICTORIA
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PORT VINCENT
+    state: SA
+    postcode: 5581
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PORT WAKEFIELD
+    state: SA
+    postcode: 5550
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: PORT WILLUNGA
+    state: SA
+    postcode: 5173
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: PORTEE STATION
+    state: SA
+    postcode: 5357
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: PRICE
+    state: SA
+    postcode: 5570
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: PROSPECT
+    state: SA
+    postcode: 5082
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: PROSPECT HILL
+    state: SA
+    postcode: 5201
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: PT ARTHUR
+    state: SA
+    postcode: 5572
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: PT AUGUSTA
+    state: SA
+    postcode: 5701
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: PT BONYTHON
+    state: SA
+    postcode: 5600
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: PT BROUGHTON
+    state: SA
+    postcode: 5522
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: PT CLINTON
+    state: SA
+    postcode: 5570
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PT DAVIS
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: PT ELLIOTT
+    state: SA
+    postcode: 5213
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: PT FLINDERS
+    state: SA
+    postcode: 5495
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: PT GAWLER
+    state: SA
+    postcode: 5502
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: PT GERMEIN
+    state: SA
+    postcode: 5496
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: PT GIBBON
+    state: SA
+    postcode: 5602
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: PT GILES
+    state: SA
+    postcode: 5583
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: PUNGONDA
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PUNTHARI
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: PUNYELROO
+    state: SA
+    postcode: 5354
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PURNONG
+    state: SA
+    postcode: 5238
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PYAP
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PYAP WEST
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: PYGERY
+    state: SA
+    postcode: 5655
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: QUALCO
+    state: SA
+    postcode: 5322
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: QUEENSTOWN
+    state: SA
+    postcode: 5014
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: QUORN
+    state: SA
+    postcode: 5433
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: RACECOURSE BAY
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: RAMCO
+    state: SA
+    postcode: 5322
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: RAMCO HEIGHTS
+    state: SA
+    postcode: 5322
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: RAPID BAY
+    state: SA
+    postcode: 5204
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: RAUKKAN
+    state: SA
+    postcode: 5259
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: REDBANKS
+    state: SA
+    postcode: 5502
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: REDHILL
+    state: SA
+    postcode: 5521
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: REDWOOD PARK
+    state: SA
+    postcode: 5097
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: REEDY CREEK
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: REEVES PLAINS
+    state: SA
+    postcode: 5502
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: REGENCY PARK
+    state: SA
+    postcode: 5010
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: REID
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: RENDELSHAM
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: RENMARK
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: RENMARK NORTH
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: RENMARK SOUTH
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: RENMARK WEST
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: RENOWN PARK
+    state: SA
+    postcode: 5008
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: REYNELLA
+    state: SA
+    postcode: 5161
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: REYNELLA EAST
+    state: SA
+    postcode: 5161
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: RHYNIE
+    state: SA
+    postcode: 5412
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: RICHMOND
+    state: SA
+    postcode: 5033
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: RIDGEHAVEN
+    state: SA
+    postcode: 5097
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: RIDLEYTON
+    state: SA
+    postcode: 5008
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: RISDON PARK
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: RISDON PARK SOUTH
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: RIVERGLADES
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: RIVERTON
+    state: SA
+    postcode: 5412
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: ROBE
+    state: SA
+    postcode: 5276
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: ROBERTSTOWN
+    state: SA
+    postcode: 5381
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: ROCKLEIGH
+    state: SA
+    postcode: 5254
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: ROCKY CAMP
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: ROCKY GULLY
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: ROCKY POINT
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: ROGUES POINT
+    state: SA
+    postcode: 5571
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: ROONKA
+    state: SA
+    postcode: 5357
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: ROOPENA
+    state: SA
+    postcode: 
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: ROSE PARK
+    state: SA
+    postcode: 5067
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ROSEDALE
+    state: SA
+    postcode: 5350
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: ROSEWATER
+    state: SA
+    postcode: 5013
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: ROSEWORTHY
+    state: SA
+    postcode: 5371
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ROSSLYN PARK
+    state: SA
+    postcode: 5072
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ROSTREVOR
+    state: SA
+    postcode: 5073
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ROWLAND FLAT
+    state: SA
+    postcode: 5352
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: ROXBY DAM
+    state: SA
+    postcode: 5725
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: ROXBY DOWNS
+    state: SA
+    postcode: 5725
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: ROYAL PARK
+    state: SA
+    postcode: 5014
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: ROYSTON PARK
+    state: SA
+    postcode: 5070
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: SADDLEWORTH
+    state: SA
+    postcode: 5413
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: SAINT AGNES
+    state: SA
+    postcode: 5097
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SAINT CLAIR
+    state: SA
+    postcode: 5019
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: SAINT GEORGES
+    state: SA
+    postcode: 5064
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: SAINT IVES
+    state: SA
+    postcode: 5252
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: SAINT KILDA
+    state: SA
+    postcode: 5110
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SAINT MARYS
+    state: SA
+    postcode: 5042
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: SAINT MORRIS
+    state: SA
+    postcode: 5068
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SAINT PETERS
+    state: SA
+    postcode: 5069
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: SALISBURY
+    state: SA
+    postcode: 5108
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SALISBURY DOWNS
+    state: SA
+    postcode: 5108
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SALISBURY EAST
+    state: SA
+    postcode: 5109
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SALISBURY HEIGHTS
+    state: SA
+    postcode: 5109
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SALISBURY NORTH
+    state: SA
+    postcode: 5108
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SALISBURY PARK
+    state: SA
+    postcode: 5109
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SALISBURY PLAIN
+    state: SA
+    postcode: 5109
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SALISBURY SOUTH
+    state: SA
+    postcode: 5108
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SALT CREEK
+    state: SA
+    postcode: 5264
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: SAMPSON FLAT
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SANDALWOOD
+    state: SA
+    postcode: 5309
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: SANDERGROVE
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: SANDERSTON
+    state: SA
+    postcode: 5237
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: SANDLETON
+    state: SA
+    postcode: 5356
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: SANDY CREEK
+    state: SA
+    postcode: 5350
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: SAPPHIRETOWN
+    state: SA
+    postcode: 5222
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: SCOTT CREEK
+    state: SA
+    postcode: 5153
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: SCRUBBY FLAT
+    state: SA
+    postcode: 5238
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: SEACLIFF
+    state: SA
+    postcode: 5049
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SEACLIFF PARK
+    state: SA
+    postcode: 5049
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SEACOMBE GARDENS
+    state: SA
+    postcode: 5047
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SEACOMBE HEIGHTS
+    state: SA
+    postcode: 5047
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SEAFORD
+    state: SA
+    postcode: 5169
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SEAFORD HEIGHTS
+    state: SA
+    postcode: 5169
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SEAFORD MEADOWS
+    state: SA
+    postcode: 5169
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SEAFORD RISE
+    state: SA
+    postcode: 5169
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SEATON
+    state: SA
+    postcode: 5023
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: SEAVIEW DOWNS
+    state: SA
+    postcode: 5049
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SECOND VALLEY
+    state: SA
+    postcode: 5204
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: SEDAN
+    state: SA
+    postcode: 5353
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: SEFTON PARK
+    state: SA
+    postcode: 5083
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: SELLICKS BEACH
+    state: SA
+    postcode: 5174
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SELLICKS HILL
+    state: SA
+    postcode: 5174
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SEMAPHORE
+    state: SA
+    postcode: 5019
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: SEMAPHORE PARK
+    state: SA
+    postcode: 5019
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: SEMAPHORE SOUTH
+    state: SA
+    postcode: 5019
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: SENIOR
+    state: SA
+    postcode: 5268
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: SEPPELTSFIELD
+    state: SA
+    postcode: 5355
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: SEVENHILL
+    state: SA
+    postcode: 5453
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: SHEA-OAK LOG
+    state: SA
+    postcode: 5371
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: SHEIDOW PARK
+    state: SA
+    postcode: 5158
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SHERINGA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: SHERLOCK
+    state: SA
+    postcode: 5301
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: SHOAL BAY
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: SILVER SANDS
+    state: SA
+    postcode: 5173
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SKYE
+    state: SA
+    postcode: 5072
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: SMITHFIELD
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SMITHFIELD PLAINS
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: Smithville
+    state: SA
+    postcode: 5302
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: SMOKY BAY
+    state: SA
+    postcode: 5680
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: SNELLINGS BEACH
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: SNOWTOWN
+    state: SA
+    postcode: 5520
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: SNUG COVE
+    state: SA
+    postcode: 5233
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: SNUGGERY
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: SOMERTON PARK
+    state: SA
+    postcode: 5044
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: SOUTH BRIGHTON
+    state: SA
+    postcode: 5048
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SOUTH HUMMOCKS
+    state: SA
+    postcode: 5550
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: SOUTH KILKERRAN
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: SOUTH PLYMPTON
+    state: SA
+    postcode: 5038
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: SOUTHEND
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: SPALDING
+    state: SA
+    postcode: 5454
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: SPILSBY ISLAND
+    state: SA
+    postcode: 5605
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: Spring Cart Gully
+    state: SA
+    postcode: 5342
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: SPRING GULLY
+    state: SA
+    postcode: 5453
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: SPRINGCART GULLY
+    state: SA
+    postcode: 5342
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: SPRINGFIELD
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: SPRINGTON
+    state: SA
+    postcode: 5235
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: ST AGNES
+    state: SA
+    postcode: 5097
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ST CLAIR
+    state: SA
+    postcode: 5019
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: ST GEORGES
+    state: SA
+    postcode: 5064
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ST IVES
+    state: SA
+    postcode: 5252
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: ST KILDA
+    state: SA
+    postcode: 5110
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: ST MARYS
+    state: SA
+    postcode: 5042
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: ST MORRIS
+    state: SA
+    postcode: 5068
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: ST PETERS
+    state: SA
+    postcode: 5069
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: STANLEY FLAT
+    state: SA
+    postcode: 5453
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: STANSBURY
+    state: SA
+    postcode: 5582
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: STENHOUSE BAY
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: STEPNEY
+    state: SA
+    postcode: 5069
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: STEWARTS RANGE
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: STIRLING
+    state: SA
+    postcode: 5152
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: STIRLING NORTH
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: STOCKPORT
+    state: SA
+    postcode: 5410
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: STOCKWELL
+    state: SA
+    postcode: 5355
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: STOCKYARD PLAIN
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: STOKES BAY
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: STONE HUT
+    state: SA
+    postcode: 5480
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: STONEFIELD
+    state: SA
+    postcode: 5356
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: STONYFELL
+    state: SA
+    postcode: 5066
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: STRATHALBYN
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: STRAWBRIDGE POINT
+    state: SA
+    postcode: 5221
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: STREAKY BAY
+    state: SA
+    postcode: 5680
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: STRUAN
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: STURT
+    state: SA
+    postcode: 5047
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: SULTANA POINT
+    state: SA
+    postcode: 5583
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: SUMMERTOWN
+    state: SA
+    postcode: 5141
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: SUNLANDS
+    state: SA
+    postcode: 5322
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: SUNNYBRAE
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: SUNNYDALE
+    state: SA
+    postcode: 5354
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: SUNNYVALE
+    state: SA
+    postcode: 5552
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: SURREY DOWNS
+    state: SA
+    postcode: 5126
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: SUTHERLANDS
+    state: SA
+    postcode: 5374
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: SUTTONTOWN
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: SWAN REACH
+    state: SA
+    postcode: 5354
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: TAILEM BEND
+    state: SA
+    postcode: 5260
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: TALDRA
+    state: SA
+    postcode: 5354
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: TALIA
+    state: SA
+    postcode: 5670
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: TANTANOOLA
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: TANUNDA
+    state: SA
+    postcode: 5352
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: TAPEROO
+    state: SA
+    postcode: 5017
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: TAPLAN
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: TARATAP
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: TARCOOLA
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: TARLEE
+    state: SA
+    postcode: 5411
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: TARPEENA
+    state: SA
+    postcode: 5277
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: TATACHILLA
+    state: SA
+    postcode: 5171
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: TAYLORVILLE
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: TEA TREE GULLY
+    state: SA
+    postcode: 5091
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: TEAL FLAT
+    state: SA
+    postcode: 5238
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: TELOWIE
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: TEMPLERS
+    state: SA
+    postcode: 5371
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: TENNYSON
+    state: SA
+    postcode: 5022
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: TEPKO
+    state: SA
+    postcode: 5254
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: TERINGIE
+    state: SA
+    postcode: 5072
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: TEROWIE
+    state: SA
+    postcode: 5421
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: THE PINES
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: THE RANGE
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: THEBARTON
+    state: SA
+    postcode: 5031
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: THEVENARD
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: THOMPSON BEACH
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: THORNGATE
+    state: SA
+    postcode: 5082
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: THORNLEA
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: THRINGTON
+    state: SA
+    postcode: 5552
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: TIATUKIA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: TICKERA
+    state: SA
+    postcode: 5555
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: TIDDY WIDDY BEACH
+    state: SA
+    postcode: 5571
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: TILLEY SWAMP
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: TINTINARA
+    state: SA
+    postcode: 5266
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: TONSLEY PARK
+    state: SA
+    postcode: 5042
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: TOOKAYERTA
+    state: SA
+    postcode: 5333
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: TOOLIGIE
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: TOOPERANG
+    state: SA
+    postcode: 5255
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: TOORAK GARDENS
+    state: SA
+    postcode: 5065
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: TOOTENILLA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: TORRENS ISLAND
+    state: SA
+    postcode: 5960
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: TORRENS PARK
+    state: SA
+    postcode: 5062
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: TORRENSVILLE
+    state: SA
+    postcode: 5031
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: TOTHILL CREEK
+    state: SA
+    postcode: 5413
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: TOTNESS
+    state: SA
+    postcode: 5250
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: TOWITTA
+    state: SA
+    postcode: 5353
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: TRANMERE
+    state: SA
+    postcode: 5073
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: TRINITY GARDENS
+    state: SA
+    postcode: 5068
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: TROTT PARK
+    state: SA
+    postcode: 5158
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: TRURO
+    state: SA
+    postcode: 5356
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: TULKA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: TUMBY BAY
+    state: SA
+    postcode: 5605
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: TUNGKILLO
+    state: SA
+    postcode: 5236
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: TUNKALILLA BEACH
+    state: SA
+    postcode: 5203
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: TURKEY BORE
+    state: SA
+    postcode: 5723
+    court_registry: PORT AUGUSTA
+    court_location: ERNABELLA
+
+  - location: TWO WELLS
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: UCOLTA
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: ULEYBURY
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: UMUWA
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: ERNABELLA
+
+  - location: UNDALYA
+    state: SA
+    postcode: 5451
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: UNDERDALE
+    state: SA
+    postcode: 5032
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: UNGARRA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: UNLEY
+    state: SA
+    postcode: 5061
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: UNLEY PARK
+    state: SA
+    postcode: 5061
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: UPPER HERMITAGE
+    state: SA
+    postcode: 5131
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: UPPER STURT
+    state: SA
+    postcode: 5156
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: URAIDLA
+    state: SA
+    postcode: 5142
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: URRBRAE
+    state: SA
+    postcode: 5064
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: VALE PARK
+    state: SA
+    postcode: 5081
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: VALLEY VIEW
+    state: SA
+    postcode: 5093
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: VEITCH
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: VENUS BAY
+    state: SA
+    postcode: 5607
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: VERDUN
+    state: SA
+    postcode: 5245
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: VICTOR HARBOR
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: VINE VALE
+    state: SA
+    postcode: 5352
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: VIRGINIA
+    state: SA
+    postcode: 5120
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: VISTA
+    state: SA
+    postcode: 5091
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: VIVONNE BAY
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: WAIKERIE
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: WAITPINGA
+    state: SA
+    postcode: 5211
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: WALKER FLAT
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: WALKERVILLE
+    state: SA
+    postcode: 5081
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: WALKLEY HEIGHTS
+    state: SA
+    postcode: 5098
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: WALL FLAT
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: WALLANY
+    state: SA
+    postcode: 5661
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: WALLAROO
+    state: SA
+    postcode: 5556
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: WALLAROO MINES
+    state: SA
+    postcode: 5554
+    court_registry: PORT PIRIE
+    court_location: KADINA
+
+  - location: WALLOWAY
+    state: SA
+    postcode: 5431
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: WALTOWA
+    state: SA
+    postcode: 5264
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: WAMI KATA
+    state: SA
+    postcode: 5700
+    court_registry: PORT AUGUSTA
+    court_location: ERNABELLA
+
+  - location: WANBI
+    state: SA
+    postcode: 5310
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: WANDEARAH
+    state: SA
+    postcode: 5523
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: WANDEARAH EAST
+    state: SA
+    postcode: 5523
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: WANDILO
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: WANGARY
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: WANGOLINA
+    state: SA
+    postcode: 5275
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: WANILLA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: WARD BELT
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: WARDANG ISLAND
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: WARNERTOWN
+    state: SA
+    postcode: 5540
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: WAROOKA
+    state: SA
+    postcode: 5577
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: WARRACHIE
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: WARRADALE
+    state: SA
+    postcode: 5046
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: WARRAMBOO
+    state: SA
+    postcode: 5650
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: WASLEYS
+    state: SA
+    postcode: 5400
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: WATARRU
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: PIPALYATJARA
+
+  - location: WATERFALL GULLY
+    state: SA
+    postcode: 5066
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: WATERLOO
+    state: SA
+    postcode: 5413
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: WATERLOO CORNER
+    state: SA
+    postcode: 5110
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: WATERVALE
+    state: SA
+    postcode: 5452
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: WATINUMA
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: WATTLE FLAT
+    state: SA
+    postcode: 5203
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: WATTLE PARK
+    state: SA
+    postcode: 5066
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: WATTLE RANGE
+    state: SA
+    postcode: 5280
+    court_registry: MOUNT GAMBIER
+    court_location: MILLICENT
+
+  - location: WAURALTEE
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: WAYVILLE
+    state: SA
+    postcode: 5034
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: WEBB BEACH
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: WEEROONA ISLAND
+    state: SA
+    postcode: 5495
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: WEETULTA
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: WELLAND
+    state: SA
+    postcode: 5007
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WELLINGTON
+    state: SA
+    postcode: 5259
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: WEPAR
+    state: SA
+    postcode: 5278
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: WEST BEACH
+    state: SA
+    postcode: 5024
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WEST CROYDON
+    state: SA
+    postcode: 5008
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WEST HINDMARSH
+    state: SA
+    postcode: 5007
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WEST LAKES
+    state: SA
+    postcode: 5021
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WEST LAKES SHORE
+    state: SA
+    postcode: 5020
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WEST PENONG
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: WEST RICHMOND
+    state: SA
+    postcode: 5033
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: WEST TORRENS
+    state: SA
+    postcode: 5033
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: WESTBOURNE PARK
+    state: SA
+    postcode: 5041
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: WESTERN FLAT
+    state: SA
+    postcode: 5268
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: WESTERN RIVER
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: WESTONS FLAT
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: WHITE HILL
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: WHITE HUT
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: WHITE SANDS
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: WHITES FLAT
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: WHITES VALLEY
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: WHITWARTA
+    state: SA
+    postcode: 5461
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: WHYALLA
+    state: SA
+    postcode: 5600
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: WHYALLA BARSON
+    state: SA
+    postcode: 5601
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: WHYALLA JENKINS
+    state: SA
+    postcode: 5609
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: WHYALLA NORRIE
+    state: SA
+    postcode: 5608
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: WHYALLA PLAYFORD
+    state: SA
+    postcode: 5600
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: WHYALLA STUART
+    state: SA
+    postcode: 5608
+    court_registry: WHYALLA
+    court_location: WHYALLA
+
+  - location: WHYTE YARCOWIE
+    state: SA
+    postcode: 5420
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: WIGLEY FLAT
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: WILD HORSE PLAINS
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: WILKAWATT
+    state: SA
+    postcode: 5301
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: WILLALO
+    state: SA
+    postcode: 5453
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: WILLALOOKA
+    state: SA
+    postcode: 5267
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: WILLASTON
+    state: SA
+    postcode: 5118
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: WILLIAM CREEK
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: WILLIAMSTOWN
+    state: SA
+    postcode: 5351
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: WILLOWIE
+    state: SA
+    postcode: 5431
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: WILLUNGA
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: WILLUNGA HILL
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: WILLUNGA SOUTH
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: WILLYAROO
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: WILMINGTON
+    state: SA
+    postcode: 5485
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: WILPENA
+    state: SA
+    postcode: 5434
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: WINDSOR
+    state: SA
+    postcode: 5501
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: WINDSOR GARDENS
+    state: SA
+    postcode: 5087
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: WINGFIELD
+    state: SA
+    postcode: 5013
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WINKIE
+    state: SA
+    postcode: 5343
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: WINNINOWIE
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: PORT AUGUSTA
+
+  - location: WIRRABARA
+    state: SA
+    postcode: 5481
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: WIRRAMINNA
+    state: SA
+    postcode: 5719
+    court_registry: PORT AUGUSTA
+    court_location: COOBER PEDY
+
+  - location: WIRREGA
+    state: SA
+    postcode: 5267
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: WIRRINA
+    state: SA
+    postcode: 5204
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: WIRRULLA
+    state: SA
+    postcode: 5661
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: WISANGER
+    state: SA
+    postcode: 5223
+    court_registry: CHRISTIES BEACH
+    court_location: KINGSCOTE
+
+  - location: WISTOW
+    state: SA
+    postcode: 5251
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: WITERA
+    state: SA
+    postcode: 5671
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: WOKURNA
+    state: SA
+    postcode: 5520
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: WOLSELEY
+    state: SA
+    postcode: 5269
+    court_registry: MOUNT GAMBIER
+    court_location: BORDERTOWN
+
+  - location: WONGULLA
+    state: SA
+    postcode: 5238
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: WONGYARRA
+    state: SA
+    postcode: 5481
+    court_registry: PORT PIRIE
+    court_location: PORT PIRIE
+
+  - location: WOOCALLA
+    state: SA
+    postcode: 5710
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: WOODCHESTER
+    state: SA
+    postcode: 5255
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: WOODCROFT
+    state: SA
+    postcode: 5162
+    court_registry: CHRISTIES BEACH
+    court_location: CHRISTIES BEACH
+
+  - location: WOODFORDE
+    state: SA
+    postcode: 5072
+    court_registry: ADELAIDE
+    court_location: ADELAIDE
+
+  - location: WOODS FLAT
+    state: SA
+    postcode: 5320
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: WOODS POINT
+    state: SA
+    postcode: 5253
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: WOODS WELL
+    state: SA
+    postcode: 5264
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: WOODSIDE
+    state: SA
+    postcode: 5244
+    court_registry: ADELAIDE
+    court_location: MOUNT BARKER
+
+  - location: WOODVILLE
+    state: SA
+    postcode: 5011
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WOODVILLE GARDENS
+    state: SA
+    postcode: 5012
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WOODVILLE NORTH
+    state: SA
+    postcode: 5012
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WOODVILLE PARK
+    state: SA
+    postcode: 5011
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WOODVILLE SOUTH
+    state: SA
+    postcode: 5011
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WOODVILLE WEST
+    state: SA
+    postcode: 5011
+    court_registry: PORT ADELAIDE
+    court_location: PORT ADELAIDE
+
+  - location: WOOL BAY
+    state: SA
+    postcode: 5575
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: WOOLPUNDA
+    state: SA
+    postcode: 5330
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: WOOLSHED FALT
+    state: SA
+    postcode: 5412
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: WOOMERA
+    state: SA
+    postcode: 5720
+    court_registry: PORT AUGUSTA
+    court_location: ROXBY DOWNS
+
+  - location: WORLDS END
+    state: SA
+    postcode: 5381
+    court_registry: ELIZABETH
+    court_location: TANUNDA
+
+  - location: WORROLONG
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: WRATTONBULLY
+    state: SA
+    postcode: 5271
+    court_registry: MOUNT GAMBIER
+    court_location: NARACOORTE
+
+  - location: WUDINNA
+    state: SA
+    postcode: 5652
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: WUNKAR
+    state: SA
+    postcode: 5311
+    court_registry: BERRI
+    court_location: WAIKERIE
+
+  - location: WYNARKA
+    state: SA
+    postcode: 5306
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: WYNN VALE
+    state: SA
+    postcode: 5127
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: YACKA
+    state: SA
+    postcode: 5470
+    court_registry: ADELAIDE
+    court_location: CLARE
+
+  - location: YAHL
+    state: SA
+    postcode: 5291
+    court_registry: MOUNT GAMBIER
+    court_location: MOUNT GAMBIER
+
+  - location: YALATA
+    state: SA
+    postcode: 5690
+    court_registry: ELIZABETH
+    court_location: YALATA
+
+  - location: YALLUNDA FLAT
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: YAMBA
+    state: SA
+    postcode: 5341
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: YANINEE
+    state: SA
+    postcode: 5653
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: YANKALILLA
+    state: SA
+    postcode: 5203
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: YANTANABIE
+    state: SA
+    postcode: 5661
+    court_registry: ELIZABETH
+    court_location: CEDUNA
+
+  - location: YAPPALA
+    state: SA
+    postcode: 5434
+    court_registry: PORT AUGUSTA
+    court_location: LEIGH CREEK
+
+  - location: YARANYACKA
+    state: SA
+    postcode: 5607
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: YATALA VALE
+    state: SA
+    postcode: 5126
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: YATINA
+    state: SA
+    postcode: 5422
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: YATTALUNGA
+    state: SA
+    postcode: 5114
+    court_registry: ELIZABETH
+    court_location: ELIZABETH
+
+  - location: YEELANNA
+    state: SA
+    postcode: 5632
+    court_registry: PORT LINCOLN
+    court_location: PORT LINCOLN
+
+  - location: YINKANNIE
+    state: SA
+    postcode: 5332
+    court_registry: BERRI
+    court_location: BERRI
+
+  - location: YONGALA
+    state: SA
+    postcode: 5493
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: YORKE VALLEY
+    state: SA
+    postcode: 5573
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: YORKETOWN
+    state: SA
+    postcode: 5576
+    court_registry: PORT PIRIE
+    court_location: MAITLAND
+
+  - location: YOUNGHUSBAND
+    state: SA
+    postcode: 5238
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: YUMALI
+    state: SA
+    postcode: 5261
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+
+  - location: YUNDI
+    state: SA
+    postcode: 5172
+    court_registry: CHRISTIES BEACH
+    court_location: VICTOR HARBOR
+
+  - location: YUNTA
+    state: SA
+    postcode: 5440
+    court_registry: PORT PIRIE
+    court_location: PETERBOROUGH
+
+  - location: YUNYARINYI
+    state: SA
+    postcode: 872
+    court_registry: PORT AUGUSTA
+    court_location: ERNABELLA
+
+  - location: ZADOWS LANDING
+    state: SA
+    postcode: 5254
+    court_registry: MURRAY BRIDGE
+    court_location: MURRAY BRIDGE
+---

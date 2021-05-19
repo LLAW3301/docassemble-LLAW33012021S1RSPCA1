@@ -73,6 +73,7 @@ fields:
     datatype: date
   - Offence Date (to): offence_date_to
     datatype: date
+    default: ""
     required: false
   - Offence location: offence_location
     choices:
@@ -100,22 +101,27 @@ fields:
       - (b)
       - (c)
 ---
-# Checking if orders sought
-question: |
-  Will orders be sought?
-yesno: req_orders
----
 # Asking for other order not listed
-question: Is there any other order?
-yesno: order_other
-show if: req_orders
----
-# Asking for other order details
-question: ""
+question: Will orders be sought?
 fields:
+  - no label: req_orders
+    datatype: radio
+    choices:
+      - Yes
+      - No
+  - Apart from the fixed orders, is there any other order to add on?: order_other
+    datatype: radio
+    choices:
+      - Yes
+      - No
+    show if:
+      variable: req_orders
+      is: 'Yes'
   - Other order details: order_details
     input type: area
-    show if: order_other
+    show if:
+      variable: order_other
+      is: 'Yes'
 ---
 # Check if any animal surrendered - to populate form 23
 question: Is there any animal surrendered to RSPCA?

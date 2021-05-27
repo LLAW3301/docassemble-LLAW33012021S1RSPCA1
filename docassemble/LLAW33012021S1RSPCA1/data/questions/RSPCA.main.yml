@@ -22,6 +22,8 @@ default screen parts:
 ---
 include:
   - RSPCA.questions.yml
+  - RSPCA.offence_location.yml
+  - RSPCA_sittingLocation.yml
   # A1_RSPCA_court_list.yml
   # A1_RSPCA_get_qualified_court.yml
   # A1_RSPCA_display_output.yml
@@ -68,7 +70,6 @@ subquestion: |
   
   This screen will also display options to save the document as docx/pdf 
   
-  This is for form type: 
   
   **Summary of defendant information:**  
   
@@ -81,20 +82,33 @@ subquestion: |
   **Attachment details (pdf/docx)**
   Here is your document!
 
-  %if offence_selection == 'sum_off_form2':
+  %if offence_selection == 'sum_off':
   %if animal_surrendered:
     ${ RSPCA_form2 }
     ${ RSPCA_form23 }
+    ${ RSPCA_form8 }
+  %elif req_orders == 'Yes':
+    ${ RSPCA_form2 }
+    ${ RSPCA_form23 }
+    ${ RSPCA_form8 }
   %else:
     ${ RSPCA_form2 }
+    ${ RSPCA_form8 }
   %endif
-  %elif offence_selection == 'sum_off_form3':
+  %elif offence_selection == 'sum_off2':
   %if animal_surrendered:
+    ${ RSPCA_form3 }
+    ${ RSPCA_form23 }
+  %elif req_orders == 'Yes':
     ${ RSPCA_form3 }
     ${ RSPCA_form23 }
   %else:
     ${ RSPCA_form3 }
   %endif
+  %elif req_orders == 'Yes':
+  ${ RSPCA_form2 }
+  ${ RSPCA_form8 }
+  ${ RSPCA_form23 }
   %else:
   ${ RSPCA_form2 }
   ${ RSPCA_form8 }

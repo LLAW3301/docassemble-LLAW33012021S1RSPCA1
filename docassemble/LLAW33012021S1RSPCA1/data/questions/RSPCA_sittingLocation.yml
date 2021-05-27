@@ -1,0 +1,224 @@
+---
+variable name: RSPCA_sittinglocation
+use objects: true
+data: 
+  - name: ADELAIDE
+    registry: Adelaide Magistrates Court
+    street: 260-280 Victoria Square
+    state: SA
+    suburb: Adelaide
+    postcode: 5000
+    address: 260-280 Victoria Square Adelaide, South Australia, 5000
+    email: AMCregistry@courts.sa.gov.au
+    phone: +61 8 8204 2444
+    facsimile: 8124 4642 (check this)
+    
+  - name: CHRISTIES BEACH
+    registry: Christies Beach Magistrates Court
+    street: 96 Dyson Road
+    state: SA
+    suburb: Christies Beach
+    postcode: 5165
+    address: 96 Dyson Road, Christies Beach, South Australia, 5165
+    email: christiesbeach@courts.sa.gov.au
+    phone: +61 8 8204 2444
+    facsimile: +61 8 8329 5947
+    
+  - name: ELIZABETH
+    registry: Elizabeth Magistrates Court
+    street: 15 Frobisher Road
+    state: SA
+    suburb: Elizabeth
+    postcode: 5112
+    address: 15 Frobisher Road, Elizabeth, South Australia, 5112
+    email: elizabeth@courts.sa.gov.au
+    phone: +61 8 8204 2444
+    facsimile: +61 8 8207 9231
+    
+  - name: PORT ADELAIDE
+    registry: Port Adelaide Magistrates Court
+    street: 260 St. Vincent Street
+    state: SA
+    suburb: Port Adelaide
+    postcode: 5015
+    address: 260 St. Vincent Street, Port Adelaide, South Australia, 5015
+    email: portadelaide@courts.sa.gov.au
+    phone: +61 8 8204 2444
+    facsimile: +61 8 8207 6233
+    
+  - name: BERRI
+    registry: Berri Magistrates Court
+    street: 4 Kay Avenue
+    state: SA
+    suburb: Berri
+    postcode: 5343
+    address: 4 Kay Avenue, Berri, South Australia, 5343
+    email: berri@courts.sa.gov.au
+    phone: +61 8 8595 2060
+    facsimile: +61 8 8582 4187
+    
+  - name: MOUNT GAMBIER
+    registry: Mount Gambier Magistrates Court
+    street: 41 Bay Road
+    state: SA
+    suburb: Mount Gambier
+    postcode: 5290
+    address: 41 Bay Road, Mount Gambier, South Australia, 5290
+    email: mountgambier@courts.sa.gov.au
+    phone: +61 8 8735 1060
+    facsimile: +61 8 8723 9894
+
+  - name: MURRAY BRIDGE
+    registry: Murray Bridge Magistrates Court
+    street: 7 Bridge Street
+    state: SA
+    suburb: Murray Bridge
+    postcode: 5253
+    address: 7 Bridge Street, Murray Bridge, South Australia, 5253
+    email: murraybridge@courts.sa.gov.au
+    phone: +61 8 8535 6060
+    facsimile: +61 8 8531 0537
+
+  - name: PORT AUGUSTA
+    registry: Port Augusta Magistrates Court
+    street: 4 Flinders Terrace
+    state: SA
+    suburb: Port Augusta
+    postcode: 5700
+    address: 4 Flinders Terrace, Port Augusta, South Australia, 5700
+    email: portaugusta@courts.sa.gov.au
+    phone: +61 8 8648 5120
+    facsimile: +61 8 8642 6461
+
+  - name: PORT LINCOLN
+    registry: Port Lincoln Magistrates Court
+    street: 1 Liverpool Street
+    state: SA
+    suburb: Port Lincoln
+    postcode: 5606
+    address: 1 Liverpool Street, Port Lincoln, South Australia, 5606
+    email: portlincoln@courts.sa.gov.au
+    phone: +61 8 8688 3060
+    facsimile: +61 8 8683 3394
+
+  - name: PORT PIRIE
+    registry: Port Pirie Magistrates Court
+    street: 20 Main Road
+    state: SA
+    suburb: Port Pirie
+    postcode: 5540
+    address: 20 Main Road, Port Pirie, South Australia, 5540
+    email: portpirie@courts.sa.gov.au
+    phone: +61 8 8638 4901
+    facsimile: +61 8 8638 4902
+
+  - name: WHYALLA
+    registry: Whyalla Magistrates Court
+    street: 1 Whitehead Street
+    state: SA
+    suburb: Whyalla
+    postcode: 5600
+    address: 1 Whitehead Street, Whyalla, South Australia, 5600
+    email: whyalla@courts.sa.gov.au
+    phone: +61 8 8648 8120
+    facsimile: +61 8 8645 7206
+
+  - name: BORDERTOWN
+    registry: Bordertown Magistrates Court
+    street: Lot 4 Woolshed St
+    state: SA
+    suburb: Bordertown
+    postcode: 5268
+    address: Lot 4 Woolshed St, Bordertown, South Australia, 5268
+    email: mountgambier@courts.sa.gov.au
+    phone: +61 8 8735 1060
+    facsimile: +61 8 8723 9894 
+
+  - name: CEDUNA
+    registry: Ceduna Magistrates Court
+    street: 7 McKenzie Street
+    state: SA
+    suburb: Ceduna
+    postcode: 5690
+    address: 7 McKenzie Street, Ceduna, South Australia, 5690
+    email: ceduna@courts.sa.gov.au
+    phone: +61 8 8625 2520
+    facsimile: +61 8 8625 2728
+
+  - name: COOBER PEDY
+    registry: Coober Pedy Magistrates Court
+    street: Malliotis Boulevard
+    state: SA
+    suburb: Coober Pedy
+    postcode: 5723
+    address: Malliotis Boulevard, Coober Pedy, South Australia, 5723
+    email: portaugusta@courts.sa.gov.au
+    phone: +61 8 8672 5601
+    facsimile: +61 8 8672 5712
+
+  - name: KADINA
+    registry: Kadina Magistrates Court
+    street: 58 Graves Street
+    state: SA
+    suburb: Kadina
+    postcode: 5554
+    address: 58 Graves Street, Kadina, South Australia, 5554
+    email: portpirie@courts.sa.gov.au
+    phone: +61 8 8821 2626
+    facsimile: +61 8 8821 3114
+
+  - name: MILLICENT
+    registry: Millicent Magistrates Court
+    street: 48 George Street
+    state: SA
+    suburb: Millicent
+    postcode: 5280
+    address: 48 George Street, Millicent, South Australia, 5280
+    email: mountgambier@courts.sa.gov.au
+    phone: +61 8 8735 1060
+    facsimile: +61 8 8723 9894
+
+  - name: MOUNT BARKER
+    registry: Mount Barker Magistrates Court
+    street: 37 Hutchinson Street
+    state: SA
+    suburb: Mount Barker
+    postcode: 5251
+    address: 37 Hutchinson Street, Mount Barker, South Australia, 5251
+    email: AMCregistry@courts.sa.gov.au
+    phone: +61 8 8204 2444
+    facsimile: +61 8 8204 0481
+
+  - name: NARACOORTE
+    registry: Naracoorte Magistrates Court
+    street: 54 Smith Street
+    state: SA
+    suburb: Naracoorte
+    postcode: 5271
+    address: 54 Smith Street, Naracoorte, South Australia, 5271
+    email: mountgambier@courts.sa.gov.au
+    phone: +61 8 8735 1060
+    facsimile: +61 8 8723 9894
+
+  - name: TANUNDA
+    registry: Tanunda Magistrates Court
+    street: 40 Murray Street
+    state: SA
+    suburb: Tanunda
+    postcode: 5352
+    address: 40 Murray Street, Tanunda, South Australia, 5352
+    email: elizabeth@courts.sa.gov.au
+    phone: +61 8 8204 2444
+    facsimile: +61 8 8207 9231
+
+  - name: VICTOR HARBOR
+    registry: Victor Harbor Magistrates Court
+    street: 17 George Main Road
+    state: SA
+    suburb: Victor Harbor
+    postcode: 5211
+    address: 17 George Main Road, Victor Harbor, South Australia, 5211
+    email: christiesbeach@courts.sa.gov.au
+    phone: +61 8 8551 0800
+    facsimile: +61 8 8329 5947
+---

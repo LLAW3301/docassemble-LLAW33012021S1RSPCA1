@@ -82,7 +82,7 @@ subquestion: |
   **Attachment details (pdf/docx)**
   Here is your document!
 
-  %if offence_selection == 'sum_off':
+  %if offence_selection == 'sum_off' or offence_selection == 'major_off':
   %if animal_surrendered:
     ${ RSPCA_form2 }
     ${ RSPCA_form23 }
@@ -95,7 +95,7 @@ subquestion: |
     ${ RSPCA_form2 }
     ${ RSPCA_form8 }
   %endif
-  %elif offence_selection == 'sum_off2':
+  %elif offence_selection == 'sum_off2' or offence_selection == 'minor_off2':
   %if animal_surrendered:
     ${ RSPCA_form3 }
     ${ RSPCA_form23 }

@@ -27,17 +27,28 @@ choices:
 question: Informant Details
 fields:
   - Informant Surname: inf_surname
+    default: 'Boyd'
   - Informant Given Name: inf_given_name
+    default: 'Daniel' 
   - Street: inf_street
+    default: '12 Gouger St.'
   - Suburb: inf_suburb
+    default: 'Beford Park'
   - State: inf_state
     default: SA
   - Postcode: inf_postcode
     datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
+    default: 5044
   - Email: inf_email
     datatype: email
     required: false
   - Phone Number: inf_phone
+    default: +61 498 225 678
   - Facsimile: inf_fax
     required: false
 ---
@@ -45,11 +56,16 @@ fields:
 question: Defendant Details
 fields:
   - Defendant Surname: def_surname
+    default: 'Moody'
   - Defendant Given Name: def_given_name
+    default: 'Toby'
   - DOB: def_DOB
     datatype: date
+    default: 12-05-1975
   - Street: def_street
+    default: '65 Grote St.'
   - Suburb: def_suburb
+    default: 'Yamba'
   - State: def_state
     choices: 
       - ACT
@@ -60,12 +76,20 @@ fields:
       - WA
       - TAS
       - NT
+    default: VIC
   - Postcode: def_postcode
     datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
+    default: 5000
   - Email: def_email
     datatype: email
     required: false
   - Phone Number: def_phone
+    default: +61 495 223 556
 ---
 # Form 2 & 3: Gather information about the Offence
 question: Offence Details
@@ -74,9 +98,10 @@ subquestion: |
 fields:
   - Offence Date (from): offence_date_from
     datatype: date
+    default: 12-05-2021
   - Offence Date (to): offence_date_to
     datatype: date
-    default: ""
+    default: 15-05-2021
     required: false
   - Offence location: offence_location
     datatype: integer
@@ -1549,6 +1574,7 @@ fields:
      - "YUNTA": 9
      - "YUNYARINYI": 7
      - "ZADOWS LANDING": 6
+    default: 19
   - The offenced animal details: offence_animal
   - The Animal Welfare Act 1985 section (for count): count_section
     choices:
@@ -1556,6 +1582,7 @@ fields:
       - 13(2)
       - 13(3)
   - The Animal Welfare Act 1985 section (for particulars): particular_section
+    datatype: checkboxes
     choices:
       - (a)
       - (b)
@@ -1579,6 +1606,7 @@ fields:
       is: 'Yes'
   - Other order details: order_details
     input type: area
+    default: 'This is the test information'
     show if:
       variable: order_other
       is: 'Yes'
@@ -1587,11 +1615,12 @@ fields:
 question: Is there any animal surrendered to RSPCA?
 yesno: animal_surrendered
 ---
-# need to add condition to show this question
+# Applicant Details
 question: Applicant Details
 show if: req_orders
 fields:
   - Full Name: appl_name
+    default: 'Shannon Young'
   - Street: appl_street
     default: "16 Nelson Street"
   - Suburb: appl_suburb
@@ -1600,6 +1629,11 @@ fields:
     default: SA
   - Postcode: appl_postcode
     datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
     default: 5069
   - Email: appl_email
     datatype: email
@@ -1607,7 +1641,7 @@ fields:
   - Telephone: appl_phone
     required: false
 ---
-# need to add condition to show this question
+# Solicitor Details
 question: Solicitor Details
 show if: req_orders
 fields:
@@ -1621,6 +1655,11 @@ fields:
     default: SA
   - Postcode: solicitor_postcode
     datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
     default: 5069
   - Email: solicitor_email
     datatype: email
@@ -1638,7 +1677,8 @@ subquestion: |
 fields:
   - Hearing Date: hearing_date
     datatype: date
+    default: 12/12/2021
   - Hearing Time: hearing_time
     datatype: time
-    default: ""
+    default: 10:00
 ---

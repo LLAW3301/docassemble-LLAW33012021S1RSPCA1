@@ -24,12 +24,14 @@ include:
   - RSPCA.questions.yml
   - RSPCA.offence_location.yml
   - RSPCA_sittingLocation.yml
+  - RSPCA.countList.yml
   # A1_RSPCA_court_list.yml
   # A1_RSPCA_get_qualified_court.yml
   # A1_RSPCA_display_output.yml
 ---
 objects:
   # RSPCAqualifying_court: DAList.using(there_are_any=True, auto_gather=False)
+  - count: DAList.using(object_type=Thing, minimum_number=1)
   - RSPCA_logo: DAStaticFile.using(filename='rspca-sa-logo.png')
   - endpoints: DADict
 ---
@@ -71,7 +73,118 @@ subquestion: |
   This screen will also display options to save the document as docx/pdf 
   
   
-  **Summary of defendant information:**  
+  **Summary of Count information:**
+  
+  % for index in range(count.current_index()+1):
+  
+  % if count.item(index).dateTo == "":
+  % if count.item(index).name.text == 'Abandonment':
+  **Count ${ (index+1) } **
+  
+  On ${count[index].dateFrom} at ${count.item(index).offenceLocation}, in the State of South Australia, the defendant ill-treated an animal, namely ${count.item(index).offenceAnimal}.
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  
+  ** Particulars **
+  
+  ${ count[index].particularDetails }
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  % endif
+  
+  % if count.item(index).name.text == 'Fail to provide adequate food':
+  **Count ${ (index+1) } **
+  
+  On ${count[index].dateFrom} at ${count.item(index).offenceLocation}, in the State of South Australia, the defendant ill-treated an animal, with the ill-treatment causing serious harm to the animal, namely ${count.item(index).offenceAnimal}.
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  
+  ** Particulars **
+  
+  ${ count[index].particularDetails }
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  % endif
+  
+  % if count.item(index).name.text == 'Neglect':
+  **Count ${ (index+1) } **
+  
+  On ${count[index].dateFrom} at ${count.item(index).offenceLocation}, in the State of South Australia, the defendant ill-treated an animal, namely ${count.item(index).offenceAnimal}.
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  
+  ** Particulars **
+  
+  ${ count[index].particularDetails }
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  % endif
+  
+  % if count.item(index).name.text == 'Breach of order':
+  **Count ${ (index+1) } **
+  
+  On ${count[index].dateFrom} at ${count.item(index).offenceLocation}, in the State of South Australia, the defendant,, being a person in relation to whom an order under section 32A(1) of the Animal Welfare Act 1985 was in force, failed to comply with that order, contrary to Section 32A(2) of the Animal Welfare Act 1985.
+  
+  ** Particulars **
+  
+  ${ count[index].particularDetails }
+  % endif
+  
+  % else:
+  % if count.item(index).name.text == 'Abandonment':
+  **Count ${ (index+1) } **
+  
+  Between ${count[index].dateFrom} and ${count.item(index).dateTo} at ${count.item(index).offenceLocation}, in the State of South Australia, the defendant ill-treated an animal, namely ${count.item(index).offenceAnimal}.
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  
+  ** Particulars **
+  
+  ${ count[index].particularDetails }
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  % endif
+  
+  % if count.item(index).name.text == 'Fail to provide adequate food':
+  **Count ${ (index+1) } **
+  
+  Between ${count[index].dateFrom} and ${count.item(index).dateTo} at ${count.item(index).offenceLocation}, in the State of South Australia, the defendant ill-treated an animal, with the ill-treatment causing serious harm to the animal, namely ${count.item(index).offenceAnimal}.
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  
+  ** Particulars **
+  
+  ${ count[index].particularDetails }
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  % endif
+  
+  % if count.item(index).name.text == 'Neglect':
+  **Count ${ (index+1) } **
+  
+  Between ${count[index].dateFrom} and ${count.item(index).dateTo} at ${count.item(index).offenceLocation}, in the State of South Australia, the defendant ill-treated an animal, namely ${count.item(index).offenceAnimal}.
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  
+  ** Particulars **
+  
+  ${ count[index].particularDetails }
+  
+  *Section ${count[index].countSection} of the Animal Welfare Act 1985.*
+  % endif
+  
+  % if count.item(index).name.text == 'Breach of order':
+  **Count ${ (index+1) } **
+  
+  Between ${count[index].dateFrom} and ${count.item(index).dateTo} at ${count.item(index).offenceLocation}, in the State of South Australia, the defendant,, being a person in relation to whom an order under section 32A(1) of the Animal Welfare Act 1985 was in force, failed to comply with that order, contrary to Section 32A(2) of the Animal Welfare Act 1985.
+  
+  ** Particulars **
+  
+  ${ count[index].particularDetails }
+  
+  % endif
+  % endif
+  % endfor
   
   **Summary of hearing details:**
 

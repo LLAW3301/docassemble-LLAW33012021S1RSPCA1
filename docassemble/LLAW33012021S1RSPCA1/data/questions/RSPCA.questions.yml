@@ -14,14 +14,20 @@ yesno: RSPCAeligible
 question: Offence Selection
 subquestion: |
   Please choose the offence and related forms:
-field: offence_selection
-choices:
-  - "Summary Offence (Without guilty plea)- Form 2 and Form 8": sum_off
-  - "Summary Offence (With guilty plea)- Form 3": sum_off2
-  - "Minor Indictable Offence (Without guilty plea) - Form 2 and Form 8": minor_off
-  - "Minor Indictable Offence (With guilty plea) - Form 3": minor_off2
-  - "Major Indictable Offence - Form 2": major_off
-  - "Cth Indictable - Form 2": cth_off
+fields:
+  - Highest Offence: offence_selection
+    choices:
+      - Summary Offence (Without guilty plea)- Form 2: sum_off
+      - Summary Offence (With guilty plea)- Form 3: sum_off2
+      - Minor Indictable Offence (Without guilty plea) - Form 2 and Form 8: minor_off
+  - Is there any animal surrendered to RSPCA?: animal_surrendered
+    choices:
+      - Yes
+      - No
+  - Would you like to add summary of facts?: sum_facts
+    choices:
+      - Yes
+      - No
 ---
 # Form 2 & 3: Gather information about the Informant
 question: Informant Details
@@ -91,18 +97,95 @@ fields:
   - Phone Number: def_phone
     default: +61 495 223 556
 ---
-# Form 2 & 3: Gather information about the Offence
-question: Offence Details
-subquestion: |
-  If the offence only occurred in one date, the offence date (to) should be left empty.
+# Asking for other order not listed
+question: Will orders be sought?
 fields:
-  - Offence Date (from): offence_date_from
-    datatype: date
-    default: 12-05-2021
-  - Offence Date (to): offence_date_to
-    datatype: date
-    default: 15-05-2021
+  - no label: req_orders
+    datatype: radio
+    choices:
+      - Yes
+      - No
+  - Apart from the fixed orders, is there any other order to add on?: order_other
+    datatype: radio
+    choices:
+      - Yes
+      - No
+    show if:
+      variable: req_orders
+      is: 'Yes'
+  - Other order details: order_details
+    input type: area
+    default: 'This is the test information'
+    show if:
+      variable: order_other
+      is: 'Yes'
+---
+# Applicant Details
+question: Applicant Details
+show if: req_orders
+fields:
+  - Full Name: appl_name
+    default: 'Shannon Young'
+  - Street: appl_street
+    default: "16 Nelson Street"
+  - Suburb: appl_suburb
+    default: "Stepney"
+  - State: appl_state
+    default: SA
+  - Postcode: appl_postcode
+    datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
+    default: 5069
+  - Email: appl_email
+    datatype: email
     required: false
+  - Telephone: appl_phone
+    required: false
+---
+# Solicitor Details
+question: Solicitor Details
+show if: req_orders
+fields:
+  - Full Name: solicitor_name
+    default: "Jilian Smith"
+  - Street: solicitor_street
+    default: "16 Nelson Street"
+  - Suburb: solicitor_suburb
+    default: "Stepney"
+  - State: solicitor_state
+    default: SA
+  - Postcode: solicitor_postcode
+    datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
+    default: 5069
+  - Email: solicitor_email
+    datatype: email
+    default: "jsmith@rspcasa.org.au"
+    required: false
+  - Telephone: solicitor_phone
+    required: false
+  - Facsimile: solicitor_fax
+    required: false
+---
+#Collect hearing details for form2/3/23
+question: Hearing Details
+subquestion: |
+  Date and time of the hearing
+fields:
+  - Hearing Date: hearing_date
+    datatype: date
+    default: 12/12/2021
+  - Hearing Time: hearing_time
+    datatype: time
+    default: 10:00
   - Offence location: offence_location
     datatype: integer
     choices:
@@ -1575,110 +1658,4 @@ fields:
      - "YUNYARINYI": 7
      - "ZADOWS LANDING": 6
     default: 19
-  - The offenced animal details: offence_animal
-  - The Animal Welfare Act 1985 section (for count): count_section
-    choices:
-      - 13(1)
-      - 13(2)
-      - 13(3)
-  - The Animal Welfare Act 1985 section (for particulars): particular_section
-    datatype: checkboxes
-    choices:
-      - (a)
-      - (b)
-      - (c)
----
-# Asking for other order not listed
-question: Will orders be sought?
-fields:
-  - no label: req_orders
-    datatype: radio
-    choices:
-      - Yes
-      - No
-  - Apart from the fixed orders, is there any other order to add on?: order_other
-    datatype: radio
-    choices:
-      - Yes
-      - No
-    show if:
-      variable: req_orders
-      is: 'Yes'
-  - Other order details: order_details
-    input type: area
-    default: 'This is the test information'
-    show if:
-      variable: order_other
-      is: 'Yes'
----
-# Check if any animal surrendered - to populate form 23
-question: Is there any animal surrendered to RSPCA?
-yesno: animal_surrendered
----
-# Applicant Details
-question: Applicant Details
-show if: req_orders
-fields:
-  - Full Name: appl_name
-    default: 'Shannon Young'
-  - Street: appl_street
-    default: "16 Nelson Street"
-  - Suburb: appl_suburb
-    default: "Stepney"
-  - State: appl_state
-    default: SA
-  - Postcode: appl_postcode
-    datatype: integer
-    min: 5000
-    max: 5999
-    validation messages: 
-      max: |
-        Please enter a 4 digit postcode
-    default: 5069
-  - Email: appl_email
-    datatype: email
-    required: false
-  - Telephone: appl_phone
-    required: false
----
-# Solicitor Details
-question: Solicitor Details
-show if: req_orders
-fields:
-  - Full Name: solicitor_name
-    default: "Jilian Smith"
-  - Street: solicitor_street
-    default: "16 Nelson Street"
-  - Suburb: solicitor_suburb
-    default: "Stepney"
-  - State: solicitor_state
-    default: SA
-  - Postcode: solicitor_postcode
-    datatype: integer
-    min: 5000
-    max: 5999
-    validation messages: 
-      max: |
-        Please enter a 4 digit postcode
-    default: 5069
-  - Email: solicitor_email
-    datatype: email
-    default: "jsmith@rspcasa.org.au"
-    required: false
-  - Telephone: solicitor_phone
-    required: false
-  - Facsimile: solicitor_fax
-    required: false
----
-#Collect hearing details for form2/3/23
-question: Hearing Details
-subquestion: |
-  Date and time of the hearing
-fields:
-  - Hearing Date: hearing_date
-    datatype: date
-    default: 12/12/2021
-  - Hearing Time: hearing_time
-    datatype: time
-    default: 10:00
 ---

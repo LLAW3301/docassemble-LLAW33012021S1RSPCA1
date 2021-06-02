@@ -1495,20 +1495,31 @@ fields:
   - The offenced animal details: count[i].offenceAnimal
     default: 'a short-haired tabby cat'
   - The Animal Welfare Act 1985 section (for count): count[i].countSection
+    datatype: integer
     choices:
-      - 13(1)
-      - 13(2)
-      - 13(3)
+      - Section 13(1) - ill treatment causing death or serious harm: 0
+      - Section 13(2) - ill treatment: 1
+      - Section 31B(2) -: 2
+      - Section 32A(2) -: 3
   - Particulars Detail: count[i].particularDetails
     input type: area
     default: |
       The defendants, being the owners of the dog, failed to provide appropriate and adequate food, water, and living conditions (whether temporary or permanent).
   - The Animal Welfare Act 1985 section (for particulars): count[i].particularSection
-    datatype: checkboxes
+    datatype: integer
     choices:
-      - (a)
-      - (b)
-      - (c)
+      - Section 13(3)(b)(i) – fails to provide adequate food and water: 0
+      - Section 13(3)(b)(i) – fails to provide adequate exercise: 1
+      - Section 13(3)(b)(i) - fails to provide adequate living conditions: 2
+      - Section 13(3)(b)(ii) - fails to take reasonable steps to mitigate harm: 3
+      - Section 13(3)(b)(iii) – abandons the animal: 4
+      - Section 13(3)(b)(iv) – neglect the animal as to cause it harm: 5
+      - Section 13(3)(c) – having caused harm, fails to take reasonable steps to mitigate harm: 6
+      - Section 13(3)(f) – causes the animal to be killed or injured by another animal: 7
+      - Section 13(3)(g) – kills the animal in a matter than causes the animal unnecessary pain: 8
+      - Section 13(3)(h) – kills the animal by a method that does not cause death to occur as rapidly as possible (animal was not already unconscious): 9
+      - Section 13(3)(i) – carries out a medical or surgical procedure on the animal in contravention of the regulations: 10
+      - Section 13(3)(j) - Ill-treats the animal in any other manner prescribed by the regulations for the purposes of Show for order: 11
 ---
 question: |
   Are there any more counts

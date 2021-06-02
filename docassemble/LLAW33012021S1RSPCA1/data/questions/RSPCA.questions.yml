@@ -15,7 +15,7 @@ question: Offence Selection
 subquestion: |
   Please choose the offence and related forms:
 fields:
-  - Highest Offence: offence_selection
+  - Highest Charge: offence_selection
     choices:
       - Summary Offence (Without guilty plea)- Form 2: sum_off
       - Summary Offence (With guilty plea)- Form 3: sum_off2
@@ -33,13 +33,14 @@ fields:
 question: Informant Details
 fields:
   - Informant Surname: inf_surname
-    default: 'Boyd'
+    default: 'Royal Society for the Prevention of Cruelty to Animals Inc (SA)'
   - Informant Given Name: inf_given_name
-    default: 'Daniel' 
+    default: '' 
+    required: false
   - Street: inf_street
-    default: '12 Gouger St.'
+    default: '16 Nelson Street'
   - Suburb: inf_suburb
-    default: 'Beford Park'
+    default: 'Stepney'
   - State: inf_state
     default: SA
   - Postcode: inf_postcode
@@ -49,7 +50,7 @@ fields:
     validation messages: 
       max: |
         Please enter a 4 digit postcode
-    default: 5044
+    default: 5069
   - Email: inf_email
     datatype: email
     required: false
@@ -155,7 +156,7 @@ question: Solicitor Details
 show if: req_orders
 fields:
   - Full Name: solicitor_name
-    default: "Jilian Smith"
+    default: "Jillian Smith"
   - Street: solicitor_street
     default: "16 Nelson Street"
   - Suburb: solicitor_suburb

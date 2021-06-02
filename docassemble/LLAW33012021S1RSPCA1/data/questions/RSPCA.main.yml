@@ -62,122 +62,122 @@ code: |
 event: endpoints['final_screen']
 question: ""
 subquestion: |
-  ### Here are your documents
+  ## Here are your documents
   
   %if offence_selection == 'sum_off':
   %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
-  Form 2: Information and Summons without Written Guilty Plea
+  ### Form 2: Information and Summons without Written Guilty Plea
   
     ${ RSPCA_form2 }
     
-  Form 23: Application For An Order Of The Court
+  ### Form 23: Application For An Order Of The Court
   
     ${ RSPCA_form23 }
     
-  Summary of Facts
+  ### Summary of Facts
   
     ${ RSPCA_sum_facts }
   %elif animal_surrendered == 'Yes':
-  Form 2: Information and Summons without Written Guilty Plea
+  ### Form 2: Information and Summons without Written Guilty Plea
   
     ${ RSPCA_form2 }
   
-  Form 23: Application For An Order Of The Court
+  ### Form 23: Application For An Order Of The Court
   
     ${ RSPCA_form23 }
   %elif sum_facts == 'Yes':
-  Form 2: Information and Summons without Written Guilty Plea
+  ### Form 2: Information and Summons without Written Guilty Plea
   
     ${ RSPCA_form2 }
   
-  Summary of Facts
+  ### Summary of Facts
   
     ${ RSPCA_sum_facts }
   %else:
-  Form 2: Information and Summons **without** Written Guilty Plea
+  ### Form 2: Information and Summons without Written Guilty Plea
   
     ${ RSPCA_form2 }  
   %endif
   %elif offence_selection == 'sum_off2':
   %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
-  Form 3: Information and Summons **with** Written Guilty Plea
+  ### Form 3: Information and Summons with Written Guilty Plea
   
     ${ RSPCA_form3 }
     
-  Form 23: Application For An Order Of The Court  
+  ### Form 23: Application For An Order Of The Court  
     ${ RSPCA_form23 }
   
-  Summary of Facts
+  ### Summary of Facts
   
     ${ RSPCA_sum_facts }
   %elif animal_surrendered == 'Yes':
-  Form 3: Information and Summons **with** Written Guilty Plea
+  ### Form 3: Information and Summons with Written Guilty Plea
   
     ${ RSPCA_form3 }
     
-  Form 23: Application For An Order Of The Court  
+  ### Form 23: Application For An Order Of The Court
   
     ${ RSPCA_form23 }
   %elif sum_facts == 'Yes':
-  Form 3: Information and Summons **with** Written Guilty Plea
+  ### Form 3: Information and Summons with Written Guilty Plea
   
     ${ RSPCA_form3 }
     
-  Summary of Facts
+  ### Summary of Facts
   
     ${ RSPCA_sum_facts }
   %else:
-  Form 3: Information and Summons **with** Written Guilty Plea
+  ### Form 3: Information and Summons with Written Guilty Plea
   
     ${ RSPCA_form3 }
   %endif
   %elif offence_selection == 'minor_off':
   %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
-  Form 2: Information and Summons without Written Guilty Plea
+  ### Form 2: Information and Summons without Written Guilty Plea
   
     ${ RSPCA_form2 }
     
-  Form 8: Election Form
+  ### Form 8: Election Form
   
     ${ RSPCA_form8 }
     
-  Form 23: Application For An Order Of The Court  
+  ### Form 23: Application For An Order Of The Court  
   
     ${ RSPCA_form23 }
   
-  Summary of Facts
+  ### Summary of Facts
   
     ${ RSPCA_sum_facts }
   %elif animal_surrendered == 'Yes':
-  Form 2: Information and Summons without Written Guilty Plea
+  ### Form 2: Information and Summons without Written Guilty Plea
   
     ${ RSPCA_form2 }
   
-  Form 8: Election Form
+  ### Form 8: Election Form
   
     ${ RSPCA_form8 }
     
-  Form 23: Application For An Order Of The Court
+  ### Form 23: Application For An Order Of The Court
   
     ${ RSPCA_form23 }
   %elif sum_facts == 'Yes':
-  Form 2: Information and Summons without Written Guilty Plea
+  ### Form 2: Information and Summons without Written Guilty Plea
   
     ${ RSPCA_form2 }
   
-  Form 8: Election Form
+  ### Form 8: Election Form
   
     ${ RSPCA_form8 }
     
-  Summary of Facts
+  ### Summary of Facts
   
     ${ RSPCA_sum_facts }
   %else:
-  Form 2: Information and Summons without Written Guilty Plea
+  ### Form 2: Information and Summons without Written Guilty Plea
   
     ${ RSPCA_form2 }
   
-  Form 8: Election Form
+  ### Form 8: Election Form
   
     ${ RSPCA_form8 }
   %endif

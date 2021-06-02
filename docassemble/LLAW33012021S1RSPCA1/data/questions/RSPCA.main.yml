@@ -106,10 +106,12 @@ subquestion: |
   %elif offence_selection == 'minor_off':
   %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
     ${ RSPCA_form2 }
+    ${ RSPCA_form8 }
     ${ RSPCA_form23 }
     ${ RSPCA_sum_facts }
   %elif animal_surrendered == 'Yes':
     ${ RSPCA_form2 }
+    ${ RSPCA_form8 }
     ${ RSPCA_form23 }
   %elif sum_facts == 'Yes':
     ${ RSPCA_form2 }

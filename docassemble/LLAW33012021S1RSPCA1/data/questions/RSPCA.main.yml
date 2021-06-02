@@ -22,12 +22,8 @@ default screen parts:
 ---
 include:
   - RSPCA.questions.yml
-  #- RSPCA.offence_location.yml
   - RSPCA_sittingLocation.yml
   - RSPCA.countList.yml
-  # A1_RSPCA_court_list.yml
-  # A1_RSPCA_get_qualified_court.yml
-  # A1_RSPCA_display_output.yml
 ---
 objects:
   # RSPCAqualifying_court: DAList.using(there_are_any=True, auto_gather=False)
@@ -66,108 +62,151 @@ code: |
 event: endpoints['final_screen']
 question: ""
 subquestion: |
-  ### This is the final endpoint screen
+  ### Here are your documents
   
-  This screen will display the information that had been entered
-  
-  This screen will also display options to save the document as docx/pdf 
-  
-    **Attachment details (pdf/docx)**
-  Here is your document!
-
   %if offence_selection == 'sum_off':
   %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
+  Form 2: Information and Summons without Written Guilty Plea
+  
     ${ RSPCA_form2 }
+    
+  Form 23: Application For An Order Of The Court
+  
     ${ RSPCA_form23 }
+    
+  Summary of Facts
+  
     ${ RSPCA_sum_facts }
   %elif animal_surrendered == 'Yes':
+  Form 2: Information and Summons without Written Guilty Plea
+  
     ${ RSPCA_form2 }
+  
+  Form 23: Application For An Order Of The Court
+  
     ${ RSPCA_form23 }
   %elif sum_facts == 'Yes':
+  Form 2: Information and Summons without Written Guilty Plea
+  
     ${ RSPCA_form2 }
+  
+  Summary of Facts
+  
     ${ RSPCA_sum_facts }
   %else:
+  Form 2: Information and Summons **without** Written Guilty Plea
+  
     ${ RSPCA_form2 }  
   %endif
   %elif offence_selection == 'sum_off2':
   %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
+  Form 3: Information and Summons **with** Written Guilty Plea
+  
     ${ RSPCA_form3 }
+    
+  Form 23: Application For An Order Of The Court  
     ${ RSPCA_form23 }
+  
+  Summary of Facts
+  
     ${ RSPCA_sum_facts }
   %elif animal_surrendered == 'Yes':
+  Form 3: Information and Summons **with** Written Guilty Plea
+  
     ${ RSPCA_form3 }
+    
+  Form 23: Application For An Order Of The Court  
+  
     ${ RSPCA_form23 }
   %elif sum_facts == 'Yes':
+  Form 3: Information and Summons **with** Written Guilty Plea
+  
     ${ RSPCA_form3 }
+    
+  Summary of Facts
+  
     ${ RSPCA_sum_facts }
   %else:
+  Form 3: Information and Summons **with** Written Guilty Plea
+  
     ${ RSPCA_form3 }
   %endif
   %elif offence_selection == 'minor_off':
   %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
+  Form 2: Information and Summons without Written Guilty Plea
+  
     ${ RSPCA_form2 }
+    
+  Form 8: Election Form
+  
     ${ RSPCA_form8 }
+    
+  Form 23: Application For An Order Of The Court  
+  
     ${ RSPCA_form23 }
+  
+  Summary of Facts
+  
     ${ RSPCA_sum_facts }
   %elif animal_surrendered == 'Yes':
+  Form 2: Information and Summons without Written Guilty Plea
+  
     ${ RSPCA_form2 }
+  
+  Form 8: Election Form
+  
     ${ RSPCA_form8 }
+    
+  Form 23: Application For An Order Of The Court
+  
     ${ RSPCA_form23 }
   %elif sum_facts == 'Yes':
+  Form 2: Information and Summons without Written Guilty Plea
+  
     ${ RSPCA_form2 }
+  
+  Form 8: Election Form
+  
     ${ RSPCA_form8 }
+    
+  Summary of Facts
+  
     ${ RSPCA_sum_facts }
   %else:
+  Form 2: Information and Summons without Written Guilty Plea
+  
     ${ RSPCA_form2 }
+  
+  Form 8: Election Form
+  
     ${ RSPCA_form8 }
   %endif
   %endif
   
-  Need to add time/date still
-  Need to add summary of offence details
-
 buttons:
   - Exit: exit
     url: https://www.rspca.org.au/
   - Restart: restart
 ---
-attachment: 
+attachments: 
   - name: RSPCA Form 2
     filename: RSPCA Form 2 Printout
-    valid formats:
-      - pdf
     docx template file: RSPCA_form2_Final.docx
     variable name: RSPCA_form2
----
-attachment: 
   - name: RSPCA Form 3
     filename: RSPCA Form 3 Printout
-    valid formats:
-      - pdf
     docx template file: RSPCA_form3_Final.docx
-    variable name: RSPCA_form3
----
-attachment: 
+    variable name: RSPCA_form3 
   - name: RSPCA Form 23
     filename: RSPCA Form 23 Printout
-    valid formats:
-      - pdf
     docx template file: RSPCA_form23_Final.docx
     variable name: RSPCA_form23
----
-attachment: 
   - name: RSPCA Form 8
     filename: RSPCA Form 8 Printout
-    valid formats:
-      - pdf
     docx template file: RSPCA_form8_Copy.docx
-    variable name: RSPCA_form8
----
-attachment: 
+    variable name: RSPCA_form8 
   - name: Summary of Facts
     filename: RSPCA Summary of Facts
-    valid formats:
-      - pdf
     docx template file: RSPCA_sum_facts.docx
     variable name: RSPCA_sum_facts
 ---

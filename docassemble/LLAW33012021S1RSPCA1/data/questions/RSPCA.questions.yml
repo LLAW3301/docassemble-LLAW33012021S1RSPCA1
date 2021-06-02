@@ -145,6 +145,10 @@ fields:
     required: false
   - Telephone: appl_phone
     required: false
+  - Grounds of Application (item 3) details: app_ground
+    input type: area
+    default: |
+      On the [date], two animals belonging to the defendant, namely [animal names], were seized due to their condition. The animals are currently being cared for by RSPCA SA Inc.
 ---
 # Solicitor Details
 question: Solicitor Details

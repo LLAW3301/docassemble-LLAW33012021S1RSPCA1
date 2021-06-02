@@ -10,13 +10,13 @@ fields:
     choices:
       - 'Abandonment'
       - 'Neglect'
-      - 'Fail to provide adequate food'
-      - 'Fail to mitigate harm'
+      - 'Failure to provide adequate food'
+      - 'Failure to mitigate harm'
       - 'Living conditions'
       - 'Breach of order'
   - Offence Date (from): count[i].dateFrom
     datatype: date
-    default: 12-05-2021
+    default: 05/12/2021
   - Offence Date (to): count[i].dateTo
     datatype: date
     default: ""
@@ -1492,7 +1492,7 @@ fields:
       - YUNYARINYI
       - ZADOWS LANDING
     default: 'YUNDI'
-  - Animal/s subject of offence: count[i].offenceAnimal
+  - Animal/s being the subject of offence: count[i].offenceAnimal
     default: 'a short-haired tabby cat'
   - The Animal Welfare Act 1985 section (for count): count[i].countSection
     datatype: integer
@@ -1504,7 +1504,7 @@ fields:
   - Particulars Detail: count[i].particularDetails
     input type: area
     default: |
-      The defendants, being the owners of the dog, failed to provide appropriate and adequate food, water, and living conditions (whether temporary or permanent).
+      The defendants, being the owners of the cat, failed to provide appropriate and adequate food, water, and living conditions (whether temporary or permanent).
   - The Animal Welfare Act 1985 section (for particulars): count[i].particularSection
     datatype: integer
     choices:

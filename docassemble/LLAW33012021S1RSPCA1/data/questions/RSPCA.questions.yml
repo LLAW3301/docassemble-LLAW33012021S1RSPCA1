@@ -33,7 +33,7 @@ fields:
 question: Informant Details
 fields:
   - Informant Surname: inf_surname
-    default: 'Royal Society for the Prevention of Cruelty to Animals Inc (SA)'
+    default: 'Royal Society for the Prevention of Cruelty to Animals (SA) Inc'
   - Informant Given Name: inf_given_name
     default: '' 
     required: false

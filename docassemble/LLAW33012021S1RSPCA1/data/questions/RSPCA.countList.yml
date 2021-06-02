@@ -1492,15 +1492,15 @@ fields:
       - YUNYARINYI
       - ZADOWS LANDING
     default: 'YUNDI'
-  - The offenced animal details: count[i].offenceAnimal
+  - Animal/s subject of offence: count[i].offenceAnimal
     default: 'a short-haired tabby cat'
   - The Animal Welfare Act 1985 section (for count): count[i].countSection
     datatype: integer
     choices:
-      - Section 13(1) - ill treatment causing death or serious harm: 0
-      - Section 13(2) - ill treatment: 1
-      - Section 31B(2) -: 2
-      - Section 32A(2) -: 3
+      - Section 13(1) - Ill treatment causing death or serious harm: 0
+      - Section 13(2) - Ill treatment: 1
+      - Section 31B(2) - Breach of AWN: 2
+      - Section 32A(2) - Breach of Order: 3
   - Particulars Detail: count[i].particularDetails
     input type: area
     default: |

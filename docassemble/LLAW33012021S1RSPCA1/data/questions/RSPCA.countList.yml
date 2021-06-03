@@ -6,14 +6,7 @@ question: |
   count details.
 fields:
   - Count Type: count[i].name.text
-    datatype: dropdown
-    choices:
-      - 'Abandonment'
-      - 'Neglect'
-      - 'Failure to provide adequate food'
-      - 'Failure to mitigate harm'
-      - 'Living conditions'
-      - 'Breach of order'
+    default: "N/A"
   - Offence Date (from): count[i].dateFrom
     datatype: date
     default: 05/12/2021

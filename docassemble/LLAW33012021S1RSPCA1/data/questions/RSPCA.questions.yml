@@ -106,19 +106,17 @@ fields:
     choices:
       - Yes
       - No
-  - Apart from the fixed orders, is there any other order to add on?: order_other
-    datatype: radio
+  - Section orders: order_other
+    datatype: integer
     choices:
-      - Yes
-      - No
+      - Section 32A(1)(aa): 0
+      - Section 32A(1)(a): 1
+      - Section 32A(1)(b): 2
+      - Section 32A(1)(c): 3
+      - Section 32A(1)(d): 4
+      - Section 32A(1)(e): 5
     show if:
       variable: req_orders
-      is: 'Yes'
-  - Other order details: order_details
-    input type: area
-    default: 'This is the test information'
-    show if:
-      variable: order_other
       is: 'Yes'
 ---
 # Applicant Details
@@ -187,11 +185,9 @@ subquestion: |
 fields:
   - Hearing Date: hearing_date
     datatype: date
-    required: false
     default: 12/12/2021
   - Hearing Time: hearing_time
     datatype: time
-    required: false
     default: 10:00
   - Offence location: offence_location
     datatype: integer

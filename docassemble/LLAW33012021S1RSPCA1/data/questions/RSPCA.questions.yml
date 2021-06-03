@@ -17,14 +17,14 @@ subquestion: |
 fields:
   - Highest Charge: offence_selection
     choices:
-      - Summary Offence (Without guilty plea)- Form 2: sum_off
-      - Summary Offence (With guilty plea)- Form 3: sum_off2
+      - Summary Offence (Without guilty plea) - Form 2: sum_off
+      - Summary Offence (With guilty plea) - Form 3: sum_off2
       - Minor Indictable Offence (Without guilty plea) - Form 2 and Form 8: minor_off
   - Appplication for an Order: animal_surrendered
     choices:
       - Yes
       - No
-  - Summary of Facts?: sum_facts
+  - Summary of Facts: sum_facts
     choices:
       - Yes
       - No
@@ -68,7 +68,7 @@ fields:
     default: 'Toby'
   - DOB: def_DOB
     datatype: date
-    default: 12-05-1975
+    default: 19/12/1975
   - Street: def_street
     default: '65 Grote St.'
   - Suburb: def_suburb
@@ -121,7 +121,6 @@ fields:
 ---
 # Applicant Details
 question: Applicant Details
-show if: req_orders
 fields:
   - Full Name: appl_name
     default: 'Shannon Young, Inspector, RSPCA SA Inc.'
@@ -151,7 +150,6 @@ fields:
 ---
 # Solicitor Details
 question: Solicitor Details
-show if: req_orders
 fields:
   - Full Name: solicitor_name
     default: "Jillian Smith"

@@ -62,7 +62,9 @@ code: |
 event: endpoints['final_screen']
 question: ""
 subquestion: |
-  ## Here are your documents
+  # Your documents have been prepared.
+  
+  ** Please download and review each form carefully. **
   
   %if offence_selection == 'sum_off':
   %if animal_surrendered == 'Yes' and sum_facts == 'Yes':

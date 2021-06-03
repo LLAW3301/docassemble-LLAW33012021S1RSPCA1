@@ -6,7 +6,14 @@ metadata:
   short title: |
     Summons Automation
   organisation: Flinders University
-  authors: Liam Mules, Thi Thu Hang Chung, Abby Collins, James Last, Gemma Caven, Alex Habib, Claudia Bradley 
+  authors:
+    - name: Liam Mules
+    - name: Thi Thu Hang Chung
+    - name: Abby Collins
+    - name: James Last
+    - name: Gemma Caven
+    - name: Alex Habib
+    - name: Claudia Bradley
   show login: True
 ---
 default screen parts:

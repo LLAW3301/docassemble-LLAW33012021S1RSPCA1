@@ -107,14 +107,14 @@ fields:
       - Yes
       - No
   - Section orders: order_other
-    datatype: integer
+    datatype: checkboxes
     choices:
-      - Section 32A(1)(aa): 0
-      - Section 32A(1)(a): 1
-      - Section 32A(1)(b): 2
-      - Section 32A(1)(c): 3
-      - Section 32A(1)(d): 4
-      - Section 32A(1)(e): 5
+      - Section 32A(1)(aa)
+      - Section 32A(1)(a) 
+      - Section 32A(1)(b)
+      - Section 32A(1)(c)
+      - Section 32A(1)(d)
+      - Section 32A(1)(e)
     show if:
       variable: req_orders
       is: 'Yes'

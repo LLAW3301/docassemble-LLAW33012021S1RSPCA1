@@ -2,10 +2,11 @@
 ---
 metadata:
   title: |
-    RSPCA Court Summons Prototype
+    RSPCA Court Summons App
   short title: |
     Summons Automation
   organisation: Flinders University
+  authors: Liam Mules, Thi Thu Hang Chung, Abby Collins, James Last, Gemma Caven, Alex Habib, Claudia Bradley 
   show login: True
 ---
 default screen parts:
@@ -33,8 +34,8 @@ objects:
 ---
 features:
   css: RSPCA.css
-  debug: True
-  hide standard menu: False
+  debug: False
+  hide standard menu: True
 ---
 mandatory: True
 code: |

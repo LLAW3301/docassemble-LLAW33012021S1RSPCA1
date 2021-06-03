@@ -62,7 +62,7 @@ code: |
 event: endpoints['final_screen']
 question: ""
 subquestion: |
-  # Your documents have been preparedddd.
+  # Your documents have been prepared.
   
   ** Please download and review each form carefully. **
   
@@ -205,7 +205,7 @@ attachments:
     variable name: RSPCA_form23
   - name: RSPCA Form 8
     filename: RSPCA Form 8 Printout
-    docx template file: RSPCA_form8_Copy.docx
+    docx template file: RSPCA_form8_Final.docx
     variable name: RSPCA_form8 
   - name: Summary of Facts
     filename: RSPCA Summary of Facts

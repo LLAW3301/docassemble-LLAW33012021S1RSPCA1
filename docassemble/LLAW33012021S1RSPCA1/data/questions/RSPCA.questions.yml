@@ -2,16 +2,16 @@
 ---
 question: ""
 subquestion: |
-  Welcome to the South Australian Court Form generator for breaches of the *Animal Welfare Act 1985*. This program will require you to fill in the required fields in order to generate a unique form specific to the detailed offence.
+  Welcome to the automation app for relevant forms of the Magistrates Court of South Australia for breaches of the *Animal Welfare Act 1985* and other purposes. This program will require you to enter the necessary fields in order to generate the required draft forms.
   
   ***Disclaimer:***
-  The Form **must be checked by a lawyer** and the service we provide within this app should not be regarded as legal advice.
+  The forms produced by this app are intended to be draft versions and **must be reviewed by a lawyer**. The service provided by this app should not be regarded as legal advice.
   
   Do you accept these terms?
 yesno: RSPCAeligible
 ---
 # Checkboxes where answer will populate relevant forms
-question: Offence Selection
+question: Forms Required
 subquestion: |
   Please choose the offence and related forms:
 fields:
@@ -20,11 +20,11 @@ fields:
       - Summary Offence (Without guilty plea)- Form 2: sum_off
       - Summary Offence (With guilty plea)- Form 3: sum_off2
       - Minor Indictable Offence (Without guilty plea) - Form 2 and Form 8: minor_off
-  - Is an animal surrender involved?: animal_surrendered
+  - Appplication for an Order: animal_surrendered
     choices:
       - Yes
       - No
-  - Would you like to add a Summary of Facts?: sum_facts
+  - Summary of Facts?: sum_facts
     choices:
       - Yes
       - No
@@ -55,7 +55,7 @@ fields:
     datatype: email
     required: false
   - Phone Number: inf_phone
-    default: +61 498 225 678
+    default: 1300 477 722
   - Facsimile: inf_fax
     required: false
 ---
@@ -144,10 +144,10 @@ fields:
     required: false
   - Telephone: appl_phone
     required: false
-  - Grounds of Application (item 3) details: app_ground
+  - Grounds of Application: app_ground
     input type: area
     default: |
-      On the [date], two animals belonging to the defendant, namely [animal names], were seized due to their condition. The animals are currently being cared for by RSPCA SA Inc.
+      On the [date], animal/s belonging to the defendant, namely [animal/s details], was/were seized due to its/their condition. The animal/s is/are currently being cared for by RSPCA SA Inc.
 ---
 # Solicitor Details
 question: Solicitor Details
@@ -174,6 +174,7 @@ fields:
     default: "jsmith@rspcasa.org.au"
     required: false
   - Telephone: solicitor_phone
+    default: "1300 477 722"
     required: false
   - Facsimile: solicitor_fax
     required: false
@@ -186,9 +187,11 @@ fields:
   - Hearing Date: hearing_date
     datatype: date
     default: 12/12/2021
+    required: false
   - Hearing Time: hearing_time
     datatype: time
-    default: 10:00
+    default: 10:00 am
+    required: false
   - Offence location: offence_location
     datatype: integer
     choices:

@@ -126,7 +126,7 @@ question: Applicant Details
 show if: req_orders
 fields:
   - Full Name: appl_name
-    default: 'Shannon Young'
+    default: 'Shannon Young, Inspector, RSPCA SA Inc.'
   - Street: appl_street
     default: "16 Nelson Street"
   - Suburb: appl_suburb
@@ -187,9 +187,11 @@ subquestion: |
 fields:
   - Hearing Date: hearing_date
     datatype: date
+    required: false
     default: 12/12/2021
   - Hearing Time: hearing_time
     datatype: time
+    required: false
     default: 10:00
   - Offence location: offence_location
     datatype: integer

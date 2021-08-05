@@ -6,13 +6,10 @@ question: |
   count details.
 fields:
   - Count Type: count[i].name.text
-    default: "N/A"
   - Offence Date (from): count[i].dateFrom
     datatype: date
-    default: 05/12/2021
   - Offence Date (to): count[i].dateTo
     datatype: date
-    default: ""
     required: false
   - Offence location: count[i].offenceLocation
     choices:
@@ -1484,9 +1481,7 @@ fields:
       - YUNTA
       - YUNYARINYI
       - ZADOWS LANDING
-    default: 'YUNDI'
   - Animal/s being the subject of offence: count[i].offenceAnimal
-    default: 'a short-haired tabby cat'
   - Offence: count[i].countSection
     datatype: integer
     choices:

@@ -1,11 +1,19 @@
-# Main file for the RSPCA document automation App
+# This is the main file for the RSPCA Information Form Automation App
 ---
-metadata: 
+metadata:
   title: |
-    RSPCA Court Summons Prototype
+    RSPCA Court Summons App
   short title: |
-      Summons Automation
+    Summons Automation
   organisation: Flinders University
+  authors:
+    - name: Liam Mules
+    - name: Thi Thu Hang Chung
+    - name: Abby Collins
+    - name: James Last
+    - name: Gemma Caven
+    - name: Alex Habib
+    - name: Claudia Bradley
   show login: True
 ---
 default screen parts:
@@ -15,31 +23,39 @@ default screen parts:
     </div>
     <div style="margin: 5px; text-align: right">
     <cite><small><i>
-    Developed by Flinders University in collaboration with RSPCA
+    Developed by Flinders University in collaboration with RSPCA SA
     </i></small></cite>
     </div>
     </div>
 ---
-#add files that we need to include (questions, registry lists etc.)
 include:
   - RSPCA.questions.yml
-  - RSPCA.registries.yml
-  #- RSPCA.display_output.yml
+  - RSPCA_sittingLocation.yml
+  - RSPCA.countList.yml
 ---
-#objects that we need e.g endpoints and logos (can add this later)
 objects:
-  #- placeholder.registries
-  #- placeholder.RSPCA_logo
+  # RSPCAqualifying_court: DAList.using(there_are_any=True, auto_gather=False)
+  - count: DAList.using(object_type=Thing, minimum_number=1)
+  - RSPCA_logo: DAStaticFile.using(filename='rspca-sa-logo.png')
   - endpoints: DADict
 ---
-#css file (can add this later)
 features:
-  css: X2.01.SACAT.css
-  debug: True
-  hide standard menu: False
+  css: RSPCA.css
+  debug: False
+  hide standard menu: True
 ---
-##come back to this later and add in a logo to be displayed on all pages
+mandatory: True
+code: |
+  # To use a custom logo we need to set the 'logo' metadata to 
+  # some custom HTML.  The string below creates the HTML and 
+  # inserts into it the logo contained in the file RSPCA_logo using
+  # the python format() method 
+  RSPCA_logostring = '<div class="media"><img src="{}" class="mr-3" height="50"><div class="media-body"></div></div>'.format(RSPCA_logo.url_for())
+
+  # Once we've created the string we use set_parts() to set our new logo metadata
+  set_parts(logo=RSPCA_logostring)
 ---
+# This code drives the app
 #driver code (create the endpoints to test elgibility
 mandatory: True
 code: |
@@ -54,57 +70,161 @@ code: |
 event: endpoints['final_screen']
 question: ""
 subquestion: |
-  ### This is the final endpoint screen
+  # Your documents have been prepared.
   
-  This screen will display the information that had been entered
+  ** Please download and review each form carefully. **
   
-  This screen will also display options to save the document as docx/pdf 
+  %if offence_selection == 'sum_off':
+  %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
+  ** Form 2: Information and Summons without Written Guilty Plea**
   
-  This is for form type: ${ RSPCAform }
+    ${ RSPCA_form2 }
+    
+  ** Form 23: Application For An Order Of The Court**
   
-  **Summary of defendant information:**
+    ${ RSPCA_form23 }
+    
+  ** Summary of Facts**
   
-    Defendant|Input
-  -----------|----------
-  Name            | ${ def_name }
-  DOB             | ${ def_DOB }
-  Street          | ${ def_street }
-  Suburb          | ${ def_suburb }
-  State           | ${ def_state }
-  Postcode        | ${ def_postcode }
-  Email           | ${ def_email }
-  Phone Number    | ${ def_phone }
-  Drivers Licence | ${ def_licence }
+    ${ RSPCA_sum_facts }
+  %elif animal_surrendered == 'Yes':
+  ** Form 2: Information and Summons without Written Guilty Plea**
   
+    ${ RSPCA_form2 }
   
-  **Summary of hearing details:**
+  ** Form 23: Application For An Order Of The Court**
   
-     Registry|Details
-  -----------|----------  
-  Court              | ${ RSPCA_courtlist[RSPCAcourt].item('court') } 
-  Postal Address     | ${ RSPCA_courtlist[RSPCAcourt].item('postal address') }
-  Email              | ${ RSPCA_courtlist[RSPCAcourt].item('email') }
-  Phone              | ${ RSPCA_courtlist[RSPCAcourt].item('phone') }
-  Facsimile          | ${ RSPCA_courtlist[RSPCAcourt].item('facsimile') }
+    ${ RSPCA_form23 }
+  %elif sum_facts == 'Yes':
+  ** Form 2: Information and Summons without Written Guilty Plea**
   
+    ${ RSPCA_form2 }
   
-  Need to add time/date still
-
-  Need to add summary of offence details
+  ** Summary of Facts**
   
-  Need to add attachment details (pdf/docx)
-
+    ${ RSPCA_sum_facts }
+  %else:
+  ** Form 2: Information and Summons without Written Guilty Plea**
+  
+    ${ RSPCA_form2 }  
+  %endif
+  %elif offence_selection == 'sum_off2':
+  %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
+  ** Form 3: Information and Summons with Written Guilty Plea**
+  
+    ${ RSPCA_form3 }
+    
+  ** Form 23: Application For An Order Of The Court  **
+    ${ RSPCA_form23 }
+  
+  ** Summary of Facts**
+  
+    ${ RSPCA_sum_facts }
+  %elif animal_surrendered == 'Yes':
+  ** Form 3: Information and Summons with Written Guilty Plea**
+  
+    ${ RSPCA_form3 }
+    
+  ** Form 23: Application For An Order Of The Court**
+  
+    ${ RSPCA_form23 }
+  %elif sum_facts == 'Yes':
+  ** Form 3: Information and Summons with Written Guilty Plea**
+  
+    ${ RSPCA_form3 }
+    
+  ** Summary of Facts**
+  
+    ${ RSPCA_sum_facts }
+  %else:
+  ** Form 3: Information and Summons with Written Guilty Plea**
+  
+    ${ RSPCA_form3 }
+  %endif
+  %elif offence_selection == 'minor_off':
+  %if animal_surrendered == 'Yes' and sum_facts == 'Yes':
+  ** Form 2: Information and Summons without Written Guilty Plea**
+  
+    ${ RSPCA_form2 }
+    
+  ** Form 8: Election Form**
+  
+    ${ RSPCA_form8 }
+    
+  ** Form 23: Application For An Order Of The Court  **
+  
+    ${ RSPCA_form23 }
+  
+  ** Summary of Facts**
+  
+    ${ RSPCA_sum_facts }
+  %elif animal_surrendered == 'Yes':
+  ** Form 2: Information and Summons without Written Guilty Plea**
+  
+    ${ RSPCA_form2 }
+  
+  ** Form 8: Election Form**
+  
+    ${ RSPCA_form8 }
+    
+  ** Form 23: Application For An Order Of The Court**
+  
+    ${ RSPCA_form23 }
+  %elif sum_facts == 'Yes':
+  ** Form 2: Information and Summons without Written Guilty Plea**
+  
+    ${ RSPCA_form2 }
+  
+  ** Form 8: Election Form**
+  
+    ${ RSPCA_form8 }
+    
+  ** Summary of Facts**
+  
+    ${ RSPCA_sum_facts }
+  %else:
+  ** Form 2: Information and Summons without Written Guilty Plea**
+  
+    ${ RSPCA_form2 }
+  
+  ** Form 8: Election Form**
+  
+    ${ RSPCA_form8 }
+  %endif
+  %endif
+  
 buttons:
   - Exit: exit
     url: https://www.rspca.org.au/
   - Restart: restart
 ---
-#add attachment details
+attachments: 
+  - name: RSPCA Form 2
+    filename: RSPCA Form 2 Printout
+    docx template file: RSPCA_form2_Final.docx
+    variable name: RSPCA_form2
+  - name: RSPCA Form 3
+    filename: RSPCA Form 3 Printout
+    docx template file: RSPCA_form3_Final.docx
+    variable name: RSPCA_form3 
+  - name: RSPCA Form 23
+    filename: RSPCA Form 23 Printout
+    docx template file: RSPCA_form23_Final.docx
+    variable name: RSPCA_form23
+  - name: RSPCA Form 8
+    filename: RSPCA Form 8 Printout
+    docx template file: RSPCA_form8_Final.docx
+    variable name: RSPCA_form8 
+  - name: Summary of Facts
+    filename: RSPCA Summary of Facts
+    docx template file: RSPCA_sum_facts.docx
+    variable name: RSPCA_sum_facts
 ---
 event: endpoints['ineligible']
 question: Not Eligible
 subquestion:
-  This disclaimer has not been accpeted or other possible issues tbc 
+  The disclaimer has not been understood and accepted.  Please exit the
+  application or restart if you'd like to accept the disclaimer.
 buttons:
   - Exit: exit
     url: https://www.rspca.org.au/

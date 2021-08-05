@@ -1,0 +1,1514 @@
+objects:
+  count: DAList
+---
+question: |
+  Please provide the ${ ordinal(i) }
+  count details.
+fields:
+  - Count Type: count[i].name.text
+    default: "N/A"
+  - Offence Date (from): count[i].dateFrom
+    datatype: date
+    default: 05/12/2021
+  - Offence Date (to): count[i].dateTo
+    datatype: date
+    default: ""
+    required: false
+  - Offence location: count[i].offenceLocation
+    choices:
+      - ABERFOYLE PARK
+      - ABMINGA STATION
+      - ADELAIDE
+      - ADELAIDE AIRPORT
+      - AGERY
+      - ALAWOONA
+      - ALBERRIE CREEK
+      - ALBERT PARK
+      - ALBERTON
+      - ALDGATE
+      - ALDINGA
+      - ALDINGA BEACH
+      - ALFORD
+      - ALLANDALE STATION
+      - ALLENBY GARDENS
+      - ALLENDALE EAST
+      - ALLENDALE NORTH
+      - ALMA
+      - ALPANA
+      - ALTON DOWNS STATION
+      - ALTONA
+      - AMATA
+      - AMERICAN BEACH
+      - AMERICAN RIVER
+      - AMYTON
+      - ANAMA
+      - ANANGU PITJANTJATJARA LANDS
+      - ANDAMOOKA
+      - ANDAMOOKA STATION
+      - ANDREWS
+      - ANDREWS FARM
+      - ANGAS PLAINS
+      - ANGAS VALLEY
+      - ANGASTON
+      - ANGEPENA
+      - ANGLE PARK
+      - ANGLE VALE
+      - ANGORIGINA
+      - ANNA CREEK
+      - ANNADALE
+      - ANTECHAMBER BAY
+      - APAMURRA
+      - APOINGA
+      - APPILA
+      - ARCKARINGA
+      - ARCOONA
+      - ARDROSSAN
+      - ARKARINGA
+      - ARKAROOLA
+      - ARKAROOLA VILLAGE
+      - ARMAGH
+      - ARNO BAY
+      - ARTHURTON
+      - ASCOT PARK
+      - ASHBOURNE
+      - ASHFORD
+      - ASHTON
+      - ASHVILLE
+      - ATHELSTONE
+      - ATHOL PARK
+      - AUBURN
+      - AULDANA
+      - AUSTRALIA PLAINS
+      - AVENUE RANGE
+      - AVOCA DELL
+      - AVON
+      - AYERS RANGE SOUTH
+      - BABARINGA
+      - BACK VALLEY
+      - BACKY POINT
+      - BAGOT WELL
+      - BAIRD BAY
+      - BAKARA
+      - BAKARA WELL
+      - BALAH
+      - BALAKLAVA
+      - BALD HILLS
+      - BALDINA
+      - BALGOWAN
+      - BALHANNAH
+      - BALLAST HEAD
+      - BANGHAM
+      - BANGOR
+      - BANKSIA PARK
+      - BARABBA
+      - BARATTA
+      - BARINIA
+      - BARMERA
+      - BARNDIOOTA
+      - BAROOTA
+      - BAROSSA GOLDFIELDS
+      - BARUNGA GAP
+      - BASKET RANGE
+      - BAUDIN BEACH
+      - BAY OF SHOALS
+      - BEACHPORT
+      - BEATTY
+      - BEAUFORT
+      - BEAUMONT
+      - BEAUMONTS
+      - BEDFORD PARK
+      - BEETALOO
+      - BELAIR
+      - BELALIE
+      - BELALIE EAST
+      - BELALIE NORTH
+      - BELLEVUE HEIGHTS
+      - BELTANA
+      - BELTON
+      - BELVIDERE
+      - BERRI
+      - BETHANY
+      - BETHEL
+      - BEULAH PARK
+      - BEVERLEY
+      - BIBARINGA
+      - BIGGS FLAT
+      - BILLIATT
+      - BINDARRAH
+      - BINNUM
+      - BIRCHMORE
+      - BIRDWOOD
+      - BIRKENHEAD
+      - BISCUIT FLAT
+      - BLACK FOREST
+      - BLACK HILL
+      - BLACK POINT
+      - BLACK ROCK
+      - BLACK SPRINGS
+      - BLACKFELLOWS CAVES
+      - BLACKFELLOWS CREEK
+      - BLACKWOOD
+      - BLAIR ATHOL
+      - BLAKEVIEW
+      - BLAKISTON
+      - BLANCHE HARBOR
+      - BLANCHETOWN
+      - BLETCHLEY
+      - BLEWITT SPRINGS
+      - BLINMAN
+      - BLYTH
+      - BOATSWAIN POINT
+      - BOLIVAR
+      - BON BON
+      - BOOBOROWIE
+      - BOOKABIE
+      - BOOKALOO
+      - BOOKPURNONG
+      - BOOL LAGOON
+      - BOOLEROO CENTRE
+      - BOOLGUN
+      - BORDER VILLAGE
+      - BORDERTOWN
+      - BORRIKA
+      - BOSTON
+      - BOSTON BAY
+      - BOWDEN
+      - BOWER
+      - BOWHILL
+      - BOWILLIA
+      - BOWMANS
+      - BRADBURY
+      - BRAHMA LODGE
+      - BRAMFIELD
+      - BRAY
+      - BRENDA PARK
+      - BRENTWOOD
+      - BRIDGEWATER
+      - BRIGHTON
+      - BRIMBAGO
+      - BRINKLEY
+      - BRINKWORTH
+      - BROADVIEW
+      - BROKEN CLIFFS
+      - BROMPTON
+      - BROOKER
+      - BROOKLYN PARK
+      - BROWNHILL CREEK
+      - BROWNLOW
+      - BROWNS BEACH
+      - BRUCE
+      - BRUKUNGA
+      - BUCCLEUCH
+      - BUCHFELDE
+      - BUCKLAND PARK
+      - BUCKLEBOO
+      - Bugle Hut
+      - BUGLE RANGES
+      - BULL CREEK
+      - BUMBUNGA
+      - BUNGAMA
+      - BUNGAREE
+      - BURDETT
+      - BURNSIDE
+      - BURRA
+      - BURRA NORTH
+      - BURRUNGULE
+      - BURTON
+      - BUTE
+      - CADELL
+      - CADELL LAGOON
+      - CADNEY PARK
+      - CALIPH
+      - CALLINGTON
+      - CALOMBA
+      - CALOOTE
+      - CALPERNUM STATION
+      - CALTOWIE
+      - CAMBRAI
+      - CAMDEN PARK
+      - CAMPBELLTOWN
+      - CANNAN REEF
+      - CANNAWIGARA
+      - CANOPUS
+      - CAPE BORDA
+      - CAPE DOUGLAS
+      - CAPE ELIZABETH
+      - CAPE JAFFA
+      - CAPE JERVIS
+      - CAPE NORTHUMBERLAND
+      - CAREY GULLY
+      - CAROLINE
+      - CARPENTER ROCKS
+      - CARRICKALINGA
+      - CARRIETON
+      - CARRIEWERLOO
+      - CASSINI
+      - CASTAMBUL
+      - CAURNAMONT
+      - CAVAN
+      - CAVETON
+      - CEDUNA
+      - CHAFFEY
+      - CHAIN OF PONDS
+      - CHANDLERS HILL
+      - CHARLESTON
+      - CHARLTON GULLY
+      - CHARLTON GULLY
+      - CHELTENHAM
+      - CHERRY GARDENS
+      - CHERRYVILLE
+      - CHINAMAN WELLS
+      - CHOWILLA
+      - CHRISTIE DOWNS
+      - CHRISTIES BEACH
+      - CLAPHAM
+      - CLARE
+      - CLARENCE GARDENS
+      - CLARENCE PARK
+      - CLARENDON
+      - CLAY WELLS
+      - CLAYTON
+      - CLAYTON BAY
+      - CLEARVIEW
+      - CLELAND
+      - CLEMENTS GAP
+      - CLEVE
+      - CLINTON
+      - CLOVELLY PARK
+      - CLOVERCREST
+      - COBDOGLA
+      - COBERA
+      - COCKALEECHIE
+      - COCKATOO LAKE
+      - COCKATOO VALLEY
+      - COCKBURN
+      - COFFIN BAY
+      - COLLEGE PARK
+      - COLLINSFIELD
+      - COLLINSWOOD
+      - COLONEL LIGHT GARDENS
+      - COMAUM
+      - COMPTON
+      - CONCORDIA
+      - CONDOWIE
+      - COOBER PEDY
+      - COOBOWIE
+      - COOK
+      - COOKE PLAINS
+      - COOLCHA
+      - COOLTONG
+      - COOMANDOOK
+      - COOMBE
+      - COOMUNGA
+      - COONALPYN
+      - COONAMIA
+      - COONAWARRA
+      - COORABIE
+      - COORONG
+      - COPEVILLE
+      - COPLEY
+      - CORNY POINT
+      - COROMANDEL EAST
+      - COROMANDEL VALLEY
+      - COULTA
+      - COWANDILLA
+      - COWELL
+      - COWIRRA
+      - CRAFERS
+      - CRAFERS WEST
+      - CRAIGBURN FARM
+      - CRAIGMORE
+      - CRESCENT
+      - CROMER
+      - CROYDON
+      - CROYDON PARK
+      - CRYSTAL BROOK
+      - CUDLEE CREEK
+      - CULBURRA
+      - CUMBERLAND PARK
+      - CUMMINS
+      - CUNGENA
+      - CUNLIFFE
+      - CURRAMULKA
+      - CURRENCY CREEK
+      - CUSTON
+      - CUTTLEFISH BAY
+      - CYGNET RIVER
+      - DALHOUSIE SPRINGS
+      - DALKEITH
+      - DARKE PEAK
+      - DARLINGTON
+      - DASHWOOD GULLY
+      - DAVENPORT
+      - DAVEYSTON
+      - DAVOREN PARK
+      - DAW PARK
+      - DAWESLEY
+      - DAWSON
+      - DEEP CREEK
+      - DELAMERE
+      - DENIAL BAY
+      - DERNANCOURT
+      - DEVLINS POUND
+      - DEVON PARK
+      - DINGABLEDINGA
+      - DIREK
+      - DISMAL SWAMP
+      - DONOVANS
+      - DORRIEN
+      - DORSET VALE
+      - DOVER GARDENS
+      - DOWLINGVILLE
+      - DRY CREEK
+      - DUBLIN
+      - DUDLEY EAST
+      - DUDLEY PARK
+      - DUDLEY WEST
+      - DULLINGARI
+      - DULWICH
+      - DUTTON
+      - DUTTON BAY
+      - EAGLE ON THE HILL
+      - EAST MOONTA
+      - EAST WANDEARAH
+      - EASTWOOD
+      - EBENEZER
+      - ECHUNGA
+      - EDEN HILLS
+      - EDEN VALLEY
+      - EDILLILIE
+      - EDINBURGH
+      - EDITHBURGH
+      - EDWARDSTOWN
+      - EIGHT MILE CREEK
+      - ELBOW HILL
+      - ELIZABETH
+      - ELIZABETH DOWNS
+      - ELIZABETH EAST
+      - ELIZABETH GROVE
+      - ELIZABETH NORTH
+      - ELIZABETH PARK
+      - ELIZABETH SOUTH
+      - ELIZABETH VALE
+      - ELIZABETH WEST
+      - ELLISTON
+      - ENCOUNTER BAY
+      - ENFIELD
+      - ENOOMAH BORE
+      - ERINDALE
+      - ERNABELLA
+      - ETHELTON
+      - ETTRICK
+      - EUDUNDA
+      - EVANDALE
+      - EVANSTON
+      - EVANSTON GARDENS
+      - EVANSTON PARK
+      - EVANSTON SOUTH
+      - EVERARD PARK
+      - EXETER
+      - EXPORT PARK
+      - FAIRVIEW PARK
+      - FARM BEACH
+      - FARRELL FLAT
+      - FERRYDEN PARK
+      - FINDON
+      - FINNISS
+      - FIRLE
+      - FISHER
+      - FISHERMANS BAY
+      - FITZROY
+      - FLAGSTAFF HILL
+      - FLAXLEY
+      - FLINDERS CHASE
+      - FLINDERS PARK
+      - FLINDERS RANGES
+      - FLORIETON
+      - FORDS
+      - FOREST RANGE
+      - FORESTVILLE
+      - FORRESTON
+      - FOUL BAY
+      - FOWLERS BAY
+      - FOX
+      - FRANCES
+      - FRANKLIN HARBOUR
+      - FREELING
+      - FREGON
+      - FREWVILLE
+      - FULHAM
+      - FULHAM GARDENS
+      - FULLARTON
+      - FURNER
+      - GALGA
+      - GAWLER
+      - GAWLER BELT
+      - GAWLER EAST
+      - GAWLER RIVER
+      - GAWLER SOUTH
+      - GAWLER WEST
+      - GEMMELLS
+      - GEORGETOWN
+      - GEPPS CROSS
+      - GERANIUM
+      - GERARD
+      - GILBERTON
+      - GILES CORNER
+      - GILLES PLAINS
+      - GILLMAN
+      - GLADSTONE
+      - GLANDORE
+      - GLANVILLE
+      - GLEN OSMOND
+      - GLENALTA
+      - GLENBURNIE
+      - GLENCOE
+      - GLENCOE WEST
+      - GLENDAMBO
+      - GLENELG
+      - GLENELG EAST
+      - GLENELG NORTH
+      - GLENELG SOUTH
+      - GLENGOWRIE
+      - GLENROY
+      - GLENSIDE
+      - GLENUNGA
+      - GLOBE DERBY
+      - GLOBE DERBY PARK
+      - GLOSSOP
+      - GLUYAS
+      - GLYNDE
+      - GOLDEN GROVE
+      - GOLDEN HEIGHTS
+      - GOMERSAL
+      - GOODWOOD
+      - GOOLWA
+      - GOOLWA BEACH
+      - GOOLWA SOUTH
+      - GOSSE
+      - GOULD CREEK
+      - GOWER CONSERVATION PARK
+      - GOYDER
+      - GRACE PLAINS
+      - GRANGE
+      - GRANITE DOWN STATIONS
+      - GREEN FIELDS
+      - GREEN HILLS RANGE
+      - GREEN PATCH
+      - GREENACRES
+      - GREENHILL
+      - GREENOCK
+      - GREENWAYS
+      - GREENWITH
+      - GULFVIEW HEIGHTS
+      - GULNARE
+      - GUMBOWIE
+      - GUMERACHA
+      - GURRA GURRA
+      - GURRAI
+      - HACKHAM
+      - HACKHAM WEST
+      - HACKNEY
+      - HAHNDORF
+      - HAINES
+      - HALBURY
+      - HALIDON
+      - HALLETT COVE
+      - HAMLEY BRIDGE
+      - HAMMOND
+      - HAMPSTEAD GARDENS
+      - HANSBOROUGH
+      - HANSON
+      - HAPPY VALLEY
+      - HARDWICKE BAY
+      - HARROGATE
+      - HART
+      - HARTLEY
+      - HASLAM
+      - HATHERLEIGH
+      - HAWKER
+      - HAWTHORN
+      - HAWTHORNDENE
+      - HAYBOROUGH
+      - HAZELWOOD PARK
+      - HEATHFIELD
+      - HEATHPOOL
+      - HECTORVILLE
+      - HENDON
+      - HENLEY BEACH
+      - HENLEY BEACH SOUTH
+      - HESSO
+      - HEWETT
+      - HIGHBURY
+      - HIGHERCOMBE
+      - HIGHGATE
+      - HILLBANK
+      - HILLCREST
+      - HILLIER
+      - HILLTOWN
+      - HILTON
+      - HINDMARSH
+      - HINDMARSH ISLAND
+      - HINDMARSH TIERS
+      - HINDMARSH VALLEY
+      - HOGWASH BEND
+      - HOLDEN HILL
+      - HOLDER SIDING
+      - HOPE FOREST
+      - HOPE GAP
+      - HOPE VALLEY
+      - HORSNELL GULLY
+      - HOSKIN CORNER
+      - HOUGHTON
+      - HOVE
+      - HOYLETON
+      - HUMBUG SCRUB
+      - HUNTFIELD HEIGHTS
+      - HYDE PARK
+      - HYNAM
+      - ILLYOMBA
+      - INDULKANA
+      - INGLE FARM
+      - INGLEWOOD
+      - INHALTA
+      - INKERMAN
+      - INMAN VALLEY
+      - INNAMINCKA
+      - INVERBRACKIE
+      - IRON DUKE
+      - IRON KNOB
+      - IRONBANK
+      - ISLAND BEACH
+      - JABUK
+      - JACOBS CREEK
+      - JAMES WELL
+      - JAMESTOWN
+      - JERUSALEM
+      - JERVOIS
+      - JOANNA
+      - JOSLIN
+      - JULIA
+      - JUPITER CREEK
+      - KADINA
+      - KAINTON
+      - KALANGADOO
+      - KALBEEBA
+      - KALKA
+      - KANGARILLA
+      - KANGAROO FLAT
+      - KANGAROO HEAD
+      - KANGAROO ISLAND
+      - KANMANTOO
+      - KANNI
+      - KANPI
+      - KANYAKA
+      - KAPINNIE
+      - KAPUNDA
+      - KARATTA
+      - KARKOO
+      - KAROONDA
+      - KARTE
+      - KATAROAKO
+      - KEILIRA
+      - KEITH
+      - KELLIDIE BAY
+      - KENSINGTON
+      - KENSINGTON GARDENS
+      - KENSINGTON PARK
+      - KENT TOWN
+      - KENTON VALLEY
+      - KEPPOCH
+      - KERSBROOK
+      - KESWICK
+      - KEYNETON
+      - KI KI
+      - KIDMAN PARK
+      - KILBURN
+      - KILKENNY
+      - KILKERRAN
+      - KIMBA
+      - KINGOONYA
+      - KINGS PARK
+      - KINGSCOTE
+      - KINGSFORD
+      - KINGSTON
+      - KINGSTON ON THE MURRAY
+      - KINGSTON PARK
+      - KINGSTON SE
+      - KINGSTON-ON-MURRAY
+      - KINGSWOOD
+      - KLEMZIG
+      - KONGOLIA
+      - KONGORONG
+      - KOOLUNGA
+      - KOOLYWURTIE
+      - KOONIBBA
+      - KOONUNGA
+      - KOOTABERRA
+      - KOPPIO
+      - KORUNYE
+      - KRINGIN
+      - KRONDORF
+      - KUDLA
+      - KUITPO
+      - KUITPO COLONEY
+      - KULKAMI
+      - KULPARA
+      - KUMARA BORE
+      - KURRALTA PARK
+      - KYANCUTTA
+      - KYBUNGA
+      - KYBYBOLITE
+      - KYEEMA
+      - LAKE ALEXANDRINA
+      - LAKE EVERARD
+      - LAKE GEORGE
+      - LAKEVIEW
+      - LAMEROO
+      - LANGHORNE CREEK
+      - LARGS BAY
+      - LARGS NORTH
+      - LAURA
+      - LEABROOK
+      - LEASINGHAM
+      - LEAWOOD GARDENS
+      - LEIGH CREEK
+      - LENSWOOD
+      - LEWISTON
+      - LIGHT PASS
+      - LIGHTSVIEW
+      - LINCOLN GAP
+      - LINDEN PARK
+      - LINWOOD
+      - LIPSON
+      - LITTLEHAMPTON
+      - LOBETHAL
+      - LOCHABER
+      - LOCHIEL
+      - LOCK
+      - LOCKLEYS
+      - LONG FLAT
+      - LONG GULLY
+      - LONG PLAIN
+      - LONGWOOD
+      - LONSDALE
+      - LOUTH BAY
+      - LOVEDAY
+      - LOWALDIE
+      - LOWAN VALE
+      - LOWBANK
+      - LOWER HERMITAGE
+      - LOWER INMAN VALLEY
+      - LOWER LIGHT
+      - LOWER MITCHAM
+      - LOXTON
+      - LOXTON NORTH
+      - LUCINDALE
+      - LUCKY BAY
+      - LUSBY ISLAND
+      - LYNDHURST
+      - LYNDOCH
+      - LYNTON
+      - LYRUP
+      - MAAOUPE
+      - MACCLESFIELD
+      - MACDONALD PARK
+      - MACGILLIVRAY
+      - MACUMBA STATION
+      - MAGGEA
+      - MAGILL
+      - MAITLAND
+      - MALINONG
+      - MALLALA
+      - MALPAS
+      - MALVERN
+      - MAMBRAY CREEK
+      - MANGALO
+      - MANNA HILL
+      - MANNANARIE
+      - MANNINGHAM
+      - MANNUM
+      - MANOORA
+      - MANSFIELD PARK
+      - MARAMA
+      - MARANANGA
+      - MARBLE HILL
+      - MARDEN
+      - MARINO
+      - MARION
+      - MARION BAY
+      - MARKARANKA
+      - MARLA
+      - MARLESTON
+      - MARNE VALLEY
+      - MARRABEL
+      - MARREE
+      - MARRYATVILLE
+      - MASLIN BEACH
+      - MAWSON LAKES
+      - MAYLANDS
+      - MCCRACKEN
+      - MCHARG CREEK
+      - MCLAREN FLAT
+      - MCLAREN VALE
+      - MEADOWS
+      - MEDINDIE
+      - MEDINDIE GARDENS
+      - MELROSE
+      - MELROSE PARK
+      - MELTON
+      - MENINGIE
+      - MENINGIE WEST
+      - MENZIES
+      - MERCUNDA
+      - MERIBAH
+      - MERRITON
+      - MERTY MERTY
+      - MIDDLE BEACH
+      - MIDDLE RIVER
+      - MIDDLETON
+      - MIL LEL
+      - MILANG
+      - MILE END
+      - MILE END SOUTH
+      - MILENDELLA
+      - MILLBROOK
+      - MILLICENT
+      - MILLSWOOD
+      - MIMILI
+      - MINDARIE
+      - MINGARY
+      - MINGBOOL
+      - MINLATON
+      - MINNIPA
+      - MINTABIE
+      - MINTARO
+      - MIRANDA
+      - MITCHAM
+      - MITCHELL PARK
+      - MOANA
+      - MOANA HEIGHTS
+      - MOBILONG
+      - MOCULTA
+      - MODBURY
+      - MODBURY HEIGHTS
+      - MODBURY NORTH
+      - MONARTO
+      - MONASH
+      - MONTACUTE
+      - MONTEITH
+      - MOOCKRA
+      - MOOLAWATANA
+      - MOOMBA
+      - MOONTA
+      - MOONTA BAY
+      - MOONTA MINES
+      - MOORAK
+      - MOORLANDS
+      - MOOROOK
+      - MOOTATUNGA
+      - MOPPA
+      - MORCHARD
+      - MORGAN
+      - MORIALTA
+      - MORN HILL
+      - MORPHETT VALE
+      - MORPHETTS FLAT
+      - MORPHETTVILLE
+      - MOSQUITO HILL
+      - MOUNT BARKER
+      - MOUNT BENSON
+      - MOUNT BRYAN
+      - MOUNT BURR
+      - MOUNT COMPASS
+      - MOUNT CRAWFORD
+      - MOUNT DRUMMOND
+      - MOUNT DUTTON
+      - MOUNT GAMBIER
+      - MOUNT GEORGE
+      - MOUNT GUNSON
+      - MOUNT HOPE
+      - MOUNT IVE
+      - MOUNT JAGGED
+      - MOUNT LOFTY
+      - MOUNT MAGNIFICENT
+      - MOUNT MARY
+      - MOUNT MCKENZIE
+      - MOUNT MUIRHEAD
+      - MOUNT OSMOND
+      - MOUNT PLEASANT
+      - MOUNT RAT
+      - MOUNT SCHANK
+      - MOUNT TEMPLETON
+      - MOUNT TORRENS
+      - MOUNT WEDGE
+      - MULGUNDAWA
+      - MULLAQUANA
+      - MULPATA
+      - MULPATA
+      - MUNDOORA
+      - MUNDULLA
+      - MUNNO PARA
+      - MUNNO PARA DOWNS
+      - MUNNO PARA WEST
+      - MURBKO
+      - MURDINGA
+      - MURNINNIE
+      - MURNINNIE BEACH
+      - MURRAWONG
+      - MURRAY BRIDGE
+      - MURRAY TOWN
+      - MURTHO
+      - MUSTON
+      - MYLOR
+      - MYPOLONGA
+      - MYPONGA
+      - MYPONGA BEACH
+      - MYRTLE BANK
+      - MYRTLE SPRINGS STATION
+      - NAILSWORTH
+      - NAIRNE
+      - NALYAPPA
+      - NANGARI
+      - NANGKITA
+      - NANGWARRY
+      - NANTAWARRA
+      - NAPEAN BAY
+      - NAPPERBY
+      - NARACOORTE
+      - NARRIDY
+      - NARRUNG
+      - NATAWARRA
+      - NATIVE VALLEY
+      - NAVAN
+      - NEALES FLAT
+      - NECTOR BROOK
+      - NELSHABY
+      - NELWOOD
+      - NENE VALLEY
+      - NEPABUNNA
+      - NEPEAN BAY
+      - NETHERBY
+      - NETLEY
+      - NEW PORT
+      - NEW RESIDENCE
+      - NEW TOWN
+      - NEW WELL
+      - NEWLAND
+      - NEWTON
+      - NILDOTTIE
+      - NINNES
+      - NOARLUNGA CENTRE
+      - NOARLUNGA DOWNS
+      - NOORA
+      - NORA CREINA
+      - NORMANVILLE
+      - NORTH ADELAIDE
+      - NORTH BEACH
+      - NORTH BRIGHTON
+      - NORTH HAVEN
+      - NORTH MOONTA
+      - NORTH PLYMPTON
+      - NORTH SHIELDS
+      - NORTH YELTA
+      - NORTHERN HEIGHTS
+      - NORTHFIELD
+      - NORTHGATE
+      - NORTON SUMMIT
+      - NORWOOD
+      - NOTTS WELL
+      - NOVAR GARDENS
+      - NULLARBOR
+      - NUNDROO
+      - NURIOOTPA
+      - NURRAGI
+      - NYAPARI
+      - O B FLAT
+      - OAK VALLEY
+      - OAKBANK
+      - OAKDEN
+      - OAKDEN HILLS
+      - OAKLANDS PARK
+      - OHALLORAN HILL
+      - OLARY
+      - OLD KOOMOOLOO STATION
+      - OLD NOARLUNGA
+      - OLD REYNELLA
+      - OLYMPIC DAM
+      - ONE TREE HILL
+      - ONKAPARINGA HILLS
+      - OODNADATTA
+      - OOLDA WIRRA
+      - OOLDEA
+      - ORROROO
+      - OSBORNE
+      - OSULLIVAN BEACH
+      - OTTOWAY
+      - OUTER HARBOR
+      - OVERLAND CORNER
+      - OVINGHAM
+      - OWEN
+      - OXFORD LANDING
+      - PADTHAWAY
+      - PAECHTOWN
+      - PAGES FLAT
+      - PAISLEY
+      - PALLAMANA
+      - PALMER
+      - PANITYA
+      - PANORAMA
+      - PARA HILLS
+      - PARA HILLS WEST
+      - PARA VISTA
+      - PARA WIRRA
+      - PARACHILNA
+      - PARACOMBE
+      - PARADISE
+      - PARAFIELD
+      - PARAFIELD GARDENS
+      - PARALOWIE
+      - PARATOO
+      - PARAWA
+      - PARCOOLA
+      - PARHAM
+      - PARILLA
+      - PARINGA
+      - PARIS CREEK
+      - PARK HOLME
+      - PARKSIDE
+      - PARNAROO
+      - PARNDANA
+      - PARNKA POINT
+      - PARRAKIE
+      - PARSONS BEACH
+      - PARUNA
+      - PASADENA
+      - PASKEVILLE
+      - PATA
+      - PAYNEHAM
+      - PAYNEHAM SOUTH
+      - PEAKE
+      - PEARLAH
+      - PEEBINGA
+      - PEEP HILL
+      - PEKINA
+      - PELICAN LAGOON
+      - PELICAN POINT
+      - PELICAN POINT (River Murray)
+      - PENFIELD
+      - PENFIELD GARDENS
+      - PENNESHAW
+      - PENNINGTON
+      - PENOLA
+      - PENONG
+      - PENRICE
+      - PENWORTHAM
+      - PERENTIE BORE
+      - PERPONDA
+      - PETERBOROUGH
+      - PETERHEAD
+      - PETERSVILLE
+      - PETHERICK
+      - PETWOOD
+      - PEWSEY VALE
+      - PICCADILLY
+      - PIEDNIPPIE
+      - PIKE RIVER
+      - PIMBA
+      - PINE POINT
+      - PINE VALLEY STATION
+      - PINERY
+      - PINKERTON PLAINS
+      - PINNAROO
+      - PIPALYATJARA
+      - PLYMPTON
+      - PLYMPTON PARK
+      - POINT BOSTON
+      - POINT LOWLY
+      - POINT PASS
+      - POINT PEARCE
+      - POINT SOUTTAR
+      - POINT STURT
+      - POINT TURTON
+      - POMPOOTA
+      - PONDALOWIE BAY
+      - POOCHERA
+      - POOGINAGORIC
+      - POONINDIE
+      - POORAKA
+      - POOTNOURA
+      - PORT ADELAIDE
+      - PORT ARTHUR
+      - PORT AUGUSTA
+      - PORT BONYTHON
+      - PORT BROUGHTON
+      - PORT CLINTON
+      - PORT DAVIS
+      - PORT ELLIOT
+      - PORT FLINDERS
+      - PORT GAWLER
+      - PORT GERMEIN
+      - PORT GIBBON
+      - PORT GILES
+      - PORT HUGHES
+      - PORT JULIA
+      - PORT KENNY
+      - PORT LINCOLN
+      - PORT MACDONNELL
+      - PORT MOOROWIE
+      - PORT NEILL
+      - PORT NOARLUNGA
+      - PORT NOARLUNGA SOUTH
+      - PORT PARHAM
+      - PORT PATERSON
+      - PORT PIRIE
+      - PORT PRIME
+      - PORT RICKABY
+      - PORT STANVAC
+      - PORT VICTORIA
+      - PORT VINCENT
+      - PORT WAKEFIELD
+      - PORT WILLUNGA
+      - PORTEE STATION
+      - PRICE
+      - PROSPECT
+      - PROSPECT HILL
+      - PT ARTHUR
+      - PT AUGUSTA
+      - PT BONYTHON
+      - PT BROUGHTON
+      - PT CLINTON
+      - PT DAVIS
+      - PT ELLIOTT
+      - PT FLINDERS
+      - PT GAWLER
+      - PT GERMEIN
+      - PT GIBBON
+      - PT GILES
+      - PUNGONDA
+      - PUNTHARI
+      - PUNYELROO
+      - PURNONG
+      - PYAP
+      - PYAP WEST
+      - PYGERY
+      - QUALCO
+      - QUEENSTOWN
+      - QUORN
+      - RACECOURSE BAY
+      - RAMCO
+      - RAMCO HEIGHTS
+      - RAPID BAY
+      - RAUKKAN
+      - REDBANKS
+      - REDHILL
+      - REDWOOD PARK
+      - REEDY CREEK
+      - REEVES PLAINS
+      - REGENCY PARK
+      - REID
+      - RENDELSHAM
+      - RENMARK
+      - RENMARK NORTH
+      - RENMARK SOUTH
+      - RENMARK WEST
+      - RENOWN PARK
+      - REYNELLA
+      - REYNELLA EAST
+      - RHYNIE
+      - RICHMOND
+      - RIDGEHAVEN
+      - RIDLEYTON
+      - RISDON PARK
+      - RISDON PARK SOUTH
+      - RIVERGLADES
+      - RIVERTON
+      - ROBE
+      - ROBERTSTOWN
+      - ROCKLEIGH
+      - ROCKY CAMP
+      - ROCKY GULLY
+      - ROCKY POINT
+      - ROGUES POINT
+      - ROONKA
+      - ROOPENA
+      - ROSE PARK
+      - ROSEDALE
+      - ROSEWATER
+      - ROSEWORTHY
+      - ROSSLYN PARK
+      - ROSTREVOR
+      - ROWLAND FLAT
+      - ROXBY DAM
+      - ROXBY DOWNS
+      - ROYAL PARK
+      - ROYSTON PARK
+      - SADDLEWORTH
+      - SAINT AGNES
+      - SAINT CLAIR
+      - SAINT GEORGES
+      - SAINT IVES
+      - SAINT KILDA
+      - SAINT MARYS
+      - SAINT MORRIS
+      - SAINT PETERS
+      - SALISBURY
+      - SALISBURY DOWNS
+      - SALISBURY EAST
+      - SALISBURY HEIGHTS
+      - SALISBURY NORTH
+      - SALISBURY PARK
+      - SALISBURY PLAIN
+      - SALISBURY SOUTH
+      - SALT CREEK
+      - SAMPSON FLAT
+      - SANDALWOOD
+      - SANDERGROVE
+      - SANDERSTON
+      - SANDLETON
+      - SANDY CREEK
+      - SAPPHIRETOWN
+      - SCOTT CREEK
+      - SCRUBBY FLAT
+      - SEACLIFF
+      - SEACLIFF PARK
+      - SEACOMBE GARDENS
+      - SEACOMBE HEIGHTS
+      - SEAFORD
+      - SEAFORD HEIGHTS
+      - SEAFORD MEADOWS
+      - SEAFORD RISE
+      - SEATON
+      - SEAVIEW DOWNS
+      - SECOND VALLEY
+      - SEDAN
+      - SEFTON PARK
+      - SELLICKS BEACH
+      - SELLICKS HILL
+      - SEMAPHORE
+      - SEMAPHORE PARK
+      - SEMAPHORE SOUTH
+      - SENIOR
+      - SEPPELTSFIELD
+      - SEVENHILL
+      - SHEA-OAK LOG
+      - SHEIDOW PARK
+      - SHERINGA
+      - SHERLOCK
+      - SHOAL BAY
+      - SILVER SANDS
+      - SKYE
+      - SMITHFIELD
+      - SMITHFIELD PLAINS
+      - Smithville
+      - SMOKY BAY
+      - SNELLINGS BEACH
+      - SNOWTOWN
+      - SNUG COVE
+      - SNUGGERY
+      - SOMERTON PARK
+      - SOUTH BRIGHTON
+      - SOUTH HUMMOCKS
+      - SOUTH KILKERRAN
+      - SOUTH PLYMPTON
+      - SOUTHEND
+      - SPALDING
+      - SPILSBY ISLAND
+      - Spring Cart Gully
+      - SPRING GULLY
+      - SPRINGCART GULLY
+      - SPRINGFIELD
+      - SPRINGTON
+      - ST AGNES
+      - ST CLAIR
+      - ST GEORGES
+      - ST IVES
+      - ST KILDA
+      - ST MARYS
+      - ST MORRIS
+      - ST PETERS
+      - STANLEY FLAT
+      - STANSBURY
+      - STENHOUSE BAY
+      - STEPNEY
+      - STEWARTS RANGE
+      - STIRLING
+      - STIRLING NORTH
+      - STOCKPORT
+      - STOCKWELL
+      - STOCKYARD PLAIN
+      - STOKES BAY
+      - STONE HUT
+      - STONEFIELD
+      - STONYFELL
+      - STRATHALBYN
+      - STRAWBRIDGE POINT
+      - STREAKY BAY
+      - STRUAN
+      - STURT
+      - SULTANA POINT
+      - SUMMERTOWN
+      - SUNLANDS
+      - SUNNYBRAE
+      - SUNNYDALE
+      - SUNNYVALE
+      - SURREY DOWNS
+      - SUTHERLANDS
+      - SUTTONTOWN
+      - SWAN REACH
+      - TAILEM BEND
+      - TALDRA
+      - TALIA
+      - TANTANOOLA
+      - TANUNDA
+      - TAPEROO
+      - TAPLAN
+      - TARATAP
+      - TARCOOLA
+      - TARLEE
+      - TARPEENA
+      - TATACHILLA
+      - TAYLORVILLE
+      - TEA TREE GULLY
+      - TEAL FLAT
+      - TELOWIE
+      - TEMPLERS
+      - TENNYSON
+      - TEPKO
+      - TERINGIE
+      - TEROWIE
+      - THE PINES
+      - THE RANGE
+      - THEBARTON
+      - THEVENARD
+      - THOMPSON BEACH
+      - THORNGATE
+      - THORNLEA
+      - THRINGTON
+      - TIATUKIA
+      - TICKERA
+      - TIDDY WIDDY BEACH
+      - TILLEY SWAMP
+      - TINTINARA
+      - TONSLEY PARK
+      - TOOKAYERTA
+      - TOOLIGIE
+      - TOOPERANG
+      - TOORAK GARDENS
+      - TOOTENILLA
+      - TORRENS ISLAND
+      - TORRENS PARK
+      - TORRENSVILLE
+      - TOTHILL CREEK
+      - TOTNESS
+      - TOWITTA
+      - TRANMERE
+      - TRINITY GARDENS
+      - TROTT PARK
+      - TRURO
+      - TULKA
+      - TUMBY BAY
+      - TUNGKILLO
+      - TUNKALILLA BEACH
+      - TURKEY BORE
+      - TWO WELLS
+      - UCOLTA
+      - ULEYBURY
+      - UMUWA
+      - UNDALYA
+      - UNDERDALE
+      - UNGARRA
+      - UNLEY
+      - UNLEY PARK
+      - UPPER HERMITAGE
+      - UPPER STURT
+      - URAIDLA
+      - URRBRAE
+      - VALE PARK
+      - VALLEY VIEW
+      - VEITCH
+      - VENUS BAY
+      - VERDUN
+      - VICTOR HARBOR
+      - VINE VALE
+      - VIRGINIA
+      - VISTA
+      - VIVONNE BAY
+      - WAIKERIE
+      - WAITPINGA
+      - WALKER FLAT
+      - WALKERVILLE
+      - WALKLEY HEIGHTS
+      - WALL FLAT
+      - WALLANY
+      - WALLAROO
+      - WALLAROO MINES
+      - WALLOWAY
+      - WALTOWA
+      - WAMI KATA
+      - WANBI
+      - WANDEARAH
+      - WANDEARAH EAST
+      - WANDILO
+      - WANGARY
+      - WANGOLINA
+      - WANILLA
+      - WARD BELT
+      - WARDANG ISLAND
+      - WARNERTOWN
+      - WAROOKA
+      - WARRACHIE
+      - WARRADALE
+      - WARRAMBOO
+      - WASLEYS
+      - WATARRU
+      - WATERFALL GULLY
+      - WATERLOO
+      - WATERLOO CORNER
+      - WATERVALE
+      - WATINUMA
+      - WATTLE FLAT
+      - WATTLE PARK
+      - WATTLE RANGE
+      - WAURALTEE
+      - WAYVILLE
+      - WEBB BEACH
+      - WEEROONA ISLAND
+      - WEETULTA
+      - WELLAND
+      - WELLINGTON
+      - WEPAR
+      - WEST BEACH
+      - WEST CROYDON
+      - WEST HINDMARSH
+      - WEST LAKES
+      - WEST LAKES SHORE
+      - WEST PENONG
+      - WEST RICHMOND
+      - WEST TORRENS
+      - WESTBOURNE PARK
+      - WESTERN FLAT
+      - WESTERN RIVER
+      - WESTONS FLAT
+      - WHITE HILL
+      - WHITE HUT
+      - WHITE SANDS
+      - WHITES FLAT
+      - WHITES VALLEY
+      - WHITWARTA
+      - WHYALLA
+      - WHYALLA BARSON
+      - WHYALLA JENKINS
+      - WHYALLA NORRIE
+      - WHYALLA PLAYFORD
+      - WHYALLA STUART
+      - WHYTE YARCOWIE
+      - WIGLEY FLAT
+      - WILD HORSE PLAINS
+      - WILKAWATT
+      - WILLALO
+      - WILLALOOKA
+      - WILLASTON
+      - WILLIAM CREEK
+      - WILLIAMSTOWN
+      - WILLOWIE
+      - WILLUNGA
+      - WILLUNGA HILL
+      - WILLUNGA SOUTH
+      - WILLYAROO
+      - WILMINGTON
+      - WILPENA
+      - WINDSOR
+      - WINDSOR GARDENS
+      - WINGFIELD
+      - WINKIE
+      - WINNINOWIE
+      - WIRRABARA
+      - WIRRAMINNA
+      - WIRREGA
+      - WIRRINA
+      - WIRRULLA
+      - WISANGER
+      - WISTOW
+      - WITERA
+      - WOKURNA
+      - WOLSELEY
+      - WONGULLA
+      - WONGYARRA
+      - WOOCALLA
+      - WOODCHESTER
+      - WOODCROFT
+      - WOODFORDE
+      - WOODS FLAT
+      - WOODS POINT
+      - WOODS WELL
+      - WOODSIDE
+      - WOODVILLE
+      - WOODVILLE GARDENS
+      - WOODVILLE NORTH
+      - WOODVILLE PARK
+      - WOODVILLE SOUTH
+      - WOODVILLE WEST
+      - WOOL BAY
+      - WOOLPUNDA
+      - WOOLSHED FALT
+      - WOOMERA
+      - WORLDS END
+      - WORROLONG
+      - WRATTONBULLY
+      - WUDINNA
+      - WUNKAR
+      - WYNARKA
+      - WYNN VALE
+      - YACKA
+      - YAHL
+      - YALATA
+      - YALLUNDA FLAT
+      - YAMBA
+      - YANINEE
+      - YANKALILLA
+      - YANTANABIE
+      - YAPPALA
+      - YARANYACKA
+      - YATALA VALE
+      - YATINA
+      - YATTALUNGA
+      - YEELANNA
+      - YINKANNIE
+      - YONGALA
+      - YORKE VALLEY
+      - YORKETOWN
+      - YOUNGHUSBAND
+      - YUMALI
+      - YUNDI
+      - YUNTA
+      - YUNYARINYI
+      - ZADOWS LANDING
+    default: 'YUNDI'
+  - Animal/s being the subject of offence: count[i].offenceAnimal
+    default: 'a short-haired tabby cat'
+  - Offence: count[i].countSection
+    datatype: integer
+    choices:
+      - Section 13(1) - Ill treatment causing death or serious harm: 0
+      - Section 13(2) - Ill treatment: 1
+      - Section 31B(2) - Breach of AWN: 2
+      - Section 32A(2) - Breach of Order: 3
+  - Particulars: count[i].particularSection
+    datatype: integer
+    choices:
+      - Section 13 (3)(a) - causing unnecessary harm: 0
+      - Section 13(3)(b)(i) – fails to provide adequate food and water: 1
+      - Section 13(3)(b)(i) – fails to provide adequate exercise: 2
+      - Section 13(3)(b)(i) - fails to provide adequate living conditions: 3
+      - Section 13(3)(b)(ii) - fails to take reasonable steps to mitigate harm: 4
+      - Section 13(3)(b)(iii) – abandons the animal: 5
+      - Section 13(3)(b)(iv) – neglect the animal as to cause it harm: 6
+      - N/A: 7
+    default: 7
+---
+question: |
+  Are there any more counts
+  you would like to add?
+yesno: count.there_is_another
+---

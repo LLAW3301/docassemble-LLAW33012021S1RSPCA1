@@ -2,52 +2,1664 @@
 ---
 question: ""
 subquestion: |
-  Welcome to RSPCA Court Summons App. This app does .....
+  Welcome to the automation app for relevant forms of the Magistrates Court of South Australia for breaches of the *Animal Welfare Act 1985* and other purposes. This program will require you to enter the necessary fields in order to generate the required draft forms.
   
   ***Disclaimer:***
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+  The forms produced by this app are intended to be draft versions and **must be reviewed by a lawyer**. The service provided by this app should not be regarded as legal advice.
+  
   Do you accept these terms?
 yesno: RSPCAeligible
 ---
-#next we will gather information about the defendant
-question: |
-  Defendant Details:
+# Checkboxes where answer will populate relevant forms
+question: Forms Required
+subquestion: |
+  Please choose the offence and related forms:
 fields:
-  - Full Name: def_name
+  - Highest Charge: offence_selection
+    choices:
+      - Summary Offence (Without guilty plea) - Form 2: sum_off
+      - Summary Offence (With guilty plea) - Form 3: sum_off2
+      - Minor Indictable Offence (Without guilty plea) - Form 2 and Form 8: minor_off
+  - Appplication for an Order: animal_surrendered
+    choices:
+      - Yes
+      - No
+  - Summary of Facts: sum_facts
+    choices:
+      - Yes
+      - No
+---
+# Form 2 & 3: Gather information about the Informant
+question: Informant Details
+fields:
+  - Informant Surname: inf_surname
+    default: 'Royal Society for the Prevention of Cruelty to Animals (SA) Inc'
+  - Informant Given Name: inf_given_name
+    default: '' 
+    required: false
+  - Street: inf_street
+    default: '16 Nelson Street'
+  - Suburb: inf_suburb
+    default: 'Stepney'
+  - State: inf_state
+    default: SA
+  - Postcode: inf_postcode
+    datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
+    default: 5069
+  - Email: inf_email
+    datatype: email
+    required: false
+  - Phone Number: inf_phone
+    default: 1300 477 722
+  - Facsimile: inf_fax
+    required: false
+---
+# Form 2 & 3: Gather information about the Defendant
+question: Defendant Details
+fields:
+  - Defendant Surname: def_surname
+    default: 'Moody'
+  - Defendant Given Name: def_given_name
+    default: 'Toby'
   - DOB: def_DOB
     datatype: date
+    default: 19/12/1975
   - Street: def_street
+    default: '65 Grote St.'
   - Suburb: def_suburb
+    default: 'Yamba'
   - State: def_state
+    choices: 
+      - ACT
+      - NSW
+      - VIC
+      - SA
+      - QLD
+      - WA
+      - TAS
+      - NT
+    default: VIC
   - Postcode: def_postcode
     datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
+    default: 5000
   - Email: def_email
+    datatype: email
+    required: false
   - Phone Number: def_phone
-    datatype: integer
-  - Licence Number: def_licence
+    default: +61 495 223 556
 ---
-#registery lists 
-question: |
-  Please select registry:
+# Asking for other order not listed
+question: Will orders be sought?
 fields:
-  - no label: RSPCAcourt
-    datatype: integer
-    choices:
-      - "Supreme Court Civil and Criminal Registry": 0
-      - "District Court of South Australia": 1
-      - "Adelaide Magistrates Court": 2
-      - "Berri Magistrates Court": 3
----
-#form type
-question: |
-  Select form type:
-fields:
-  - no label: RSPCAform
+  - no label: req_orders
     datatype: radio
     choices:
-      - "Form 2": formTwo
-      - "Form 3": formThree
+      - Yes
+      - No
+  - Section orders: order_other
+    datatype: checkboxes
+    choices:
+      - Section 32A(1)(aa)
+      - Section 32A(1)(a) 
+      - Section 32A(1)(b)
+      - Section 32A(1)(c)
+      - Section 32A(1)(d)
+      - Section 32A(1)(e)
+    show if:
+      variable: req_orders
+      is: 'Yes'
 ---
-#add any other questions under here
+# Applicant Details
+question: Applicant Details
+fields:
+  - Full Name: appl_name
+    default: 'Shannon Young, Inspector, RSPCA SA Inc.'
+  - Street: appl_street
+    default: "16 Nelson Street"
+  - Suburb: appl_suburb
+    default: "Stepney"
+  - State: appl_state
+    default: SA
+  - Postcode: appl_postcode
+    datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
+    default: 5069
+  - Email: appl_email
+    datatype: email
+    required: false
+  - Telephone: appl_phone
+    required: false
+  - Grounds of Application: app_ground
+    input type: area
+    default: |
+      On the [date], animal/s belonging to the defendant, namely [animal/s details], was/were seized due to its/their condition. The animal/s is/are currently being cared for by RSPCA SA Inc.
+---
+# Solicitor Details
+question: Solicitor Details
+fields:
+  - Full Name: solicitor_name
+    default: "Jillian Smith"
+  - Street: solicitor_street
+    default: "16 Nelson Street"
+  - Suburb: solicitor_suburb
+    default: "Stepney"
+  - State: solicitor_state
+    default: SA
+  - Postcode: solicitor_postcode
+    datatype: integer
+    min: 5000
+    max: 5999
+    validation messages: 
+      max: |
+        Please enter a 4 digit postcode
+    default: 5069
+  - Email: solicitor_email
+    datatype: email
+    default: "jsmith@rspcasa.org.au"
+    required: false
+  - Telephone: solicitor_phone
+    default: "1300 477 722"
+    required: false
+  - Facsimile: solicitor_fax
+    required: false
+---
+#Collect hearing details for form2/3/23
+question: Hearing Details
+subquestion: |
+  Date and time of the hearing
+fields:
+  - Hearing Date: hearing_date
+    datatype: date
+    default: 12/12/2021
+    required: false
+  - Hearing Time: hearing_time
+    datatype: time
+    default: 10:00 am
+    required: false
+  - Offence location: offence_location
+    datatype: integer
+    choices:
+     - "ABERFOYLE PARK": 1
+     - "ABMINGA STATION": 9
+     - "ADELAIDE": 0
+     - "ADELAIDE AIRPORT": 0
+     - "AGERY": 14
+     - "ALAWOONA": 4
+     - "ALBERRIE CREEK": 7
+     - "ALBERT PARK": 3
+     - "ALBERTON": 3
+     - "ALDGATE": 16
+     - "ALDINGA": 1
+     - "ALDINGA BEACH": 1
+     - "ALFORD": 14
+     - "ALLANDALE STATION": 13
+     - "ALLENBY GARDENS": 3
+     - "ALLENDALE EAST": 5
+     - "ALLENDALE NORTH": 18
+     - "ALMA": 18
+     - "ALPANA": 7
+     - "ALTON DOWNS STATION": 7
+     - "ALTONA": 18
+     - "AMATA": 7
+     - "AMERICAN BEACH": 1
+     - "AMERICAN RIVER": 1
+     - "AMYTON": 7
+     - "ANAMA": 0
+     - "ANANGU PITJANTJATJARA LANDS": 7
+     - "ANDAMOOKA": 7
+     - "ANDAMOOKA STATION": 7
+     - "ANDREWS": 9
+     - "ANDREWS FARM": 2
+     - "ANGAS PLAINS": 19
+     - "ANGAS VALLEY": 6
+     - "ANGASTON": 18
+     - "ANGEPENA": 7
+     - "ANGLE PARK": 3
+     - "ANGLE VALE": 2
+     - "ANGORIGINA": 7
+     - "ANNA CREEK": 13
+     - "ANNADALE": 4
+     - "ANTECHAMBER BAY": 1
+     - "APAMURRA": 6
+     - "APOINGA": 0
+     - "APPILA": 9
+     - "ARCKARINGA": 13
+     - "ARCOONA": 7
+     - "ARDROSSAN": 9
+     - "ARKARINGA": 13
+     - "ARKAROOLA": 13
+     - "ARKAROOLA VILLAGE": 7
+     - "ARMAGH": 0
+     - "ARNO BAY": 10
+     - "ARTHURTON": 14
+     - "ASCOT PARK": 0
+     - "ASHBOURNE": 16
+     - "ASHFORD": 0
+     - "ASHTON": 16
+     - "ASHVILLE": 6
+     - "ATHELSTONE": 0
+     - "ATHOL PARK": 3
+     - "AUBURN": 0
+     - "AULDANA": 0
+     - "AUSTRALIA PLAINS": 4
+     - "AVENUE RANGE": 17
+     - "AVOCA DELL": 6
+     - "AVON": 14
+     - "AYERS RANGE SOUTH": 7
+     - "BABARINGA": 2
+     - "BACK VALLEY": 19
+     - "BACKY POINT": 10
+     - "BAGOT WELL": 18
+     - "BAIRD BAY": 12
+     - "BAKARA": 4
+     - "BAKARA WELL": 4
+     - "BALAH": 0
+     - "BALAKLAVA": 0
+     - "BALD HILLS": 19
+     - "BALDINA": 0
+     - "BALGOWAN": 9
+     - "BALHANNAH": 16
+     - "BALLAST HEAD": 1
+     - "BANGHAM": 11
+     - "BANGOR": 9
+     - "BANKSIA PARK": 2
+     - "BARABBA": 18
+     - "BARATTA": 7
+     - "BARINIA": 0
+     - "BARMERA": 4
+     - "BARNDIOOTA": 7
+     - "BAROOTA": 9
+     - "BAROSSA GOLDFIELDS": 18
+     - "BARUNGA GAP": 14
+     - "BASKET RANGE": 16
+     - "BAUDIN BEACH": 1
+     - "BAY OF SHOALS": 1
+     - "BEACHPORT": 15
+     - "BEATTY": 4
+     - "BEAUFORT": 14
+     - "BEAUMONT": 0
+     - "BEAUMONTS": 4
+     - "BEDFORD PARK": 1
+     - "BEETALOO": 9
+     - "BELAIR": 0
+     - "BELALIE": 9
+     - "BELALIE EAST": 9
+     - "BELALIE NORTH": 9
+     - "BELLEVUE HEIGHTS": 1
+     - "BELTANA": 7
+     - "BELTON": 9
+     - "BELVIDERE": 16
+     - "BERRI": 4
+     - "BETHANY": 18
+     - "BETHEL": 18
+     - "BEULAH PARK": 0
+     - "BEVERLEY": 3
+     - "BIBARINGA": 2
+     - "BIGGS FLAT": 16
+     - "BILLIATT": 4
+     - "BINDARRAH": 9
+     - "BINNUM": 17
+     - "BIRCHMORE": 1
+     - "BIRDWOOD": 16
+     - "BIRKENHEAD": 3
+     - "BISCUIT FLAT": 15
+     - "BLACK FOREST": 0
+     - "BLACK HILL": 4
+     - "BLACK POINT": 9
+     - "BLACK ROCK": 9
+     - "BLACK SPRINGS": 0
+     - "BLACKFELLOWS CAVES": 5
+     - "BLACKFELLOWS CREEK": 16
+     - "BLACKWOOD": 1
+     - "BLAIR ATHOL": 0
+     - "BLAKEVIEW": 2
+     - "BLAKISTON": 16
+     - "BLANCHE HARBOR": 7
+     - "BLANCHETOWN": 4
+     - "BLETCHLEY": 16
+     - "BLEWITT SPRINGS": 1
+     - "BLINMAN": 7
+     - "BLYTH": 0
+     - "BOATSWAIN POINT": 15
+     - "BOLIVAR": 2
+     - "BON BON": 13
+     - "BOOBOROWIE": 9
+     - "BOOKABIE": 12
+     - "BOOKALOO": 7
+     - "BOOKPURNONG": 4
+     - "BOOL LAGOON": 17
+     - "BOOLEROO CENTRE": 9
+     - "BOOLGUN": 4
+     - "BORDER VILLAGE": 12
+     - "BORDERTOWN": 11
+     - "BORRIKA": 6
+     - "BOSTON": 8
+     - "BOSTON BAY": 8
+     - "BOWDEN": 3
+     - "BOWER": 4
+     - "BOWHILL": 6
+     - "BOWILLIA": 0
+     - "BOWMANS": 14
+     - "BRADBURY": 16
+     - "BRAHMA LODGE": 2
+     - "BRAMFIELD": 8
+     - "BRAY": 15
+     - "BRENDA PARK": 4
+     - "BRENTWOOD": 9
+     - "BRIDGEWATER": 16
+     - "BRIGHTON": 1
+     - "BRIMBAGO": 5
+     - "BRINKLEY": 6
+     - "BRINKWORTH": 0
+     - "BROADVIEW": 0
+     - "BROKEN CLIFFS": 4
+     - "BROMPTON": 3
+     - "BROOKER": 8
+     - "BROOKLYN PARK": 0
+     - "BROWNHILL CREEK": 0
+     - "BROWNLOW": 4
+     - "BROWNS BEACH": 1
+     - "BRUCE": 7
+     - "BRUKUNGA": 16
+     - "BUCCLEUCH": 4
+     - "BUCHFELDE": 2
+     - "BUCKLAND PARK": 2
+     - "BUCKLEBOO": 10
+     - "Bugle Hut": 4
+     - "BUGLE RANGES": 16
+     - "BULL CREEK": 16
+     - "BUMBUNGA": 0
+     - "BUNGAMA": 9
+     - "BUNGAREE": 0
+     - "BURDETT": 6
+     - "BURNSIDE": 0
+     - "BURRA": 0
+     - "BURRA NORTH": 0
+     - "BURRUNGULE": 5
+     - "BURTON": 2
+     - "BUTE": 14
+     - "CADELL": 4
+     - "CADELL LAGOON": 4
+     - "CADNEY PARK": 13
+     - "CALIPH": 4
+     - "CALLINGTON": 6
+     - "CALOMBA": 2
+     - "CALOOTE": 6
+     - "CALPERNUM STATION": 4
+     - "CALTOWIE": 9
+     - "CAMBRAI": 4
+     - "CAMDEN PARK": 0
+     - "CAMPBELLTOWN": 0
+     - "CANNAN REEF": 12
+     - "CANNAWIGARA": 11
+     - "CANOPUS": 4
+     - "CAPE BORDA": 1
+     - "CAPE DOUGLAS": 5
+     - "CAPE ELIZABETH": 14
+     - "CAPE JAFFA": 15
+     - "CAPE JERVIS": 19
+     - "CAPE NORTHUMBERLAND": 5
+     - "CAREY GULLY": 16
+     - "CAROLINE": 5
+     - "CARPENTER ROCKS": 5
+     - "CARRICKALINGA": 19
+     - "CARRIETON": 7
+     - "CARRIEWERLOO": 7
+     - "CASSINI": 1
+     - "CASTAMBUL": 0
+     - "CAURNAMONT": 6
+     - "CAVAN": 2
+     - "CAVETON": 5
+     - "CEDUNA": 12
+     - "CHAFFEY": 4
+     - "CHAIN OF PONDS": 16
+     - "CHANDLERS HILL": 1
+     - "CHARLESTON": 16
+     - "CHARLTON GULLY": 8
+     - "CHARLTON GULLY": 8
+     - "CHELTENHAM": 3
+     - "CHERRY GARDENS": 1
+     - "CHERRYVILLE": 16
+     - "CHINAMAN WELLS": 9
+     - "CHOWILLA": 4
+     - "CHRISTIE DOWNS": 1
+     - "CHRISTIES BEACH": 1
+     - "CLAPHAM": 0
+     - "CLARE": 0
+     - "CLARENCE GARDENS": 0
+     - "CLARENCE PARK": 0
+     - "CLARENDON": 1
+     - "CLAY WELLS": 15
+     - "CLAYTON": 19
+     - "CLAYTON BAY": 19
+     - "CLEARVIEW": 0
+     - "CLELAND": 16
+     - "CLEMENTS GAP": 9
+     - "CLEVE": 10
+     - "CLINTON": 14
+     - "CLOVELLY PARK": 1
+     - "CLOVERCREST": 2
+     - "COBDOGLA": 4
+     - "COBERA": 4
+     - "COCKALEECHIE": 8
+     - "COCKATOO LAKE": 17
+     - "COCKATOO VALLEY": 18
+     - "COCKBURN": 9
+     - "COFFIN BAY": 8
+     - "COLLEGE PARK": 0
+     - "COLLINSFIELD": 9
+     - "COLLINSWOOD": 0
+     - "COLONEL LIGHT GARDENS": 0
+     - "COMAUM": 17
+     - "COMPTON": 5
+     - "CONCORDIA": 2
+     - "CONDOWIE": 0
+     - "COOBER PEDY": 13
+     - "COOBOWIE": 9
+     - "COOK": 12
+     - "COOKE PLAINS": 6
+     - "COOLCHA": 6
+     - "COOLTONG": 4
+     - "COOMANDOOK": 6
+     - "COOMBE": 11
+     - "COOMUNGA": 8
+     - "COONALPYN": 6
+     - "COONAMIA": 9
+     - "COONAWARRA": 5
+     - "COORABIE": 12
+     - "COORONG": 6
+     - "COPEVILLE": 6
+     - "COPLEY": 7
+     - "CORNY POINT": 9
+     - "COROMANDEL EAST": 1
+     - "COROMANDEL VALLEY": 1
+     - "COULTA": 8
+     - "COWANDILLA": 0
+     - "COWELL": 10
+     - "COWIRRA": 6
+     - "CRAFERS": 16
+     - "CRAFERS WEST": 16
+     - "CRAIGBURN FARM": 1
+     - "CRAIGMORE": 2
+     - "CRESCENT": 4
+     - "CROMER": 18
+     - "CROYDON": 3
+     - "CROYDON PARK": 3
+     - "CRYSTAL BROOK": 9
+     - "CUDLEE CREEK": 16
+     - "CULBURRA": 6
+     - "CUMBERLAND PARK": 0
+     - "CUMMINS": 8
+     - "CUNGENA": 12
+     - "CUNLIFFE": 14
+     - "CURRAMULKA": 9
+     - "CURRENCY CREEK": 19
+     - "CUSTON": 11
+     - "CUTTLEFISH BAY": 1
+     - "CYGNET RIVER": 1
+     - "DALHOUSIE SPRINGS": 13
+     - "DALKEITH": 2
+     - "DARKE PEAK": 10
+     - "DARLINGTON": 1
+     - "DASHWOOD GULLY": 1
+     - "DAVENPORT": 7
+     - "DAVEYSTON": 18
+     - "DAVOREN PARK": 2
+     - "DAW PARK": 0
+     - "DAWESLEY": 16
+     - "DAWSON": 9
+     - "DEEP CREEK": 19
+     - "DELAMERE": 19
+     - "DENIAL BAY": 12
+     - "DERNANCOURT": 0
+     - "DEVLINS POUND": 4
+     - "DEVON PARK": 3
+     - "DINGABLEDINGA": 1
+     - "DIREK": 2
+     - "DISMAL SWAMP": 5
+     - "DONOVANS": 5
+     - "DORRIEN": 18
+     - "DORSET VALE": 16
+     - "DOVER GARDENS": 1
+     - "DOWLINGVILLE": 14
+     - "DRY CREEK": 2
+     - "DUBLIN": 2
+     - "DUDLEY EAST": 1
+     - "DUDLEY PARK": 3
+     - "DUDLEY WEST": 1
+     - "DULLINGARI": 7
+     - "DULWICH": 0
+     - "DUTTON": 0
+     - "DUTTON BAY": 8
+     - "EAGLE ON THE HILL": 16
+     - "EAST MOONTA": 14
+     - "EAST WANDEARAH": 9
+     - "EASTWOOD": 0
+     - "EBENEZER": 18
+     - "ECHUNGA": 16
+     - "EDEN HILLS": 1
+     - "EDEN VALLEY": 18
+     - "EDILLILIE": 8
+     - "EDINBURGH": 2
+     - "EDITHBURGH": 9
+     - "EDWARDSTOWN": 0
+     - "EIGHT MILE CREEK": 5
+     - "ELBOW HILL": 10
+     - "ELIZABETH": 2
+     - "ELIZABETH DOWNS": 2
+     - "ELIZABETH EAST": 2
+     - "ELIZABETH GROVE": 2
+     - "ELIZABETH NORTH": 2
+     - "ELIZABETH PARK": 2
+     - "ELIZABETH SOUTH": 2
+     - "ELIZABETH VALE": 2
+     - "ELIZABETH WEST": 2
+     - "ELLISTON": 8
+     - "ENCOUNTER BAY": 19
+     - "ENFIELD": 0
+     - "ENOOMAH BORE": 4
+     - "ERINDALE": 0
+     - "ERNABELLA": 7
+     - "ETHELTON": 3
+     - "ETTRICK": 6
+     - "EUDUNDA": 18
+     - "EVANDALE": 0
+     - "EVANSTON": 2
+     - "EVANSTON GARDENS": 2
+     - "EVANSTON PARK": 2
+     - "EVANSTON SOUTH": 2
+     - "EVERARD PARK": 0
+     - "EXETER": 3
+     - "EXPORT PARK": 0
+     - "FAIRVIEW PARK": 2
+     - "FARM BEACH": 8
+     - "FARRELL FLAT": 0
+     - "FERRYDEN PARK": 3
+     - "FINDON": 3
+     - "FINNISS": 16
+     - "FIRLE": 0
+     - "FISHER": 4
+     - "FISHERMANS BAY": 9
+     - "FITZROY": 0
+     - "FLAGSTAFF HILL": 1
+     - "FLAXLEY": 16
+     - "FLINDERS CHASE": 1
+     - "FLINDERS PARK": 3
+     - "FLINDERS RANGES": 9
+     - "FLORIETON": 4
+     - "FORDS": 18
+     - "FOREST RANGE": 16
+     - "FORESTVILLE": 0
+     - "FORRESTON": 16
+     - "FOUL BAY": 9
+     - "FOWLERS BAY": 12
+     - "FOX": 17
+     - "FRANCES": 17
+     - "FRANKLIN HARBOUR": 10
+     - "FREELING": 18
+     - "FREGON": 7
+     - "FREWVILLE": 0
+     - "FULHAM": 0
+     - "FULHAM GARDENS": 3
+     - "FULLARTON": 0
+     - "FURNER": 15
+     - "GALGA": 4
+     - "GAWLER": 2
+     - "GAWLER BELT": 2
+     - "GAWLER EAST": 2
+     - "GAWLER RIVER": 2
+     - "GAWLER SOUTH": 2
+     - "GAWLER WEST": 2
+     - "GEMMELLS": 16
+     - "GEORGETOWN": 9
+     - "GEPPS CROSS": 0
+     - "GERANIUM": 4
+     - "GERARD": 4
+     - "GILBERTON": 0
+     - "GILES CORNER": 18
+     - "GILLES PLAINS": 0
+     - "GILLMAN": 3
+     - "GLADSTONE": 9
+     - "GLANDORE": 0
+     - "GLANVILLE": 3
+     - "GLEN OSMOND": 0
+     - "GLENALTA": 0
+     - "GLENBURNIE": 5
+     - "GLENCOE": 5
+     - "GLENCOE WEST": 5
+     - "GLENDAMBO": 7
+     - "GLENELG": 0
+     - "GLENELG EAST": 0
+     - "GLENELG NORTH": 0
+     - "GLENELG SOUTH": 0
+     - "GLENGOWRIE": 0
+     - "GLENROY": 17
+     - "GLENSIDE": 0
+     - "GLENUNGA": 0
+     - "GLOBE DERBY": 2
+     - "GLOBE DERBY PARK": 2
+     - "GLOSSOP": 4
+     - "GLUYAS": 4
+     - "GLYNDE": 0
+     - "GOLDEN GROVE": 2
+     - "GOLDEN HEIGHTS": 4
+     - "GOMERSAL": 18
+     - "GOODWOOD": 0
+     - "GOOLWA": 19
+     - "GOOLWA BEACH": 19
+     - "GOOLWA SOUTH": 19
+     - "GOSSE": 1
+     - "GOULD CREEK": 2
+     - "GOWER CONSERVATION PARK": 5
+     - "GOYDER": 14
+     - "GRACE PLAINS": 2
+     - "GRANGE": 3
+     - "GRANITE DOWN STATIONS": 13
+     - "GREEN FIELDS": 2
+     - "GREEN HILLS RANGE": 16
+     - "GREEN PATCH": 8
+     - "GREENACRES": 0
+     - "GREENHILL": 0
+     - "GREENOCK": 18
+     - "GREENWAYS": 15
+     - "GREENWITH": 2
+     - "GULFVIEW HEIGHTS": 2
+     - "GULNARE": 9
+     - "GUMBOWIE": 9
+     - "GUMERACHA": 16
+     - "GURRA GURRA": 4
+     - "GURRAI": 4
+     - "HACKHAM": 1
+     - "HACKHAM WEST": 1
+     - "HACKNEY": 0
+     - "HAHNDORF": 16
+     - "HAINES": 1
+     - "HALBURY": 18
+     - "HALIDON": 6
+     - "HALLETT COVE": 1
+     - "HAMLEY BRIDGE": 18
+     - "HAMMOND": 9
+     - "HAMPSTEAD GARDENS": 0
+     - "HANSBOROUGH": 18
+     - "HANSON": 0
+     - "HAPPY VALLEY": 1
+     - "HARDWICKE BAY": 9
+     - "HARROGATE": 16
+     - "HART": 0
+     - "HARTLEY": 16
+     - "HASLAM": 12
+     - "HATHERLEIGH": 15
+     - "HAWKER": 7
+     - "HAWTHORN": 0
+     - "HAWTHORNDENE": 1
+     - "HAYBOROUGH": 19
+     - "HAZELWOOD PARK": 0
+     - "HEATHFIELD": 16
+     - "HEATHPOOL": 0
+     - "HECTORVILLE": 0
+     - "HENDON": 3
+     - "HENLEY BEACH": 3
+     - "HENLEY BEACH SOUTH": 3
+     - "HESSO": 7
+     - "HEWETT": 2
+     - "HIGHBURY": 0
+     - "HIGHERCOMBE": 16
+     - "HIGHGATE": 0
+     - "HILLBANK": 2
+     - "HILLCREST": 0
+     - "HILLIER": 2
+     - "HILLTOWN": 0
+     - "HILTON": 0
+     - "HINDMARSH": 3
+     - "HINDMARSH ISLAND": 19
+     - "HINDMARSH TIERS": 19
+     - "HINDMARSH VALLEY": 19
+     - "HOGWASH BEND": 4
+     - "HOLDEN HILL": 0
+     - "HOLDER SIDING": 4
+     - "HOPE FOREST": 1
+     - "HOPE GAP": 9
+     - "HOPE VALLEY": 0
+     - "HORSNELL GULLY": 0
+     - "HOSKIN CORNER": 0
+     - "HOUGHTON": 2
+     - "HOVE": 1
+     - "HOYLETON": 0
+     - "HUMBUG SCRUB": 2
+     - "HUNTFIELD HEIGHTS": 1
+     - "HYDE PARK": 0
+     - "HYNAM": 17
+     - "ILLYOMBA": 7
+     - "INDULKANA": 7
+     - "INGLE FARM": 2
+     - "INGLEWOOD": 16
+     - "INHALTA": 4
+     - "INKERMAN": 14
+     - "INMAN VALLEY": 19
+     - "INNAMINCKA": 7
+     - "INVERBRACKIE": 16
+     - "IRON DUKE": 10
+     - "IRON KNOB": 10
+     - "IRONBANK": 16
+     - "ISLAND BEACH": 1
+     - "JABUK": 6
+     - "JACOBS CREEK": 18
+     - "JAMES WELL": 9
+     - "JAMESTOWN": 9
+     - "JERUSALEM": 14
+     - "JERVOIS": 6
+     - "JOANNA": 17
+     - "JOSLIN": 0
+     - "JULIA": 0
+     - "JUPITER CREEK": 16
+     - "KADINA": 14
+     - "KAINTON": 14
+     - "KALANGADOO": 5
+     - "KALBEEBA": 2
+     - "KALKA": 7
+     - "KANGARILLA": 1
+     - "KANGAROO FLAT": 2
+     - "KANGAROO HEAD": 1
+     - "KANGAROO ISLAND": 1
+     - "KANMANTOO": 16
+     - "KANNI": 4
+     - "KANPI": 7
+     - "KANYAKA": 7
+     - "KAPINNIE": 8
+     - "KAPUNDA": 18
+     - "KARATTA": 1
+     - "KARKOO": 8
+     - "KAROONDA": 6
+     - "KARTE": 4
+     - "KATAROAKO": 4
+     - "KEILIRA": 17
+     - "KEITH": 11
+     - "KELLIDIE BAY": 8
+     - "KENSINGTON": 0
+     - "KENSINGTON GARDENS": 0
+     - "KENSINGTON PARK": 0
+     - "KENT TOWN": 0
+     - "KENTON VALLEY": 16
+     - "KEPPOCH": 17
+     - "KERSBROOK": 16
+     - "KESWICK": 0
+     - "KEYNETON": 4
+     - "KI KI": 6
+     - "KIDMAN PARK": 3
+     - "KILBURN": 0
+     - "KILKENNY": 3
+     - "KILKERRAN": 9
+     - "KIMBA": 10
+     - "KINGOONYA": 7
+     - "KINGS PARK": 0
+     - "KINGSCOTE": 1
+     - "KINGSFORD": 2
+     - "KINGSTON": 15
+     - "KINGSTON ON THE MURRAY": 4
+     - "KINGSTON PARK": 1
+     - "KINGSTON SE": 15
+     - "KINGSTON-ON-MURRAY": 4
+     - "KINGSWOOD": 0
+     - "KLEMZIG": 0
+     - "KONGOLIA": 4
+     - "KONGORONG": 5
+     - "KOOLUNGA": 9
+     - "KOOLYWURTIE": 9
+     - "KOONIBBA": 12
+     - "KOONUNGA": 18
+     - "KOOTABERRA": 7
+     - "KOPPIO": 8
+     - "KORUNYE": 2
+     - "KRINGIN": 4
+     - "KRONDORF": 18
+     - "KUDLA": 2
+     - "KUITPO": 1
+     - "KUITPO COLONEY": 16
+     - "KULKAMI": 4
+     - "KULPARA": 14
+     - "KUMARA BORE": 4
+     - "KURRALTA PARK": 0
+     - "KYANCUTTA": 8
+     - "KYBUNGA": 9
+     - "KYBYBOLITE": 17
+     - "KYEEMA": 16
+     - "LAKE ALEXANDRINA": 19
+     - "LAKE EVERARD": 12
+     - "LAKE GEORGE": 15
+     - "LAKEVIEW": 0
+     - "LAMEROO": 4
+     - "LANGHORNE CREEK": 16
+     - "LARGS BAY": 3
+     - "LARGS NORTH": 3
+     - "LAURA": 9
+     - "LEABROOK": 0
+     - "LEASINGHAM": 0
+     - "LEAWOOD GARDENS": 0
+     - "LEIGH CREEK": 7
+     - "LENSWOOD": 16
+     - "LEWISTON": 2
+     - "LIGHT PASS": 18
+     - "LIGHTSVIEW": 0
+     - "LINCOLN GAP": 7
+     - "LINDEN PARK": 0
+     - "LINWOOD": 18
+     - "LIPSON": 8
+     - "LITTLEHAMPTON": 16
+     - "LOBETHAL": 16
+     - "LOCHABER": 17
+     - "LOCHIEL": 0
+     - "LOCK": 8
+     - "LOCKLEYS": 0
+     - "LONG FLAT": 6
+     - "LONG GULLY": 6
+     - "LONG PLAIN": 2
+     - "LONGWOOD": 16
+     - "LONSDALE": 1
+     - "LOUTH BAY": 8
+     - "LOVEDAY": 4
+     - "LOWALDIE": 6
+     - "LOWAN VALE": 11
+     - "LOWBANK": 4
+     - "LOWER HERMITAGE": 2
+     - "LOWER INMAN VALLEY": 19
+     - "LOWER LIGHT": 2
+     - "LOWER MITCHAM": 0
+     - "LOXTON": 4
+     - "LOXTON NORTH": 4
+     - "LUCINDALE": 17
+     - "LUCKY BAY": 10
+     - "LUSBY ISLAND": 8
+     - "LYNDHURST": 7
+     - "LYNDOCH": 18
+     - "LYNTON": 0
+     - "LYRUP": 4
+     - "MAAOUPE": 17
+     - "MACCLESFIELD": 16
+     - "MACDONALD PARK": 2
+     - "MACGILLIVRAY": 1
+     - "MACUMBA STATION": 13
+     - "MAGGEA": 4
+     - "MAGILL": 0
+     - "MAITLAND": 9
+     - "MALINONG": 6
+     - "MALLALA": 2
+     - "MALPAS": 4
+     - "MALVERN": 0
+     - "MAMBRAY CREEK": 9
+     - "MANGALO": 10
+     - "MANNA HILL": 9
+     - "MANNANARIE": 9
+     - "MANNINGHAM": 0
+     - "MANNUM": 6
+     - "MANOORA": 0
+     - "MANSFIELD PARK": 3
+     - "MARAMA": 6
+     - "MARANANGA": 2
+     - "MARBLE HILL": 16
+     - "MARDEN": 0
+     - "MARINO": 1
+     - "MARION": 1
+     - "MARION BAY": 9
+     - "MARKARANKA": 4
+     - "MARLA": 7
+     - "MARLESTON": 0
+     - "MARNE VALLEY": 6
+     - "MARRABEL": 18
+     - "MARREE": 7
+     - "MARRYATVILLE": 0
+     - "MASLIN BEACH": 1
+     - "MAWSON LAKES": 2
+     - "MAYLANDS": 0
+     - "MCCRACKEN": 19
+     - "MCHARG CREEK": 19
+     - "MCLAREN FLAT": 1
+     - "MCLAREN VALE": 1
+     - "MEADOWS": 16
+     - "MEDINDIE": 0
+     - "MEDINDIE GARDENS": 0
+     - "MELROSE": 9
+     - "MELROSE PARK": 0
+     - "MELTON": 9
+     - "MENINGIE": 6
+     - "MENINGIE WEST": 6
+     - "MENZIES": 1
+     - "MERCUNDA": 4
+     - "MERIBAH": 4
+     - "MERRITON": 9
+     - "MERTY MERTY": 7
+     - "MIDDLE BEACH": 2
+     - "MIDDLE RIVER": 1
+     - "MIDDLETON": 19
+     - "MIL LEL": 5
+     - "MILANG": 16
+     - "MILE END": 0
+     - "MILE END SOUTH": 0
+     - "MILENDELLA": 6
+     - "MILLBROOK": 16
+     - "MILLICENT": 15
+     - "MILLSWOOD": 0
+     - "MIMILI": 7
+     - "MINDARIE": 6
+     - "MINGARY": 9
+     - "MINGBOOL": 5
+     - "MINLATON": 9
+     - "MINNIPA": 12
+     - "MINTABIE": 7
+     - "MINTARO": 0
+     - "MIRANDA": 7
+     - "MITCHAM": 0
+     - "MITCHELL PARK": 1
+     - "MOANA": 1
+     - "MOANA HEIGHTS": 1
+     - "MOBILONG": 6
+     - "MOCULTA": 18
+     - "MODBURY": 2
+     - "MODBURY HEIGHTS": 2
+     - "MODBURY NORTH": 2
+     - "MONARTO": 6
+     - "MONASH": 4
+     - "MONTACUTE": 16
+     - "MONTEITH": 6
+     - "MOOCKRA": 7
+     - "MOOLAWATANA": 7
+     - "MOOMBA": 7
+     - "MOONTA": 14
+     - "MOONTA BAY": 14
+     - "MOONTA MINES": 14
+     - "MOORAK": 5
+     - "MOORLANDS": 6
+     - "MOOROOK": 4
+     - "MOOTATUNGA": 4
+     - "MOPPA": 18
+     - "MORCHARD": 9
+     - "MORGAN": 4
+     - "MORIALTA": 16
+     - "MORN HILL": 18
+     - "MORPHETT VALE": 1
+     - "MORPHETTS FLAT": 4
+     - "MORPHETTVILLE": 0
+     - "MOSQUITO HILL": 19
+     - "MOUNT BARKER": 16
+     - "MOUNT BENSON": 15
+     - "MOUNT BRYAN": 9
+     - "MOUNT BURR": 15
+     - "MOUNT COMPASS": 19
+     - "MOUNT CRAWFORD": 18
+     - "MOUNT DRUMMOND": 8
+     - "MOUNT DUTTON": 8
+     - "MOUNT GAMBIER": 5
+     - "MOUNT GEORGE": 16
+     - "MOUNT GUNSON": 7
+     - "MOUNT HOPE": 8
+     - "MOUNT IVE": 7
+     - "MOUNT JAGGED": 19
+     - "MOUNT LOFTY": 0
+     - "MOUNT MAGNIFICENT": 19
+     - "MOUNT MARY": 4
+     - "MOUNT MCKENZIE": 18
+     - "MOUNT MUIRHEAD": 15
+     - "MOUNT OSMOND": 0
+     - "MOUNT PLEASANT": 18
+     - "MOUNT RAT": 9
+     - "MOUNT SCHANK": 5
+     - "MOUNT TEMPLETON": 14
+     - "MOUNT TORRENS": 16
+     - "MOUNT WEDGE": 8
+     - "MULGUNDAWA": 6
+     - "MULLAQUANA": 10
+     - "MULPATA": 4
+     - "MULPATA": 4
+     - "MUNDOORA": 9
+     - "MUNDULLA": 11
+     - "MUNNO PARA": 2
+     - "MUNNO PARA DOWNS": 2
+     - "MUNNO PARA WEST": 2
+     - "MURBKO": 4
+     - "MURDINGA": 8
+     - "MURNINNIE": 10
+     - "MURNINNIE BEACH": 10
+     - "MURRAWONG": 6
+     - "MURRAY BRIDGE": 6
+     - "MURRAY TOWN": 9
+     - "MURTHO": 4
+     - "MUSTON": 1
+     - "MYLOR": 16
+     - "MYPOLONGA": 6
+     - "MYPONGA": 19
+     - "MYPONGA BEACH": 19
+     - "MYRTLE BANK": 0
+     - "MYRTLE SPRINGS STATION": 7
+     - "NAILSWORTH": 0
+     - "NAIRNE": 16
+     - "NALYAPPA": 14
+     - "NANGARI": 4
+     - "NANGKITA": 19
+     - "NANGWARRY": 5
+     - "NANTAWARRA": 14
+     - "NAPEAN BAY": 1
+     - "NAPPERBY": 9
+     - "NARACOORTE": 17
+     - "NARRIDY": 9
+     - "NARRUNG": 6
+     - "NATAWARRA": 14
+     - "NATIVE VALLEY": 16
+     - "NAVAN": 0
+     - "NEALES FLAT": 18
+     - "NECTOR BROOK": 7
+     - "NELSHABY": 9
+     - "NELWOOD": 4
+     - "NENE VALLEY": 5
+     - "NEPABUNNA": 7
+     - "NEPEAN BAY": 1
+     - "NETHERBY": 0
+     - "NETLEY": 0
+     - "NEW PORT": 3
+     - "NEW RESIDENCE": 4
+     - "NEW TOWN": 14
+     - "NEW WELL": 4
+     - "NEWLAND": 1
+     - "NEWTON": 0
+     - "NILDOTTIE": 4
+     - "NINNES": 14
+     - "NOARLUNGA CENTRE": 1
+     - "NOARLUNGA DOWNS": 1
+     - "NOORA": 4
+     - "NORA CREINA": 15
+     - "NORMANVILLE": 19
+     - "NORTH ADELAIDE": 0
+     - "NORTH BEACH": 14
+     - "NORTH BRIGHTON": 1
+     - "NORTH HAVEN": 3
+     - "NORTH MOONTA": 14
+     - "NORTH PLYMPTON": 0
+     - "NORTH SHIELDS": 8
+     - "NORTH YELTA": 14
+     - "NORTHERN HEIGHTS": 6
+     - "NORTHFIELD": 2
+     - "NORTHGATE": 0
+     - "NORTON SUMMIT": 0
+     - "NORWOOD": 0
+     - "NOTTS WELL": 4
+     - "NOVAR GARDENS": 0
+     - "NULLARBOR": 12
+     - "NUNDROO": 12
+     - "NURIOOTPA": 18
+     - "NURRAGI": 16
+     - "NYAPARI": 7
+     - "O B FLAT": 5
+     - "OAK VALLEY": 12
+     - "OAKBANK": 16
+     - "OAKDEN": 0
+     - "OAKDEN HILLS": 7
+     - "OAKLANDS PARK": 1
+     - "OHALLORAN HILL": 1
+     - "OLARY": 9
+     - "OLD KOOMOOLOO STATION": 4
+     - "OLD NOARLUNGA": 1
+     - "OLD REYNELLA": 1
+     - "OLYMPIC DAM": 7
+     - "ONE TREE HILL": 2
+     - "ONKAPARINGA HILLS": 1
+     - "OODNADATTA": 13
+     - "OOLDA WIRRA": 9
+     - "OOLDEA": 12
+     - "ORROROO": 9
+     - "OSBORNE": 3
+     - "OSULLIVAN BEACH": 1
+     - "OTTOWAY": 3
+     - "OUTER HARBOR": 3
+     - "OVERLAND CORNER": 4
+     - "OVINGHAM": 3
+     - "OWEN": 0
+     - "OXFORD LANDING": 4
+     - "PADTHAWAY": 17
+     - "PAECHTOWN": 16
+     - "PAGES FLAT": 19
+     - "PAISLEY": 4
+     - "PALLAMANA": 6
+     - "PALMER": 6
+     - "PANITYA": 10
+     - "PANORAMA": 0
+     - "PARA HILLS": 2
+     - "PARA HILLS WEST": 2
+     - "PARA VISTA": 2
+     - "PARA WIRRA": 2
+     - "PARACHILNA": 7
+     - "PARACOMBE": 16
+     - "PARADISE": 0
+     - "PARAFIELD": 2
+     - "PARAFIELD GARDENS": 2
+     - "PARALOWIE": 2
+     - "PARATOO": 9
+     - "PARAWA": 1
+     - "PARCOOLA": 4
+     - "PARHAM": 2
+     - "PARILLA": 4
+     - "PARINGA": 4
+     - "PARIS CREEK": 16
+     - "PARK HOLME": 0
+     - "PARKSIDE": 0
+     - "PARNAROO": 9
+     - "PARNDANA": 1
+     - "PARNKA POINT": 6
+     - "PARRAKIE": 4
+     - "PARSONS BEACH": 19
+     - "PARUNA": 4
+     - "PASADENA": 1
+     - "PASKEVILLE": 14
+     - "PATA": 4
+     - "PAYNEHAM": 0
+     - "PAYNEHAM SOUTH": 0
+     - "PEAKE": 4
+     - "PEARLAH": 8
+     - "PEEBINGA": 4
+     - "PEEP HILL": 18
+     - "PEKINA": 9
+     - "PELICAN LAGOON": 1
+     - "PELICAN POINT": 5
+     - "PELICAN POINT(River Murray)": 4
+     - "PENFIELD": 2
+     - "PENFIELD GARDENS": 2
+     - "PENNESHAW": 1
+     - "PENNINGTON": 3
+     - "PENOLA": 5
+     - "PENONG": 12
+     - "PENRICE": 18
+     - "PENWORTHAM": 0
+     - "PERENTIE BORE": 7
+     - "PERPONDA": 6
+     - "PETERBOROUGH": 9
+     - "PETERHEAD": 3
+     - "PETERSVILLE": 14
+     - "PETHERICK": 17
+     - "PETWOOD": 16
+     - "PEWSEY VALE": 18
+     - "PICCADILLY": 16
+     - "PIEDNIPPIE": 12
+     - "PIKE RIVER": 4
+     - "PIMBA": 7
+     - "PINE POINT": 9
+     - "PINE VALLEY STATION": 4
+     - "PINERY": 18
+     - "PINKERTON PLAINS": 18
+     - "PINNAROO": 4
+     - "PIPALYATJARA": 7
+     - "PLYMPTON": 0
+     - "PLYMPTON PARK": 0
+     - "POINT BOSTON": 8
+     - "POINT LOWLY": 10
+     - "POINT PASS": 18
+     - "POINT PEARCE": 9
+     - "POINT SOUTTAR": 9
+     - "POINT STURT": 19
+     - "POINT TURTON": 9
+     - "POMPOOTA": 6
+     - "PONDALOWIE BAY": 19
+     - "POOCHERA": 12
+     - "POOGINAGORIC": 11
+     - "POONINDIE": 8
+     - "POORAKA": 2
+     - "POOTNOURA": 13
+     - "PORT ADELAIDE": 3
+     - "PORT ARTHUR": 9
+     - "PORT AUGUSTA": 7
+     - "PORT BONYTHON": 10
+     - "PORT BROUGHTON": 9
+     - "PORT CLINTON": 9
+     - "PORT DAVIS": 9
+     - "PORT ELLIOT": 19
+     - "PORT FLINDERS": 9
+     - "PORT GAWLER": 2
+     - "PORT GERMEIN": 9
+     - "PORT GIBBON": 10
+     - "PORT GILES": 9
+     - "PORT HUGHES": 14
+     - "PORT JULIA": 9
+     - "PORT KENNY": 12
+     - "PORT LINCOLN": 8
+     - "PORT MACDONNELL": 5
+     - "PORT MOOROWIE": 9
+     - "PORT NEILL": 8
+     - "PORT NOARLUNGA": 1
+     - "PORT NOARLUNGA SOUTH": 1
+     - "PORT PARHAM": 2
+     - "PORT PATERSON": 7
+     - "PORT PIRIE": 9
+     - "PORT PRIME": 2
+     - "PORT RICKABY": 9
+     - "PORT STANVAC": 1
+     - "PORT VICTORIA": 9
+     - "PORT VINCENT": 9
+     - "PORT WAKEFIELD": 14
+     - "PORT WILLUNGA": 1
+     - "PORTEE STATION": 4
+     - "PRICE": 14
+     - "PROSPECT": 0
+     - "PROSPECT HILL": 16
+     - "PT ARTHUR": 14
+     - "PT AUGUSTA": 7
+     - "PT BONYTHON": 10
+     - "PT BROUGHTON": 9
+     - "PT CLINTON": 9
+     - "PT DAVIS": 9
+     - "PT ELLIOTT": 19
+     - "PT FLINDERS": 9
+     - "PT GAWLER": 2
+     - "PT GERMEIN": 9
+     - "PT GIBBON": 10
+     - "PT GILES": 9
+     - "PUNGONDA": 4
+     - "PUNTHARI": 6
+     - "PUNYELROO": 4
+     - "PURNONG": 4
+     - "PYAP": 4
+     - "PYAP WEST": 4
+     - "PYGERY": 12
+     - "QUALCO": 4
+     - "QUEENSTOWN": 3
+     - "QUORN": 7
+     - "RACECOURSE BAY": 5
+     - "RAMCO": 4
+     - "RAMCO HEIGHTS": 4
+     - "RAPID BAY": 19
+     - "RAUKKAN": 6
+     - "REDBANKS": 2
+     - "REDHILL": 9
+     - "REDWOOD PARK": 2
+     - "REEDY CREEK": 15
+     - "REEVES PLAINS": 2
+     - "REGENCY PARK": 3
+     - "REID": 2
+     - "RENDELSHAM": 15
+     - "RENMARK": 4
+     - "RENMARK NORTH": 4
+     - "RENMARK SOUTH": 4
+     - "RENMARK WEST": 4
+     - "RENOWN PARK": 3
+     - "REYNELLA": 1
+     - "REYNELLA EAST": 1
+     - "RHYNIE": 0
+     - "RICHMOND": 0
+     - "RIDGEHAVEN": 2
+     - "RIDLEYTON": 3
+     - "RISDON PARK": 9
+     - "RISDON PARK SOUTH": 9
+     - "RIVERGLADES": 6
+     - "RIVERTON": 0
+     - "ROBE": 15
+     - "ROBERTSTOWN": 18
+     - "ROCKLEIGH": 6
+     - "ROCKY CAMP": 15
+     - "ROCKY GULLY": 6
+     - "ROCKY POINT": 6
+     - "ROGUES POINT": 9
+     - "ROONKA": 4
+     - "ROOPENA": 10
+     - "ROSE PARK": 0
+     - "ROSEDALE": 18
+     - "ROSEWATER": 3
+     - "ROSEWORTHY": 2
+     - "ROSSLYN PARK": 0
+     - "ROSTREVOR": 0
+     - "ROWLAND FLAT": 18
+     - "ROXBY DAM": 7
+     - "ROXBY DOWNS": 7
+     - "ROYAL PARK": 3
+     - "ROYSTON PARK": 0
+     - "SADDLEWORTH": 0
+     - "SAINT AGNES": 2
+     - "SAINT CLAIR": 3
+     - "SAINT GEORGES": 0
+     - "SAINT IVES": 16
+     - "SAINT KILDA": 2
+     - "SAINT MARYS": 0
+     - "SAINT MORRIS": 1
+     - "SAINT PETERS": 0
+     - "SALISBURY": 2
+     - "SALISBURY DOWNS": 2
+     - "SALISBURY EAST": 2
+     - "SALISBURY HEIGHTS": 2
+     - "SALISBURY NORTH": 2
+     - "SALISBURY PARK": 2
+     - "SALISBURY PLAIN": 2
+     - "SALISBURY SOUTH": 2
+     - "SALT CREEK": 6
+     - "SAMPSON FLAT": 2
+     - "SANDALWOOD": 6
+     - "SANDERGROVE": 16
+     - "SANDERSTON": 4
+     - "SANDLETON": 4
+     - "SANDY CREEK": 18
+     - "SAPPHIRETOWN": 1
+     - "SCOTT CREEK": 16
+     - "SCRUBBY FLAT": 4
+     - "SEACLIFF": 1
+     - "SEACLIFF PARK": 1
+     - "SEACOMBE GARDENS": 1
+     - "SEACOMBE HEIGHTS": 1
+     - "SEAFORD": 1
+     - "SEAFORD HEIGHTS": 1
+     - "SEAFORD MEADOWS": 1
+     - "SEAFORD RISE": 1
+     - "SEATON": 3
+     - "SEAVIEW DOWNS": 1
+     - "SECOND VALLEY": 19
+     - "SEDAN": 4
+     - "SEFTON PARK": 0
+     - "SELLICKS BEACH": 1
+     - "SELLICKS HILL": 1
+     - "SEMAPHORE": 3
+     - "SEMAPHORE PARK": 3
+     - "SEMAPHORE SOUTH": 3
+     - "SENIOR": 11
+     - "SEPPELTSFIELD": 18
+     - "SEVENHILL": 0
+     - "SHEA-OAK LOG": 18
+     - "SHEIDOW PARK": 1
+     - "SHERINGA": 8
+     - "SHERLOCK": 6
+     - "SHOAL BAY": 1
+     - "SILVER SANDS": 1
+     - "SKYE": 0
+     - "SMITHFIELD": 2
+     - "SMITHFIELD PLAINS": 2
+     - "Smithville": 4
+     - "SMOKY BAY": 12
+     - "SNELLINGS BEACH": 1
+     - "SNOWTOWN": 0
+     - "SNUG COVE": 1
+     - "SNUGGERY": 15
+     - "SOMERTON PARK": 0
+     - "SOUTH BRIGHTON": 1
+     - "SOUTH HUMMOCKS": 14
+     - "SOUTH KILKERRAN": 14
+     - "SOUTH PLYMPTON": 0
+     - "SOUTHEND": 15
+     - "SPALDING": 9
+     - "SPILSBY ISLAND": 8
+     - "Spring Cart Gully": 4
+     - "SPRING GULLY": 0
+     - "SPRINGCART GULLY": 4
+     - "SPRINGFIELD": 0
+     - "SPRINGTON": 18
+     - "ST AGNES": 2
+     - "ST CLAIR": 3
+     - "ST GEORGES": 0
+     - "ST IVES": 16
+     - "ST KILDA": 2
+     - "ST MARYS": 1
+     - "ST MORRIS": 0
+     - "ST PETERS": 0
+     - "STANLEY FLAT": 0
+     - "STANSBURY": 9
+     - "STENHOUSE BAY": 9
+     - "STEPNEY": 0
+     - "STEWARTS RANGE": 17
+     - "STIRLING": 16
+     - "STIRLING NORTH": 7
+     - "STOCKPORT": 18
+     - "STOCKWELL": 18
+     - "STOCKYARD PLAIN": 4
+     - "STOKES BAY": 1
+     - "STONE HUT": 9
+     - "STONEFIELD": 4
+     - "STONYFELL": 0
+     - "STRATHALBYN": 16
+     - "STRAWBRIDGE POINT": 1
+     - "STREAKY BAY": 12
+     - "STRUAN": 17
+     - "STURT": 1
+     - "SULTANA POINT": 9
+     - "SUMMERTOWN": 16
+     - "SUNLANDS": 4
+     - "SUNNYBRAE": 9
+     - "SUNNYDALE": 4
+     - "SUNNYVALE": 14
+     - "SURREY DOWNS": 2
+     - "SUTHERLANDS": 18
+     - "SUTTONTOWN": 5
+     - "SWAN REACH": 4
+     - "TAILEM BEND": 6
+     - "TALDRA": 4
+     - "TALIA": 8
+     - "TANTANOOLA": 15
+     - "TANUNDA": 18
+     - "TAPEROO": 3
+     - "TAPLAN": 4
+     - "TARATAP": 15
+     - "TARCOOLA": 7
+     - "TARLEE": 18
+     - "TARPEENA": 5
+     - "TATACHILLA": 1
+     - "TAYLORVILLE": 4
+     - "TEA TREE GULLY": 2
+     - "TEAL FLAT": 4
+     - "TELOWIE": 9
+     - "TEMPLERS": 18
+     - "TENNYSON": 3
+     - "TEPKO": 6
+     - "TERINGIE": 0
+     - "TEROWIE": 9
+     - "THE PINES": 14
+     - "THE RANGE": 1
+     - "THEBARTON": 0
+     - "THEVENARD": 12
+     - "THOMPSON BEACH": 2
+     - "THORNGATE": 0
+     - "THORNLEA": 15
+     - "THRINGTON": 14
+     - "TIATUKIA": 8
+     - "TICKERA": 14
+     - "TIDDY WIDDY BEACH": 9
+     - "TILLEY SWAMP": 15
+     - "TINTINARA": 6
+     - "TONSLEY PARK": 0
+     - "TOOKAYERTA": 4
+     - "TOOLIGIE": 8
+     - "TOOPERANG": 19
+     - "TOORAK GARDENS": 0
+     - "TOOTENILLA": 8
+     - "TORRENS ISLAND": 3
+     - "TORRENS PARK": 0
+     - "TORRENSVILLE": 0
+     - "TOTHILL CREEK": 0
+     - "TOTNESS": 16
+     - "TOWITTA": 4
+     - "TRANMERE": 0
+     - "TRINITY GARDENS": 0
+     - "TROTT PARK": 1
+     - "TRURO": 4
+     - "TULKA": 8
+     - "TUMBY BAY": 8
+     - "TUNGKILLO": 6
+     - "TUNKALILLA BEACH": 19
+     - "TURKEY BORE": 7
+     - "TWO WELLS": 2
+     - "UCOLTA": 9
+     - "ULEYBURY": 2
+     - "UMUWA": 7
+     - "UNDALYA": 0
+     - "UNDERDALE": 0
+     - "UNGARRA": 8
+     - "UNLEY": 0
+     - "UNLEY PARK": 0
+     - "UPPER HERMITAGE": 2
+     - "UPPER STURT": 16
+     - "URAIDLA": 16
+     - "URRBRAE": 0
+     - "VALE PARK": 0
+     - "VALLEY VIEW": 2
+     - "VEITCH": 4
+     - "VENUS BAY": 12
+     - "VERDUN": 16
+     - "VICTOR HARBOR": 19
+     - "VINE VALE": 18
+     - "VIRGINIA": 2
+     - "VISTA": 2
+     - "VIVONNE BAY": 1
+     - "WAIKERIE": 4
+     - "WAITPINGA": 19
+     - "WALKER FLAT": 6
+     - "WALKERVILLE": 0
+     - "WALKLEY HEIGHTS": 2
+     - "WALL FLAT": 6
+     - "WALLANY": 7
+     - "WALLAROO": 14
+     - "WALLAROO MINES": 14
+     - "WALLOWAY": 9
+     - "WALTOWA": 6
+     - "WAMI KATA": 7
+     - "WANBI": 4
+     - "WANDEARAH": 9
+     - "WANDEARAH EAST": 9
+     - "WANDILO": 5
+     - "WANGARY": 8
+     - "WANGOLINA": 15
+     - "WANILLA": 8
+     - "WARD BELT": 2
+     - "WARDANG ISLAND": 9
+     - "WARNERTOWN": 9
+     - "WAROOKA": 9
+     - "WARRACHIE": 8
+     - "WARRADALE": 1
+     - "WARRAMBOO": 8
+     - "WASLEYS": 18
+     - "WATARRU": 7
+     - "WATERFALL GULLY": 0
+     - "WATERLOO": 0
+     - "WATERLOO CORNER": 2
+     - "WATERVALE": 0
+     - "WATINUMA": 12
+     - "WATTLE FLAT": 19
+     - "WATTLE PARK": 0
+     - "WATTLE RANGE": 15
+     - "WAURALTEE": 9
+     - "WAYVILLE": 0
+     - "WEBB BEACH": 2
+     - "WEEROONA ISLAND": 9
+     - "WEETULTA": 9
+     - "WELLAND": 3
+     - "WELLINGTON": 6
+     - "WEPAR": 5
+     - "WEST BEACH": 3
+     - "WEST CROYDON": 3
+     - "WEST HINDMARSH": 3
+     - "WEST LAKES": 3
+     - "WEST LAKES SHORE": 3
+     - "WEST PENONG": 12
+     - "WEST RICHMOND": 0
+     - "WEST TORRENS": 0
+     - "WESTBOURNE PARK": 0
+     - "WESTERN FLAT": 17
+     - "WESTERN RIVER": 1
+     - "WESTONS FLAT": 4
+     - "WHITE HILL": 6
+     - "WHITE HUT": 9
+     - "WHITE SANDS": 6
+     - "WHITES FLAT": 8
+     - "WHITES VALLEY": 1
+     - "WHITWARTA": 0
+     - "WHYALLA": 10
+     - "WHYALLA BARSON": 10
+     - "WHYALLA JENKINS": 10
+     - "WHYALLA NORRIE": 10
+     - "WHYALLA PLAYFORD": 10
+     - "WHYALLA STUART": 10
+     - "WHYTE YARCOWIE": 9
+     - "WIGLEY FLAT": 4
+     - "WILD HORSE PLAINS": 2
+     - "WILKAWATT": 4
+     - "WILLALO": 0
+     - "WILLALOOKA": 11
+     - "WILLASTON": 18
+     - "WILLIAM CREEK": 13
+     - "WILLIAMSTOWN": 18
+     - "WILLOWIE": 9
+     - "WILLUNGA": 1
+     - "WILLUNGA HILL": 1
+     - "WILLUNGA SOUTH": 1
+     - "WILLYAROO": 16
+     - "WILMINGTON": 9
+     - "WILPENA": 7
+     - "WINDSOR": 2
+     - "WINDSOR GARDENS": 0
+     - "WINGFIELD": 3
+     - "WINKIE": 4
+     - "WINNINOWIE": 7
+     - "WIRRABARA": 9
+     - "WIRRAMINNA": 13
+     - "WIRREGA": 11
+     - "WIRRINA": 1
+     - "WIRRULLA": 12
+     - "WISANGER": 1
+     - "WISTOW": 16
+     - "WITERA": 12
+     - "WOKURNA": 9
+     - "WOLSELEY": 11
+     - "WONGULLA": 4
+     - "WONGYARRA": 9
+     - "WOOCALLA": 7
+     - "WOODCHESTER": 16
+     - "WOODCROFT": 1
+     - "WOODFORDE": 0
+     - "WOODS FLAT": 4
+     - "WOODS POINT": 6
+     - "WOODS WELL": 6
+     - "WOODSIDE": 16
+     - "WOODVILLE": 3
+     - "WOODVILLE GARDENS": 3
+     - "WOODVILLE NORTH": 3
+     - "WOODVILLE PARK": 3
+     - "WOODVILLE SOUTH": 3
+     - "WOODVILLE WEST": 3
+     - "WOOL BAY": 9
+     - "WOOLPUNDA": 4
+     - "WOOLSHED FALT": 0
+     - "WOOMERA": 7
+     - "WORLDS END": 18
+     - "WORROLONG": 5
+     - "WRATTONBULLY": 17
+     - "WUDINNA": 8
+     - "WUNKAR": 4
+     - "WYNARKA": 6
+     - "WYNN VALE": 2
+     - "YACKA": 0
+     - "YAHL": 5
+     - "YALATA": 2
+     - "YALLUNDA FLAT": 8
+     - "YAMBA": 4
+     - "YANINEE": 12
+     - "YANKALILLA": 19
+     - "YANTANABIE": 12
+     - "YAPPALA": 7
+     - "YARANYACKA": 8
+     - "YATALA VALE": 2
+     - "YATINA": 9
+     - "YATTALUNGA": 2
+     - "YEELANNA": 8
+     - "YINKANNIE": 4
+     - "YONGALA": 9
+     - "YORKE VALLEY": 9
+     - "YORKETOWN": 9
+     - "YOUNGHUSBAND": 6
+     - "YUMALI": 6
+     - "YUNDI": 19
+     - "YUNTA": 9
+     - "YUNYARINYI": 7
+     - "ZADOWS LANDING": 6
+    default: 19
 ---

@@ -63,16 +63,11 @@ fields:
 question: Defendant Details
 fields:
   - Defendant Surname: def_surname
-    default: 'Moody'
   - Defendant Given Name: def_given_name
-    default: 'Toby'
   - DOB: def_DOB
     datatype: date
-    default: 19/12/1975
   - Street: def_street
-    default: '65 Grote St.'
   - Suburb: def_suburb
-    default: 'Yamba'
   - State: def_state
     choices: 
       - ACT
@@ -83,7 +78,6 @@ fields:
       - WA
       - TAS
       - NT
-    default: VIC
   - Postcode: def_postcode
     datatype: integer
     min: 5000
@@ -91,12 +85,10 @@ fields:
     validation messages: 
       max: |
         Please enter a 4 digit postcode
-    default: 5000
   - Email: def_email
     datatype: email
     required: false
   - Phone Number: def_phone
-    default: +61 495 223 556
 ---
 # Asking for other order not listed
 question: Will orders be sought?
@@ -184,11 +176,9 @@ subquestion: |
 fields:
   - Hearing Date: hearing_date
     datatype: date
-    default: 12/12/2021
     required: false
   - Hearing Time: hearing_time
     datatype: time
-    default: 10:00 am
     required: false
   - Offence location: offence_location
     datatype: integer
@@ -1661,5 +1651,4 @@ fields:
      - "YUNTA": 9
      - "YUNYARINYI": 7
      - "ZADOWS LANDING": 6
-    default: 19
 ---
